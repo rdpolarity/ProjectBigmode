@@ -143,7 +143,7 @@ BoxCollider2D:
   m_Offset: {x: 0.17, y: 0.165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.34, y: 0.33}
     newSize: {x: 0.34, y: 0.31}
     adaptiveTilingThreshold: 0.5
@@ -165,9 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2f3a9733bb04dae9b79da5784b72c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wobbleAmount: 30
-  wobbleSpeed: 5
-  wobbleDuration: 1
+  wobbleAmount: 10
+  wobbleSpeed: 10
+  wobbleDuration: 0.5
 --- !u!50 &3725099707218170226
 Rigidbody2D:
   serializedVersion: 4
