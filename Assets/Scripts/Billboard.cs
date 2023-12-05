@@ -7,7 +7,8 @@ public class Billboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // set rotation to 50 degrees on the x axis
+        transform.rotation = Quaternion.Euler(50, 0, 0);
     }
 
     // Update is called once per frame
@@ -19,9 +20,9 @@ public class Billboard : MonoBehaviour
     void LateUpdate()
     {
         // rotate to look at the camera
-        var lookAtThis = Camera.main.transform.position;
-        lookAtThis.x = transform.position.x;
-        transform.LookAt(lookAtThis);
+        // var lookAtThis = Camera.main.transform.position;
+        // lookAtThis.x = transform.position.x;
+        // transform.LookAt(lookAtThis);
     }
 
     void OnBecameVisible() 
