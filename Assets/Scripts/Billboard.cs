@@ -8,7 +8,7 @@ public class Billboard : MonoBehaviour
     void Start()
     {
         // set rotation to 50 degrees on the x axis
-        transform.rotation = Quaternion.Euler(50, 0, 0);
+        transform.rotation = Quaternion.Euler(-33, 0, 0);
     }
 
     // Update is called once per frame
