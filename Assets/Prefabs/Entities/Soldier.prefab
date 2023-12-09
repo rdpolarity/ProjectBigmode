@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6698954049328219918}
   - component: {fileID: 6657525446037258695}
-  - component: {fileID: 5141078488805151856}
   - component: {fileID: 8953253585701338288}
   - component: {fileID: 6418843952017107252}
   - component: {fileID: 2476900438132523732}
   - component: {fileID: -8159751889887385969}
+  - component: {fileID: -4602856324684331112}
   m_Layer: 0
-  m_Name: Minion
+  m_Name: Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,18 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5141078488805151856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8522736550195871869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b97530a911133f3418fd5f47f468e4c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8953253585701338288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +185,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-4602856324684331112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522736550195871869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03423703a0de4742990e58cb87ef58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}

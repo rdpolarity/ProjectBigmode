@@ -64,7 +64,8 @@ namespace Bigmode
         public void OnSpawnMinion(InputAction.CallbackContext context)
         {
             if (context.phase != InputActionPhase.Performed) return;
-            if (TryGetComponent<Biggie>(out var biggie)) {
+            if (TryGetComponent<Biggie>(out var biggie))
+            {
                 biggie.SpawnSelectedMinion();
             }
         }
@@ -76,8 +77,27 @@ namespace Bigmode
             string keycode = keyControl.name;
             int number = int.Parse(keycode);
 
-            if (TryGetComponent<Biggie>(out var biggie)) {
+            if (TryGetComponent<Biggie>(out var biggie))
+            {
                 biggie.SelectMinion(number - 1);
+            }
+        }
+
+        public void OnTongue(InputAction.CallbackContext context)
+        {
+            TryGetComponent<Biggie>(out var biggie);
+            if (biggie == null) return;
+
+            // Holding down the tongue button
+            if (context.phase == InputActionPhase.Started)
+            {
+                biggie.TongueGrab();
+            }
+
+            // Releasing the tongue button
+            if (context.phase == InputActionPhase.Canceled)
+            {
+                biggie.TongueRelease();
             }
         }
     }

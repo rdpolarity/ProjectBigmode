@@ -55,6 +55,15 @@ namespace Bigmode
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Tongue"",
+                    ""type"": ""Button"",
+                    ""id"": ""4169ae82-18ec-48de-9240-b2357da16283"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -233,6 +242,17 @@ namespace Bigmode
                     ""action"": ""NumberKeyPressed"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""da4cce5e-8068-4d59-8047-0958f7a05c15"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tongue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -244,6 +264,7 @@ namespace Bigmode
             m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
             m_Player_SpawnMinion = m_Player.FindAction("SpawnMinion", throwIfNotFound: true);
             m_Player_NumberKeyPressed = m_Player.FindAction("NumberKeyPressed", throwIfNotFound: true);
+            m_Player_Tongue = m_Player.FindAction("Tongue", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -308,6 +329,7 @@ namespace Bigmode
         private readonly InputAction m_Player_Movement;
         private readonly InputAction m_Player_SpawnMinion;
         private readonly InputAction m_Player_NumberKeyPressed;
+        private readonly InputAction m_Player_Tongue;
         public struct PlayerActions
         {
             private @Controls m_Wrapper;
@@ -315,6 +337,7 @@ namespace Bigmode
             public InputAction @Movement => m_Wrapper.m_Player_Movement;
             public InputAction @SpawnMinion => m_Wrapper.m_Player_SpawnMinion;
             public InputAction @NumberKeyPressed => m_Wrapper.m_Player_NumberKeyPressed;
+            public InputAction @Tongue => m_Wrapper.m_Player_Tongue;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -333,6 +356,9 @@ namespace Bigmode
                 @NumberKeyPressed.started += instance.OnNumberKeyPressed;
                 @NumberKeyPressed.performed += instance.OnNumberKeyPressed;
                 @NumberKeyPressed.canceled += instance.OnNumberKeyPressed;
+                @Tongue.started += instance.OnTongue;
+                @Tongue.performed += instance.OnTongue;
+                @Tongue.canceled += instance.OnTongue;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -346,6 +372,9 @@ namespace Bigmode
                 @NumberKeyPressed.started -= instance.OnNumberKeyPressed;
                 @NumberKeyPressed.performed -= instance.OnNumberKeyPressed;
                 @NumberKeyPressed.canceled -= instance.OnNumberKeyPressed;
+                @Tongue.started -= instance.OnTongue;
+                @Tongue.performed -= instance.OnTongue;
+                @Tongue.canceled -= instance.OnTongue;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -368,6 +397,7 @@ namespace Bigmode
             void OnMovement(InputAction.CallbackContext context);
             void OnSpawnMinion(InputAction.CallbackContext context);
             void OnNumberKeyPressed(InputAction.CallbackContext context);
+            void OnTongue(InputAction.CallbackContext context);
         }
     }
 }
