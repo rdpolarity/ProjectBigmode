@@ -1,20 +1,27 @@
+using System;
 using UnityEngine;
 
 namespace Bigmode
 {
     public class Entity : MonoBehaviour
     {
-        private Attributes attributes;
-        void Start()
+
+        public float Health
         {
-            if (TryGetComponent<Attributes>(out attributes)) return;
-            attributes = gameObject.AddComponent<Attributes>();
+            get { return Health; }
+            set { Health = Math.Clamp(value, 0, MaxHealth); }
         }
 
-        // Update is called once per frame
-        void Update()
-        {
+        public float MaxHealth { get; set; }
 
+        void Damage(float amount)
+        {
+            Health -= amount;
+        }
+
+        void Heal(float amount)
+        {
+            Health += amount;
         }
     }
 }

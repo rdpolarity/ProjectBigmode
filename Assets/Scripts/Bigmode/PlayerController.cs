@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 namespace Bigmode
 {
@@ -58,6 +59,26 @@ namespace Bigmode
         public void OnMovement(InputAction.CallbackContext context)
         {
             movementInput = context.ReadValue<Vector2>();
+        }
+
+        public void OnSpawnMinion(InputAction.CallbackContext context)
+        {
+            if (context.phase != InputActionPhase.Performed) return;
+            if (TryGetComponent<Biggie>(out var biggie)) {
+                biggie.SpawnSelectedMinion();
+            }
+        }
+
+        public void OnNumberKeyPressed(InputAction.CallbackContext context)
+        {
+            if (context.phase != InputActionPhase.Performed) return;
+            KeyControl keyControl = (KeyControl)context.control;
+            string keycode = keyControl.name;
+            int number = int.Parse(keycode);
+
+            if (TryGetComponent<Biggie>(out var biggie)) {
+                biggie.SelectMinion(number - 1);
+            }
         }
     }
 }

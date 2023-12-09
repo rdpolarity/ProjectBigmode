@@ -37,6 +37,24 @@ namespace Bigmode
                     ""processors"": ""NormalizeVector2"",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SpawnMinion"",
+                    ""type"": ""Button"",
+                    ""id"": ""84d27e5c-ac94-40c9-9735-450abc1f8b48"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NumberKeyPressed"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""f7743fb0-410c-405b-952b-4c6f5deb4d3a"",
+                    ""expectedControlType"": ""Key"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -105,6 +123,116 @@ namespace Bigmode
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dbcd855c-3fc3-4159-8d58-0155e83c45a6"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SpawnMinion"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9888768-f5e3-4e80-8e71-266e17b2ff76"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d5132033-cb79-4ab5-9f63-9bc927f44b7f"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""19df3013-00e3-45f5-9f24-6f934394e67a"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38e9d96d-738b-454d-bd0e-956fc0e85d24"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ff0df47a-b2b1-4c53-b3be-35c45afa1613"",
+                    ""path"": ""<Keyboard>/5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""76b35b49-fc0f-4456-96b3-4ed48b4f4f4f"",
+                    ""path"": ""<Keyboard>/6"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""75fa3458-0d1c-45bb-b37f-72ac016343e7"",
+                    ""path"": ""<Keyboard>/7"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""725e4e6d-dbb1-45fe-bcf5-62c64330816d"",
+                    ""path"": ""<Keyboard>/8"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0021b319-0a5a-4a26-9c95-771126189ad9"",
+                    ""path"": ""<Keyboard>/9"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NumberKeyPressed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -114,6 +242,8 @@ namespace Bigmode
             // Player
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
+            m_Player_SpawnMinion = m_Player.FindAction("SpawnMinion", throwIfNotFound: true);
+            m_Player_NumberKeyPressed = m_Player.FindAction("NumberKeyPressed", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -176,11 +306,15 @@ namespace Bigmode
         private readonly InputActionMap m_Player;
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Movement;
+        private readonly InputAction m_Player_SpawnMinion;
+        private readonly InputAction m_Player_NumberKeyPressed;
         public struct PlayerActions
         {
             private @Controls m_Wrapper;
             public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
             public InputAction @Movement => m_Wrapper.m_Player_Movement;
+            public InputAction @SpawnMinion => m_Wrapper.m_Player_SpawnMinion;
+            public InputAction @NumberKeyPressed => m_Wrapper.m_Player_NumberKeyPressed;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -193,6 +327,12 @@ namespace Bigmode
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
+                @SpawnMinion.started += instance.OnSpawnMinion;
+                @SpawnMinion.performed += instance.OnSpawnMinion;
+                @SpawnMinion.canceled += instance.OnSpawnMinion;
+                @NumberKeyPressed.started += instance.OnNumberKeyPressed;
+                @NumberKeyPressed.performed += instance.OnNumberKeyPressed;
+                @NumberKeyPressed.canceled += instance.OnNumberKeyPressed;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -200,6 +340,12 @@ namespace Bigmode
                 @Movement.started -= instance.OnMovement;
                 @Movement.performed -= instance.OnMovement;
                 @Movement.canceled -= instance.OnMovement;
+                @SpawnMinion.started -= instance.OnSpawnMinion;
+                @SpawnMinion.performed -= instance.OnSpawnMinion;
+                @SpawnMinion.canceled -= instance.OnSpawnMinion;
+                @NumberKeyPressed.started -= instance.OnNumberKeyPressed;
+                @NumberKeyPressed.performed -= instance.OnNumberKeyPressed;
+                @NumberKeyPressed.canceled -= instance.OnNumberKeyPressed;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -220,6 +366,8 @@ namespace Bigmode
         public interface IPlayerActions
         {
             void OnMovement(InputAction.CallbackContext context);
+            void OnSpawnMinion(InputAction.CallbackContext context);
+            void OnNumberKeyPressed(InputAction.CallbackContext context);
         }
     }
 }

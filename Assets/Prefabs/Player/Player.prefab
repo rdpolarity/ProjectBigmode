@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d0f21fc0b9d29464892c828f7a3fe649, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 1886459963051291242}
   - component: {fileID: 5369461379499086570}
   - component: {fileID: 9099158157468787555}
+  - component: {fileID: 6188044979194316824}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 2.5
+  walkingThreshold: 0.5
   walkIdleAnimator: {fileID: 4151629162763812496}
 --- !u!50 &5369461379499086570
 Rigidbody2D:
@@ -145,7 +147,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -159,7 +161,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &9099158157468787555
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -195,6 +197,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
+--- !u!114 &6188044979194316824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466092182061348791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5160626736a4f4e8aeeea6f6d39361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 10
+  minions:
+  - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
+  selectecMinion: 0
+  sizePerMass: 0.1
 --- !u!1 &8797255271750267973
 GameObject:
   m_ObjectHideFlags: 0
