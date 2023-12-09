@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ProjectBigmode.sln"
+    "dotnet.defaultSolution": "ProjectBigmode.sln",
+    "dotnet.preferCSharpExtension": true
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Unity.Transforms;
 
 namespace Bigmode
 {
@@ -26,6 +27,14 @@ namespace Bigmode
         public const string DefTiledStructure = "TiledStructure";
         
         public const string DefGameObjectStructure = "GameObjectStructure";
+
+        public static class Tags
+        {
+            public const string Health = "Attributes.Health";
+            public const string MaxHealth = "Attributes.MaxHealth";
+            public const string Speed = "Attributes.Speed";
+            public const string Damage = "Attributes.Damage";
+        }
         
     }
 }
