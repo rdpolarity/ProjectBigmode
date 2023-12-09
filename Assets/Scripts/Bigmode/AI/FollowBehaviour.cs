@@ -20,9 +20,10 @@ public class FollowBehaviour : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
 
+        var rigidbody2D = animator.GetComponent<Rigidbody2D>();
         if (Vector2.Distance(animator.transform.position, target.position) >= stopFollowDistance)
         {
-            animator.transform.position = Vector2.MoveTowards(animator.transform.position, target.position, speed * Time.deltaTime);
+            rigidbody2D.velocity = ((Vector2)target.position - rigidbody2D.position).normalized * speed;
         }
     }
 

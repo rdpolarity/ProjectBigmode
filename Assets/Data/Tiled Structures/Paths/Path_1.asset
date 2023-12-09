@@ -16,12 +16,8 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 08a0eb5ccd8444d978aae9c0ed96c372, type: 2}
-    - {fileID: 11400000, guid: b14528106acbf4fdc9a3c6abd752c5fd, type: 2}
-    - {fileID: 11400000, guid: 6f95b2d8087c843bd8a23a469176a72b, type: 2}
-    - {fileID: 11400000, guid: 308adc0984d3943a8b9a6a2426b9fa5e, type: 2}
-    - {fileID: 11400000, guid: 0aff14d2cc4f342f8916e2a5fdb0c480, type: 2}
-    - {fileID: 11400000, guid: 1ae922309236a4622a3d1eab6a23a70f, type: 2}
+    - {fileID: 11400000, guid: 4ea3f68e64ccd29458a499c401ca3103, type: 2}
+    - {fileID: 11400000, guid: 152ec0f3d6b2a80479148bec1a15eccb, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -37,41 +33,41 @@ MonoBehaviour:
       Entry: 1
       Data: 3|4
     - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
       Entry: 10
       Data: 0
     - Name: 
       Entry: 10
       Data: 1
     - Name: 
-      Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 10
-      Data: 3
-    - Name: 
       Entry: 6
       Data: 
     - Name: 
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 10
-      Data: 4
+      Data: 1
     - Name: 
       Entry: 6
       Data: 
-    - Name: 
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 10
-      Data: 5
     - Name: 
       Entry: 13
       Data: 

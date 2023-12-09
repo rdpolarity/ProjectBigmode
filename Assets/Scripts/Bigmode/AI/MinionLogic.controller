@@ -40,8 +40,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Player
-  speed: 1
-  stopFollowDistance: 0.4
+  speed: 2
+  stopFollowDistance: 1
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
