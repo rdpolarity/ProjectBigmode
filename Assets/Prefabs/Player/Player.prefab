@@ -212,8 +212,10 @@ MonoBehaviour:
   mass: 10
   minions:
   - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
-  selectecMinion: 0
+  selectMinion: 0
   sizePerMass: 0.1
+  healthPerMass: 1
+  spawnYDisplacement: 1
 --- !u!1 &8797255271750267973
 GameObject:
   m_ObjectHideFlags: 0
