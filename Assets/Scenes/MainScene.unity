@@ -1504,7 +1504,11 @@ PrefabInstance:
     - target: {fileID: 1096314056600653241, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
+      objectReference: {fileID: 21300000, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
+    - target: {fileID: 1886459963051291242, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
+      propertyPath: walkingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5369461379499086570, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
       propertyPath: m_Constraints
       value: 4
