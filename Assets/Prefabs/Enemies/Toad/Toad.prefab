@@ -13,10 +13,12 @@ GameObject:
   - component: {fileID: 6418843952017107252}
   - component: {fileID: 2476900438132523732}
   - component: {fileID: -8159751889887385969}
-  - component: {fileID: -4602856324684331112}
+  - component: {fileID: 8811448290389687285}
+  - component: {fileID: 6269673285031331152}
+  - component: {fileID: 3055880168367769803}
   m_Layer: 0
-  m_Name: Healer
-  m_TagString: Minion
+  m_Name: Toad
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,8 +78,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1031338787, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 8ec1a931dc011534da748f745b64f4ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +100,7 @@ Animator:
   m_GameObject: {fileID: 8522736550195871869}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0e161e40db102374d939629cf1135067, type: 2}
+  m_Controller: {fileID: 9100000, guid: 454908e8f378bef4e86bb3a9bfcb8711, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,8 +157,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 1
-  m_Mass: 0.020106193
+  m_UseAutoMass: 0
+  m_Mass: 5
   m_LinearDrag: 20
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -171,7 +173,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-4602856324684331112
+--- !u!114 &8811448290389687285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,7 +182,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 8522736550195871869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e03423703a0de4742990e58cb87ef58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a132616dd0df544cbadaada7190134b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: {fileID: 11400000, guid: d23428747e00b224a9d4063563358ba2, type: 2}
+--- !u!114 &6269673285031331152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522736550195871869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69cd546757964743a3bbb408c18f311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets: []
+  target: {fileID: 0}
+  targetTags:
+  - Player
+  - Minion
+  detectionRadius: 2
+--- !u!114 &3055880168367769803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522736550195871869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1153366628ef4c069f7e155fb90b9b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  cell: {x: 0, y: 0, z: 0}

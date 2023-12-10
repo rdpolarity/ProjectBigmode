@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Bigmode
 {
-    public class Entity : MonoBehaviour
+    public abstract class Entity : MonoBehaviour
     {
 
         public float Health

@@ -10,14 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6698954049328219918}
   - component: {fileID: 6657525446037258695}
-  - component: {fileID: 8953253585701338288}
   - component: {fileID: 6418843952017107252}
   - component: {fileID: 2476900438132523732}
   - component: {fileID: -8159751889887385969}
   - component: {fileID: -4602856324684331112}
   m_Layer: 0
   m_Name: Soldier
-  m_TagString: Untagged
+  m_TagString: Minion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,19 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8953253585701338288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8522736550195871869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c6e79043a38c9c41bf21a325bb3e695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 6698954049328219918}
 --- !u!95 &6418843952017107252
 Animator:
   serializedVersion: 5

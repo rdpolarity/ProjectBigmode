@@ -1,24 +1,48 @@
+using System.Linq;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class FollowBehaviour : StateMachineBehaviour
 {
-    [SerializeField]
+    [SerializeField, InfoBox("This will use the target from the parent VisionSystem component if it exists")]
+    private bool useVisionSystem = false;
+    [SerializeField, DisableIf("useVisionSystem")]
     private string targetTag = "Player";
     [SerializeField]
     private float speed = 2.5f;
     [SerializeField]
+
     private float stopFollowDistance = 2.5f;
+
     private Transform target;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+
+    public void FindTarget(Animator animator)
     {
-        target = GameObject.FindGameObjectsWithTag(targetTag)[0].GetComponent<Transform>();
+        if (useVisionSystem)
+        {
+            // get the parent
+            var visionSystem = animator.GetComponent<VisionSystem>();
+            target = visionSystem.target;
+        }
+        else
+        {
+            var objectsWithTag = GameObject.FindGameObjectsWithTag(targetTag);
+            target = objectsWithTag.FirstOrDefault()?.transform;
+        }
+
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        FindTarget(animator);
+    }
+
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        FindTarget(animator);
+
+        if (target == null) return;
 
         var rigidbody2D = animator.GetComponent<Rigidbody2D>();
         if (Vector2.Distance(animator.transform.position, target.position) >= stopFollowDistance)
@@ -27,21 +51,4 @@ public class FollowBehaviour : StateMachineBehaviour
         }
     }
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    // override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    // {
-
-    // }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

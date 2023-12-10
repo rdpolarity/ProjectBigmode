@@ -35,15 +35,13 @@ namespace Bigmode
         {
             MassChanged();
             SelectMinion(selectMinion);
-            if (!TryGetComponent<LineRenderer>(out tongueRenderer))
-            {
-                tongueRenderer = gameObject.AddComponent<LineRenderer>();
-                tongueRenderer.startColor = Color.red;
-                tongueRenderer.endColor = Color.red;
-                // set width 0.1
-                tongueRenderer.startWidth = 0.1f;
-                tongueRenderer.endWidth = 0.05f;
-            }
+            // create tongue rendere
+            tongueRenderer = gameObject.AddComponent<LineRenderer>();
+            tongueRenderer.startColor = Color.red;
+            tongueRenderer.endColor = Color.red;
+            // set width 0.1
+            tongueRenderer.startWidth = 0.1f;
+            tongueRenderer.endWidth = 0.05f;
         }
 
         void MassChanged()
@@ -150,7 +148,7 @@ namespace Bigmode
                 var start = transform.position;
                 var end = grabbedMinion.transform.position;
                 tongueRenderer.SetPositions(new Vector3[] { start, end });
-                
+
                 // Calculate the distance between the player and the minion
                 float distance = Vector3.Distance(start, end);
 

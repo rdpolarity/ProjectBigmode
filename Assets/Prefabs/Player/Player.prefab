@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1530540626, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -219,6 +219,7 @@ MonoBehaviour:
   sizePerMass: 0.1
   healthPerMass: 1
   spawnYDisplacement: 1
+  spriteRenderer: {fileID: 1096314056600653241}
 --- !u!1 &8797255271750267973
 GameObject:
   m_ObjectHideFlags: 0
