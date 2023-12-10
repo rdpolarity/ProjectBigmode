@@ -22,6 +22,8 @@ namespace Bigmode
         private float healthPerMass = 1f;
         [SerializeField]
         private float spawnYDisplacement = 1f;
+        [SerializeField]
+        private SpriteRenderer spriteRenderer;
 
 #nullable enable
         private Minion? grabbedMinion = null;
@@ -32,6 +34,7 @@ namespace Bigmode
         void Start()
         {
             MassChanged();
+            SelectMinion(selectMinion);
             if (!TryGetComponent<LineRenderer>(out tongueRenderer))
             {
                 tongueRenderer = gameObject.AddComponent<LineRenderer>();
@@ -91,6 +94,7 @@ namespace Bigmode
             else
             {
                 selectMinion = index;
+                spriteRenderer.sprite = minions[selectMinion].sprite;
                 return true;
             }
         }

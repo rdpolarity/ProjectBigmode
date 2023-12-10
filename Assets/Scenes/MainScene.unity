@@ -232,7 +232,7 @@ Camera:
   far clip plane: 1000
   field of view: 50
   orthographic: 0
-  orthographic size: 1.5
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -970,6 +970,11 @@ Transform:
   - {fileID: 671476871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!212 &1310212016 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1096314056600653241, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
+  m_PrefabInstance: {fileID: 4525084318024941303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2049914252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6188044979194316824, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1310212016}
     - target: {fileID: 6449153345873122706, guid: a77c10cdf22836f4b8db091b381aaaf6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.12

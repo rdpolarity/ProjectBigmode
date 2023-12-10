@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8159751889887385969}
   - component: {fileID: -4602856324684331112}
   m_Layer: 0
-  m_Name: Soldier
+  m_Name: Bomber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1750570154, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
+  m_Sprite: {fileID: -78120299, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -197,4 +197,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e03423703a0de4742990e58cb87ef58b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
+  type: {fileID: 11400000, guid: c42358558b7882247b61d5a29b886c37, type: 2}
