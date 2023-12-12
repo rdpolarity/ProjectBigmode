@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.24.3
+  openTileset:
+    elements:
+    - id: b6910784-47c9-46c3-9d90-cd80d82857d4
+      name: Grass
+      isWeightEnabled: 0
+      totalWeight: 4
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: 554802fc606bcab43868a396fb91aed8, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: c6a92e30e68e77443b576fa30c23a1e9, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 3469ff18f5a20994495f14a7af2f5127, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: bae10e6ae1ae0e84699b08f6b3ab9a15, type: 2}
+    - id: 57c7a2e9-1739-49ab-893f-3b79acf2cff3
+      name: DarkGrass
+      isWeightEnabled: 0
+      totalWeight: 1
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: ffac23c4afcb6a442b492c70d10d221d, type: 2}
+    orderedIds:
+    - b6910784-47c9-46c3-9d90-cd80d82857d4
+    - 57c7a2e9-1739-49ab-893f-3b79acf2cff3
+  tileTypes: []

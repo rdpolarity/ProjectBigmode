@@ -14,7 +14,6 @@ namespace Bigmode
         
         [SerializeField, PropertySpace, Title("World")] private List<Tile> defaultTiles;
         [SerializeField, Tooltip("Amount of tiles from center of screen to edge")] private Vector2Int visibleTiles;
-        [SerializeField] private NavMeshSurface navMesh;
 
         // Working vars
         private Grid grid;
@@ -121,9 +120,6 @@ namespace Bigmode
                 TryGenerateTiledStructure(cell);
                 TryGenerateGameObjectStructure(cell);
             }
-
-            // This won't work, extremely expensive
-            if (navMesh != null) navMesh.UpdateNavMesh(navMesh.navMeshData);
         }
 
         private static readonly HashSet<GameObject> toUnload = new();

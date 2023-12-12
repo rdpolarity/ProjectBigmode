@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Tileset Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.24.3
+  namedColorDataSet:
+    elements:
+    - id: 81b5735e-f3dc-402a-b042-2884739a9df1
+      name: Grass
+      color:
+        serializedVersion: 2
+        rgba: 4282871136
+    - id: 21846917-bea0-4bb9-9bbd-075bb08ce251
+      name: DarkGrass
+      color:
+        serializedVersion: 2
+        rgba: 4282015275
+    orderedIds:
+    - 81b5735e-f3dc-402a-b042-2884739a9df1
+    - 21846917-bea0-4bb9-9bbd-075bb08ce251
+  serializedNames: []
+  serializedColors: []
+  serializedLinkedSets:
+  - {fileID: 11400000, guid: b8794216941ff964eb3a0004db043ee2, type: 2}
