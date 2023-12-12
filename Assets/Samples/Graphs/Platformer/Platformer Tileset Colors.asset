@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Platformer Tileset Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets:
+  - {fileID: 11400000, guid: 1e2bee56e7e4ed44ba5f7d6e3e1f3d32, type: 2}
+  namedColorDataSet:
+    elements:
+    - id: 232fcc6c-d7a4-4c0e-83f7-9e36245f5f3a
+      name: Background
+      color:
+        serializedVersion: 2
+        rgba: 4284307056
+    - id: f450fbf5-32ee-4971-9e86-ef89f0ce4469
+      name: Wall
+      color:
+        serializedVersion: 2
+        rgba: 4278190080
+    - id: c91d77b9-e57e-4a6e-8e77-72634e21edc8
+      name: Ladder
+      color:
+        serializedVersion: 2
+        rgba: 4278211494
+    - id: 469c2371-6519-4280-bc7a-484bddc191da
+      name: Platform
+      color:
+        serializedVersion: 2
+        rgba: 4283390787
+    orderedIds:
+    - 232fcc6c-d7a4-4c0e-83f7-9e36245f5f3a
+    - f450fbf5-32ee-4971-9e86-ef89f0ce4469
+    - c91d77b9-e57e-4a6e-8e77-72634e21edc8
+    - 469c2371-6519-4280-bc7a-484bddc191da
+  serializedNames: []
+  serializedColors: []

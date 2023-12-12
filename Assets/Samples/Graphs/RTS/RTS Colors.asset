@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: RTS Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets:
+  - {fileID: 11400000, guid: 9690f6d58faf1ddad8ccc527bc723e04, type: 2}
+  namedColorDataSet:
+    elements:
+    - id: abb00f60-5754-4f70-a095-8e4cfad6b02b
+      name: Dirt
+      color:
+        serializedVersion: 2
+        rgba: 4288253330
+    - id: ee2b9413-1067-4861-8595-2428af6d3cf2
+      name: Construction Yard
+      color:
+        serializedVersion: 2
+        rgba: 4294092717
+    - id: b97730c0-0365-4ab1-86bc-44325effd97a
+      name: Trees
+      color:
+        serializedVersion: 2
+        rgba: 4281536125
+    - id: 34e3e49e-b369-43ec-a0fd-1ebd9ce49a45
+      name: Crystals
+      color:
+        serializedVersion: 2
+        rgba: 4282604629
+    - id: b39abd22-a529-45fd-b0f7-c40fa91ba480
+      name: Rocks
+      color:
+        serializedVersion: 2
+        rgba: 4280226331
+    - id: 44ea32ae-12ea-4c71-b71e-9a77bedae0e2
+      name: Tanks
+      color:
+        serializedVersion: 2
+        rgba: 4288966556
+    - id: 44b544ba-ca42-4f30-8768-0d6e8fd62645
+      name: Refinery
+      color:
+        serializedVersion: 2
+        rgba: 4285427827
+    - id: 7b7bf547-5561-46d3-826c-9d3fea0033ea
+      name: Harvester
+      color:
+        serializedVersion: 2
+        rgba: 4289013925
+    orderedIds:
+    - abb00f60-5754-4f70-a095-8e4cfad6b02b
+    - ee2b9413-1067-4861-8595-2428af6d3cf2
+    - b97730c0-0365-4ab1-86bc-44325effd97a
+    - 34e3e49e-b369-43ec-a0fd-1ebd9ce49a45
+    - b39abd22-a529-45fd-b0f7-c40fa91ba480
+    - 44ea32ae-12ea-4c71-b71e-9a77bedae0e2
+    - 44b544ba-ca42-4f30-8768-0d6e8fd62645
+    - 7b7bf547-5561-46d3-826c-9d3fea0033ea
+  serializedNames: []
+  serializedColors: []

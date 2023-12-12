@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Landmass Named Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets: []
+  namedColorDataSet:
+    elements:
+    - id: 1b82207e-ba71-418a-bbe4-61561a8a8e70
+      name: Land
+      color:
+        serializedVersion: 2
+        rgba: 4278386432
+    - id: fd759227-65db-4d0d-98bc-5b6a09f98686
+      name: Water
+      color:
+        serializedVersion: 2
+        rgba: 4294935808
+    - id: 0e4592c8-da11-4d70-aea3-c636ddca1297
+      name: Trees
+      color:
+        serializedVersion: 2
+        rgba: 4278871808
+    orderedIds:
+    - 1b82207e-ba71-418a-bbe4-61561a8a8e70
+    - fd759227-65db-4d0d-98bc-5b6a09f98686
+    - 0e4592c8-da11-4d70-aea3-c636ddca1297
+  serializedNames: []
+  serializedColors: []

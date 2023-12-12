@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Landmass Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 7a58b04b-b9f0-4245-a1f1-b1767e9c268a
+      name: Land
+      tiles:
+      - tile: {fileID: 11400000, guid: 838d24235d7704d9c9be3f2e5b684f73, type: 2}
+    - id: 78576551-f2a9-438b-8c0b-b915325a95c4
+      name: Water
+      tiles:
+      - tile: {fileID: 11400000, guid: 91eeeeade1761a101b2d28884dcedbbe, type: 2}
+    - id: d53114a7-8fe0-4872-8c3c-fe5543a74210
+      name: Trees
+      tiles:
+      - tile: {fileID: 11400000, guid: 12dfd47308f9ac9a896d81ffc1957606, type: 2}
+    orderedIds:
+    - 7a58b04b-b9f0-4245-a1f1-b1767e9c268a
+    - 78576551-f2a9-438b-8c0b-b915325a95c4
+    - d53114a7-8fe0-4872-8c3c-fe5543a74210
+  tileTypes: []

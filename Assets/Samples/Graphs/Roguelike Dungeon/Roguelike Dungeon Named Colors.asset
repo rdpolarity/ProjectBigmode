@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Roguelike Dungeon Named Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets: []
+  namedColorDataSet:
+    elements:
+    - id: 1aaccba7-e76a-400f-b4f1-ec26b163beed
+      name: Wall
+      color:
+        serializedVersion: 2
+        rgba: 4278190080
+    - id: ace0078c-8e20-4085-be88-03503a9d0763
+      name: Floor
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    - id: 74b07ab3-f563-405f-8810-40b1802f3b86
+      name: Start
+      color:
+        serializedVersion: 2
+        rgba: 4278255370
+    - id: fe7a3e0f-0650-47d2-9dd0-76702caa2ed7
+      name: Exit
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+    - id: 3bfb6802-f2e6-49c0-899a-59c34e3eaad1
+      name: Rubble
+      color:
+        serializedVersion: 2
+        rgba: 4284966759
+    - id: 8040e3ed-264f-4449-9061-bee6708b9de2
+      name: Enemy
+      color:
+        serializedVersion: 2
+        rgba: 4280251862
+    - id: 923c4315-be8e-4a40-b827-bd2a55e99a61
+      name: Treasure
+      color:
+        serializedVersion: 2
+        rgba: 4278248703
+    - id: 3e9831eb-c074-4c28-aaa3-99c2348791a9
+      name: Pillar
+      color:
+        serializedVersion: 2
+        rgba: 4292702044
+    orderedIds:
+    - 1aaccba7-e76a-400f-b4f1-ec26b163beed
+    - ace0078c-8e20-4085-be88-03503a9d0763
+    - 74b07ab3-f563-405f-8810-40b1802f3b86
+    - fe7a3e0f-0650-47d2-9dd0-76702caa2ed7
+    - 3bfb6802-f2e6-49c0-899a-59c34e3eaad1
+    - 8040e3ed-264f-4449-9061-bee6708b9de2
+    - 923c4315-be8e-4a40-b827-bd2a55e99a61
+    - 3e9831eb-c074-4c28-aaa3-99c2348791a9
+  serializedNames: []
+  serializedColors: []

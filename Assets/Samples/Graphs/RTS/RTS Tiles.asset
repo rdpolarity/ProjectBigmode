@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: RTS Tiles
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 16ea1772-5a91-49ee-879e-c28267da7cdc
+      name: Dirt
+      tiles:
+      - tile: {fileID: 11400000, guid: 775e4ef9acb89819c873d68f5a4adcde, type: 2}
+      - tile: {fileID: 11400000, guid: 79cd2c0edb54e58cfafe48801e66ef12, type: 2}
+    - id: 1c7ae52e-fcc6-45ba-a422-bd0c9479514c
+      name: Construction Yard
+      tiles:
+      - tile: {fileID: 11400000, guid: 75360e1486b46c238903b4225c022630, type: 2}
+    - id: 9f193628-5dc5-42d9-b240-8e6aedbda362
+      name: Trees
+      tiles:
+      - tile: {fileID: 11400000, guid: 8fdadf2b5561f0e8799cff6a5cbcac2a, type: 2}
+      - tile: {fileID: 11400000, guid: 655d815abd502e5d2a117dcac97baac4, type: 2}
+      - tile: {fileID: 11400000, guid: 67fead6305e92553791b9a96cb8bfec6, type: 2}
+    - id: 49141cd6-dcc1-4919-b8f3-baca134a463e
+      name: Crystals
+      tiles:
+      - tile: {fileID: 11400000, guid: 15d62801b9f7b66e7ad67c44a876d617, type: 2}
+      - tile: {fileID: 11400000, guid: 41743837f47a72a3b99a455c4d12dcd7, type: 2}
+    - id: 7b19668c-0c20-4c18-a3aa-4c012ff06617
+      name: Rocks
+      tiles:
+      - tile: {fileID: 11400000, guid: 8e7f4bb478698ba44981b71e5de64abb, type: 2}
+      - tile: {fileID: 11400000, guid: 079c214a9cf5575e49cba2df15c69ad9, type: 2}
+      - tile: {fileID: 11400000, guid: b824eeec6d6bac7e1bc0c20ef1a6317f, type: 2}
+    - id: afa95d64-f610-482c-8416-d62ade012d5d
+      name: Tanks
+      tiles:
+      - tile: {fileID: 11400000, guid: cc3baa6bf046ccad7af730624ac852fb, type: 2}
+    - id: 1358114b-6fb0-4af5-a42c-2d3bead86af6
+      name: Refinery
+      tiles:
+      - tile: {fileID: 11400000, guid: 853dde844dd51853785d77c0b3cfa16c, type: 2}
+    - id: fd2a2855-1f3b-4787-8e17-9b86edcbddca
+      name: Harvester
+      tiles:
+      - tile: {fileID: 11400000, guid: b905de3b99a054ad8870e98fb95f7ef7, type: 2}
+    orderedIds:
+    - 16ea1772-5a91-49ee-879e-c28267da7cdc
+    - 1c7ae52e-fcc6-45ba-a422-bd0c9479514c
+    - 9f193628-5dc5-42d9-b240-8e6aedbda362
+    - 49141cd6-dcc1-4919-b8f3-baca134a463e
+    - 7b19668c-0c20-4c18-a3aa-4c012ff06617
+    - afa95d64-f610-482c-8416-d62ade012d5d
+    - 1358114b-6fb0-4af5-a42c-2d3bead86af6
+    - fd2a2855-1f3b-4787-8e17-9b86edcbddca
+  tileTypes: []

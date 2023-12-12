@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Hex Strategy Tiles
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: a5deaa6e-cf54-4939-acaf-576e756c97ff
+      name: Grass
+      tiles:
+      - tile: {fileID: 11400000, guid: 7360f2179cfd1b0e9b9000c473b58d16, type: 2}
+    - id: b07b87c8-77a6-4a54-976a-05dae54535a2
+      name: Water
+      tiles:
+      - tile: {fileID: 11400000, guid: 02cbe1aee2322ba8b8c74126a9224b74, type: 2}
+    - id: 5841627f-43df-41c8-ae0d-90d2e58562a5
+      name: Shallow Water
+      tiles:
+      - tile: {fileID: 11400000, guid: 9a0aca5eb20dfb18a8789e6d81a9fb56, type: 2}
+    - id: 539ffe2e-a82d-4ef3-880c-eb8914339169
+      name: Mountain
+      tiles:
+      - tile: {fileID: 11400000, guid: 8abb35aede74eed84a1b8e3753265170, type: 2}
+    - id: c7d43c1f-2fb6-437d-88eb-fc36295c69f5
+      name: Snowy Mountain
+      tiles:
+      - tile: {fileID: 11400000, guid: b3f2f90c01819099ab5fe53a9079b4f2, type: 2}
+    - id: e19abfcf-b642-46aa-af52-d00940d2d088
+      name: Forest
+      tiles:
+      - tile: {fileID: 11400000, guid: 83f8b0947e83e3896847a2b8c28d9bb7, type: 2}
+    orderedIds:
+    - a5deaa6e-cf54-4939-acaf-576e756c97ff
+    - b07b87c8-77a6-4a54-976a-05dae54535a2
+    - 5841627f-43df-41c8-ae0d-90d2e58562a5
+    - 539ffe2e-a82d-4ef3-880c-eb8914339169
+    - c7d43c1f-2fb6-437d-88eb-fc36295c69f5
+    - e19abfcf-b642-46aa-af52-d00940d2d088
+  tileTypes: []

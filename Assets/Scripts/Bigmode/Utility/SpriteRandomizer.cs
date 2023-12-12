@@ -33,7 +33,8 @@ namespace Bigmode
             // Example of previewing sprite placement
             var position = (Vector2)transform.position;
             
-            var chosenSprite = GetSpriteForPosition(position);
+            // var chosenSprite = GetSpriteForPosition(position);
+            var chosenSprite = sprites[Random.Range(0, sprites.Count)];
             spriteRenderer.sprite = chosenSprite;
         }
         

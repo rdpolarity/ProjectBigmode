@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Roguelike Dungeon Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 9ed78450-ea9f-48b3-b403-60d616f82324
+      name: Wall
+      tiles:
+      - tile: {fileID: 11400000, guid: e89d26197abe947d3816d392747aa486, type: 2}
+    - id: 34403add-fff8-4c13-b203-dd79e79c50e0
+      name: Floor
+      tiles:
+      - tile: {fileID: 11400000, guid: b6dd9da98c5d24ccfa2f61685faf570a, type: 2}
+    - id: d3ba67ac-cfaf-4d21-817c-d9d77ed90e27
+      name: Start
+      tiles:
+      - tile: {fileID: 11400000, guid: c99bd0eb71d37fdbc944b0ac12840fe3, type: 2}
+    - id: 6a09e818-fb9a-4670-9f3c-734dc691e541
+      name: Exit
+      tiles:
+      - tile: {fileID: 11400000, guid: 1aa2d8d997704def9b35a650d88986cf, type: 2}
+    - id: 9c81919d-5996-4ffb-901e-c9ad8451b955
+      name: Rubble
+      tiles:
+      - tile: {fileID: 11400000, guid: 314a156f337dcb4c1ac09534b6213d7c, type: 2}
+    - id: ed13ebce-26d1-4fcf-9877-413c42e72ec4
+      name: Enemy
+      tiles:
+      - tile: {fileID: 11400000, guid: 515ddb76fbcdf5eb29fe500182a83e04, type: 2}
+    - id: 211b0877-7cee-4376-992c-a25e6c294f38
+      name: Treasure
+      tiles:
+      - tile: {fileID: 11400000, guid: f5ecae7b600c1af2e8ac02215862da2c, type: 2}
+    - id: fb45781b-02c0-4ba1-8d9f-95f65f58ab29
+      name: Pillar
+      tiles:
+      - tile: {fileID: 11400000, guid: c6197e4b06679212bbaacb85a1fdb8cc, type: 2}
+    orderedIds:
+    - 9ed78450-ea9f-48b3-b403-60d616f82324
+    - 34403add-fff8-4c13-b203-dd79e79c50e0
+    - d3ba67ac-cfaf-4d21-817c-d9d77ed90e27
+    - 6a09e818-fb9a-4670-9f3c-734dc691e541
+    - 9c81919d-5996-4ffb-901e-c9ad8451b955
+    - ed13ebce-26d1-4fcf-9877-413c42e72ec4
+    - 211b0877-7cee-4376-992c-a25e6c294f38
+    - fb45781b-02c0-4ba1-8d9f-95f65f58ab29
+  tileTypes: []

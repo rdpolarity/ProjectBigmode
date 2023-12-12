@@ -1,0 +1,6053 @@
+fileFormatVersion: 2
+guid: 45c0371315f614482a171440297ed548
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6468341902652231549
+    second: tiles_packed_0
+  - first:
+      213: -5099891286554169108
+    second: tiles_packed_1
+  - first:
+      213: 8885387894147674855
+    second: tiles_packed_2
+  - first:
+      213: 6757897804379243199
+    second: tiles_packed_3
+  - first:
+      213: 7952910389982072991
+    second: tiles_packed_4
+  - first:
+      213: 2641870480212054535
+    second: tiles_packed_5
+  - first:
+      213: -6771995730415133760
+    second: tiles_packed_6
+  - first:
+      213: -7450114411058175551
+    second: tiles_packed_7
+  - first:
+      213: -925687403837109742
+    second: tiles_packed_8
+  - first:
+      213: 855748642312981814
+    second: tiles_packed_9
+  - first:
+      213: 375764007306900435
+    second: tiles_packed_10
+  - first:
+      213: -319623969863513368
+    second: tiles_packed_11
+  - first:
+      213: 4239414877301166584
+    second: tiles_packed_12
+  - first:
+      213: -478249947516784794
+    second: tiles_packed_13
+  - first:
+      213: -6635838620655032488
+    second: tiles_packed_14
+  - first:
+      213: 3068208773739843989
+    second: tiles_packed_15
+  - first:
+      213: -8907651678591178445
+    second: tiles_packed_16
+  - first:
+      213: -1934568145699042145
+    second: tiles_packed_17
+  - first:
+      213: -2955433597414751084
+    second: tiles_packed_18
+  - first:
+      213: 582793467155048136
+    second: tiles_packed_19
+  - first:
+      213: 6768717979492401898
+    second: tiles_packed_20
+  - first:
+      213: -1016387791610636912
+    second: tiles_packed_21
+  - first:
+      213: -1464467535388251667
+    second: tiles_packed_22
+  - first:
+      213: 1331949160170579244
+    second: tiles_packed_23
+  - first:
+      213: -6979415041820946195
+    second: tiles_packed_24
+  - first:
+      213: -809894152159824698
+    second: tiles_packed_25
+  - first:
+      213: 8492894085007939084
+    second: tiles_packed_26
+  - first:
+      213: -8253841058628617512
+    second: tiles_packed_27
+  - first:
+      213: 7753991744658916375
+    second: tiles_packed_28
+  - first:
+      213: -3916521456390843289
+    second: tiles_packed_29
+  - first:
+      213: 106231971251999270
+    second: tiles_packed_30
+  - first:
+      213: -8982877743575154664
+    second: tiles_packed_31
+  - first:
+      213: -5260831446614447962
+    second: tiles_packed_32
+  - first:
+      213: 2231158771471208614
+    second: tiles_packed_33
+  - first:
+      213: 1928334975753445801
+    second: tiles_packed_34
+  - first:
+      213: 3709371895957944285
+    second: tiles_packed_35
+  - first:
+      213: -1518431312730003203
+    second: tiles_packed_36
+  - first:
+      213: 5929101164051957955
+    second: tiles_packed_37
+  - first:
+      213: -6716901474380548147
+    second: tiles_packed_38
+  - first:
+      213: -7560949258953728537
+    second: tiles_packed_39
+  - first:
+      213: 8012677903426701907
+    second: tiles_packed_40
+  - first:
+      213: 1161618301327373649
+    second: tiles_packed_41
+  - first:
+      213: -6281357792470137657
+    second: tiles_packed_42
+  - first:
+      213: -7781659508116617079
+    second: tiles_packed_43
+  - first:
+      213: -8616506690660393592
+    second: tiles_packed_44
+  - first:
+      213: 6001085804420364791
+    second: tiles_packed_45
+  - first:
+      213: -1958049112790141564
+    second: tiles_packed_46
+  - first:
+      213: -544273565699887945
+    second: tiles_packed_47
+  - first:
+      213: -9074155080181524437
+    second: tiles_packed_48
+  - first:
+      213: 7791077683122748147
+    second: tiles_packed_49
+  - first:
+      213: 559866488050462025
+    second: tiles_packed_50
+  - first:
+      213: -3577908947729757615
+    second: tiles_packed_51
+  - first:
+      213: 7873254353363049688
+    second: tiles_packed_52
+  - first:
+      213: -3902594593330400008
+    second: tiles_packed_53
+  - first:
+      213: -554409727408420216
+    second: tiles_packed_54
+  - first:
+      213: -3551797394069300298
+    second: tiles_packed_55
+  - first:
+      213: 1759987528946116931
+    second: tiles_packed_56
+  - first:
+      213: -4433669844835282387
+    second: tiles_packed_57
+  - first:
+      213: -1018282775519857238
+    second: tiles_packed_58
+  - first:
+      213: -6922838963273643089
+    second: tiles_packed_59
+  - first:
+      213: 8075902851256106815
+    second: tiles_packed_60
+  - first:
+      213: -7843938798037369319
+    second: tiles_packed_61
+  - first:
+      213: -580426956490665432
+    second: tiles_packed_62
+  - first:
+      213: -7484301175619072536
+    second: tiles_packed_63
+  - first:
+      213: 5829724955469880265
+    second: tiles_packed_64
+  - first:
+      213: 4251972116928005916
+    second: tiles_packed_65
+  - first:
+      213: -698260017585225565
+    second: tiles_packed_66
+  - first:
+      213: -1347962281928127880
+    second: tiles_packed_67
+  - first:
+      213: 5147216638090992688
+    second: tiles_packed_68
+  - first:
+      213: 1351400404992081645
+    second: tiles_packed_69
+  - first:
+      213: 6658560122404106165
+    second: tiles_packed_70
+  - first:
+      213: 8125909643449977183
+    second: tiles_packed_71
+  - first:
+      213: 2158419240370885959
+    second: tiles_packed_72
+  - first:
+      213: 4678303594150667106
+    second: tiles_packed_73
+  - first:
+      213: -1769515117089272870
+    second: tiles_packed_74
+  - first:
+      213: 801674432685922332
+    second: tiles_packed_75
+  - first:
+      213: -707140061848814854
+    second: tiles_packed_76
+  - first:
+      213: 1162698605077188136
+    second: tiles_packed_77
+  - first:
+      213: 6777311085889757295
+    second: tiles_packed_78
+  - first:
+      213: -9174101037490101366
+    second: tiles_packed_79
+  - first:
+      213: 4695972797913443585
+    second: tiles_packed_80
+  - first:
+      213: -3452664018028135181
+    second: tiles_packed_81
+  - first:
+      213: -1798430998968732149
+    second: tiles_packed_82
+  - first:
+      213: -7255629384734106836
+    second: tiles_packed_83
+  - first:
+      213: -3542255889934710342
+    second: tiles_packed_84
+  - first:
+      213: 4945364218985679397
+    second: tiles_packed_85
+  - first:
+      213: -1036538399751949073
+    second: tiles_packed_86
+  - first:
+      213: -3188333340418472691
+    second: tiles_packed_87
+  - first:
+      213: 489706046120239345
+    second: tiles_packed_88
+  - first:
+      213: 2300922674953917535
+    second: tiles_packed_89
+  - first:
+      213: -8232667578721325163
+    second: tiles_packed_90
+  - first:
+      213: -9004804624529026027
+    second: tiles_packed_91
+  - first:
+      213: 8913817147713902787
+    second: tiles_packed_92
+  - first:
+      213: -5003187829199356784
+    second: tiles_packed_93
+  - first:
+      213: 6798678809236926152
+    second: tiles_packed_94
+  - first:
+      213: 3205526906905920742
+    second: tiles_packed_95
+  - first:
+      213: -7902727485049719686
+    second: tiles_packed_96
+  - first:
+      213: 2519150110462324888
+    second: tiles_packed_97
+  - first:
+      213: 5083639387014122092
+    second: tiles_packed_98
+  - first:
+      213: 4611377300379539743
+    second: tiles_packed_99
+  - first:
+      213: 2032021735281516063
+    second: tiles_packed_100
+  - first:
+      213: 5195708313828997031
+    second: tiles_packed_101
+  - first:
+      213: -2369916749865654140
+    second: tiles_packed_102
+  - first:
+      213: 3116412788811490128
+    second: tiles_packed_103
+  - first:
+      213: 2399628295308777574
+    second: tiles_packed_104
+  - first:
+      213: 8845483427560669872
+    second: tiles_packed_105
+  - first:
+      213: 2944870924967315107
+    second: tiles_packed_106
+  - first:
+      213: 6035593255178549310
+    second: tiles_packed_107
+  - first:
+      213: -5550348289688964072
+    second: tiles_packed_108
+  - first:
+      213: -7604293769985498233
+    second: tiles_packed_109
+  - first:
+      213: 4076533793238422527
+    second: tiles_packed_110
+  - first:
+      213: 5299713128573863535
+    second: tiles_packed_111
+  - first:
+      213: -543251549272085122
+    second: tiles_packed_112
+  - first:
+      213: -1796103179321303113
+    second: tiles_packed_113
+  - first:
+      213: -6418543647589588862
+    second: tiles_packed_114
+  - first:
+      213: 1144186736177948058
+    second: tiles_packed_115
+  - first:
+      213: -4760040529980717837
+    second: tiles_packed_116
+  - first:
+      213: 5294796539829672385
+    second: tiles_packed_117
+  - first:
+      213: -4110108698703344041
+    second: tiles_packed_118
+  - first:
+      213: 2675933898671186799
+    second: tiles_packed_119
+  - first:
+      213: -6759129443739563915
+    second: tiles_packed_120
+  - first:
+      213: 1215064911806852459
+    second: tiles_packed_121
+  - first:
+      213: 9068382350983968614
+    second: tiles_packed_122
+  - first:
+      213: 7805354591597286331
+    second: tiles_packed_123
+  - first:
+      213: -8615463281123565709
+    second: tiles_packed_124
+  - first:
+      213: 2927994321195925395
+    second: tiles_packed_125
+  - first:
+      213: 2527338778565707677
+    second: tiles_packed_126
+  - first:
+      213: -6929711954619532383
+    second: tiles_packed_127
+  - first:
+      213: 3036449295346756647
+    second: tiles_packed_128
+  - first:
+      213: -1021047009662738865
+    second: tiles_packed_129
+  - first:
+      213: -9056281201623339937
+    second: tiles_packed_130
+  - first:
+      213: -7075564148539459097
+    second: tiles_packed_131
+  - first:
+      213: -756352802866734772
+    second: tiles_packed_132
+  - first:
+      213: -6138686211891082879
+    second: tiles_packed_133
+  - first:
+      213: -2158395620115732055
+    second: tiles_packed_134
+  - first:
+      213: 3281618818311424653
+    second: tiles_packed_135
+  - first:
+      213: -5134717754124482815
+    second: tiles_packed_136
+  - first:
+      213: -4204818177702977822
+    second: tiles_packed_137
+  - first:
+      213: 1057179495630593323
+    second: tiles_packed_138
+  - first:
+      213: 6144481779580734573
+    second: tiles_packed_139
+  - first:
+      213: -1724414895344524921
+    second: tiles_packed_140
+  - first:
+      213: -5513116068031122696
+    second: tiles_packed_141
+  - first:
+      213: -4121835539060904816
+    second: tiles_packed_142
+  - first:
+      213: -8065941293409737702
+    second: tiles_packed_143
+  - first:
+      213: -3381291646954615612
+    second: tiles_packed_144
+  - first:
+      213: 8869067283115190099
+    second: tiles_packed_145
+  - first:
+      213: 5233299816743645569
+    second: tiles_packed_146
+  - first:
+      213: -240547440891338950
+    second: tiles_packed_147
+  - first:
+      213: 8228397423128438550
+    second: tiles_packed_148
+  - first:
+      213: 945645363445787622
+    second: tiles_packed_149
+  - first:
+      213: 3715212662700152632
+    second: tiles_packed_150
+  - first:
+      213: -3672152384597243850
+    second: tiles_packed_151
+  - first:
+      213: -7996530012942899644
+    second: tiles_packed_152
+  - first:
+      213: -3454064373187976199
+    second: tiles_packed_153
+  - first:
+      213: 6305451015045270709
+    second: tiles_packed_154
+  - first:
+      213: -5543899826569426333
+    second: tiles_packed_155
+  - first:
+      213: -1835625035961846769
+    second: tiles_packed_156
+  - first:
+      213: -8097051682016282178
+    second: tiles_packed_157
+  - first:
+      213: -2003761952095726608
+    second: tiles_packed_158
+  - first:
+      213: 8681881381698386880
+    second: tiles_packed_159
+  - first:
+      213: 5831882220095128375
+    second: tiles_packed_160
+  - first:
+      213: -5768133326542575600
+    second: tiles_packed_161
+  - first:
+      213: 4615625945858879415
+    second: tiles_packed_162
+  - first:
+      213: 3241697884491065006
+    second: tiles_packed_163
+  - first:
+      213: 3886902937245069692
+    second: tiles_packed_164
+  - first:
+      213: -2585773380964948478
+    second: tiles_packed_165
+  - first:
+      213: 1025809602652806718
+    second: tiles_packed_166
+  - first:
+      213: -5880539746594316384
+    second: tiles_packed_167
+  - first:
+      213: 4060961311878240386
+    second: tiles_packed_168
+  - first:
+      213: -6769532302298129536
+    second: tiles_packed_169
+  - first:
+      213: 3381031453725623468
+    second: tiles_packed_170
+  - first:
+      213: 4020300158951519016
+    second: tiles_packed_171
+  - first:
+      213: -5332074645434569691
+    second: tiles_packed_172
+  - first:
+      213: -5296676356386176766
+    second: tiles_packed_173
+  - first:
+      213: -1236476377336234667
+    second: tiles_packed_174
+  - first:
+      213: 3709418801573461372
+    second: tiles_packed_175
+  - first:
+      213: -4058421886511714872
+    second: tiles_packed_176
+  - first:
+      213: -3892001284916802780
+    second: tiles_packed_177
+  - first:
+      213: -4687142431478982995
+    second: tiles_packed_178
+  - first:
+      213: 6436556184545528601
+    second: tiles_packed_179
+  - first:
+      213: 7413785506978564279
+    second: platform_tiles_packed_0
+  - first:
+      213: 4744493736138586904
+    second: platform_tiles_packed_1
+  - first:
+      213: -1904827175124151286
+    second: platform_tiles_packed_2
+  - first:
+      213: -7915970089568810317
+    second: platform_tiles_packed_3
+  - first:
+      213: -2383039753944484781
+    second: platform_tiles_packed_4
+  - first:
+      213: 209385682902865605
+    second: platform_tiles_packed_5
+  - first:
+      213: 1210009283966916952
+    second: platform_tiles_packed_6
+  - first:
+      213: -6994210255660487912
+    second: platform_tiles_packed_7
+  - first:
+      213: -3220007454804316235
+    second: platform_tiles_packed_8
+  - first:
+      213: -1365549604160630343
+    second: platform_tiles_packed_9
+  - first:
+      213: -101549345966651608
+    second: platform_tiles_packed_10
+  - first:
+      213: -37613052998715784
+    second: platform_tiles_packed_11
+  - first:
+      213: 7654024342114166904
+    second: platform_tiles_packed_12
+  - first:
+      213: 8800043191389731660
+    second: platform_tiles_packed_13
+  - first:
+      213: 2218886148653041375
+    second: platform_tiles_packed_14
+  - first:
+      213: -365776183190916461
+    second: platform_tiles_packed_15
+  - first:
+      213: -8979320653793008099
+    second: platform_tiles_packed_16
+  - first:
+      213: 1789175688811478835
+    second: platform_tiles_packed_17
+  - first:
+      213: -1665852984258476521
+    second: platform_tiles_packed_18
+  - first:
+      213: 2852206594905487572
+    second: platform_tiles_packed_19
+  - first:
+      213: -5994078629454631705
+    second: platform_tiles_packed_20
+  - first:
+      213: 6613487351035727808
+    second: platform_tiles_packed_21
+  - first:
+      213: 8167334191855549481
+    second: platform_tiles_packed_22
+  - first:
+      213: 2244703609040514437
+    second: platform_tiles_packed_23
+  - first:
+      213: 1568369886055413764
+    second: platform_tiles_packed_24
+  - first:
+      213: -8452372834146521523
+    second: platform_tiles_packed_25
+  - first:
+      213: 7610409493883305502
+    second: platform_tiles_packed_26
+  - first:
+      213: 6318585822381353897
+    second: platform_tiles_packed_27
+  - first:
+      213: -8596043755109234093
+    second: platform_tiles_packed_28
+  - first:
+      213: 5643453906032513644
+    second: platform_tiles_packed_29
+  - first:
+      213: -4753755758220913691
+    second: platform_tiles_packed_30
+  - first:
+      213: -685326600095290837
+    second: platform_tiles_packed_31
+  - first:
+      213: -3180886166934677502
+    second: platform_tiles_packed_32
+  - first:
+      213: -2804269696044912894
+    second: platform_tiles_packed_33
+  - first:
+      213: -2157224734378329051
+    second: platform_tiles_packed_34
+  - first:
+      213: -6203721688367402842
+    second: platform_tiles_packed_35
+  - first:
+      213: 923632892440784106
+    second: platform_tiles_packed_36
+  - first:
+      213: -6359498953214646156
+    second: platform_tiles_packed_37
+  - first:
+      213: -1818920309884112077
+    second: platform_tiles_packed_38
+  - first:
+      213: -3933727977253453684
+    second: platform_tiles_packed_39
+  - first:
+      213: 1182233219760835487
+    second: platform_tiles_packed_40
+  - first:
+      213: 3713672131482594917
+    second: platform_tiles_packed_41
+  - first:
+      213: 3766051409537418938
+    second: platform_tiles_packed_42
+  - first:
+      213: -6591635740954901444
+    second: platform_tiles_packed_43
+  - first:
+      213: -7861361312524652703
+    second: platform_tiles_packed_44
+  - first:
+      213: 4829673842518727581
+    second: platform_tiles_packed_45
+  - first:
+      213: -2386330335753330797
+    second: platform_tiles_packed_46
+  - first:
+      213: 4674601349799394712
+    second: platform_tiles_packed_47
+  - first:
+      213: 4616422338387896183
+    second: platform_tiles_packed_48
+  - first:
+      213: 3068704830816009068
+    second: platform_tiles_packed_49
+  - first:
+      213: 2112358098271949428
+    second: platform_tiles_packed_50
+  - first:
+      213: 6837596141779876120
+    second: platform_tiles_packed_51
+  - first:
+      213: -315818428683391625
+    second: platform_tiles_packed_52
+  - first:
+      213: -7340848259351927626
+    second: platform_tiles_packed_53
+  - first:
+      213: 3396140035982297332
+    second: platform_tiles_packed_54
+  - first:
+      213: -8751810826891930110
+    second: platform_tiles_packed_55
+  - first:
+      213: 3759110867916594061
+    second: platform_tiles_packed_56
+  - first:
+      213: -7198860921561431478
+    second: platform_tiles_packed_57
+  - first:
+      213: -8363205043365292856
+    second: platform_tiles_packed_58
+  - first:
+      213: -1974714689984601972
+    second: platform_tiles_packed_59
+  - first:
+      213: 8081803495929529454
+    second: platform_tiles_packed_60
+  - first:
+      213: 7511914293859755450
+    second: platform_tiles_packed_61
+  - first:
+      213: 6587858099602840302
+    second: platform_tiles_packed_62
+  - first:
+      213: -420119088642562281
+    second: platform_tiles_packed_63
+  - first:
+      213: 4575661315759039447
+    second: platform_tiles_packed_64
+  - first:
+      213: 1259561360489848200
+    second: platform_tiles_packed_65
+  - first:
+      213: 6728308414258032069
+    second: platform_tiles_packed_66
+  - first:
+      213: -5709339988982372946
+    second: platform_tiles_packed_67
+  - first:
+      213: 1723938745425517510
+    second: platform_tiles_packed_68
+  - first:
+      213: 6694414768235389931
+    second: platform_tiles_packed_69
+  - first:
+      213: 5497175233400795445
+    second: platform_tiles_packed_70
+  - first:
+      213: 5033331300862631901
+    second: platform_tiles_packed_71
+  - first:
+      213: 5963478937568339412
+    second: platform_tiles_packed_72
+  - first:
+      213: 1285671796143651075
+    second: platform_tiles_packed_73
+  - first:
+      213: -4866350030692643705
+    second: platform_tiles_packed_74
+  - first:
+      213: -4748173904200718119
+    second: platform_tiles_packed_75
+  - first:
+      213: 2780760337022675572
+    second: platform_tiles_packed_76
+  - first:
+      213: -154563856728703974
+    second: platform_tiles_packed_77
+  - first:
+      213: -6273944095334938228
+    second: platform_tiles_packed_78
+  - first:
+      213: -8229271559906144031
+    second: platform_tiles_packed_79
+  - first:
+      213: -8553138546592882593
+    second: platform_tiles_packed_80
+  - first:
+      213: -8164010656975225467
+    second: platform_tiles_packed_81
+  - first:
+      213: -5932241066942542864
+    second: platform_tiles_packed_82
+  - first:
+      213: -813312453413769416
+    second: platform_tiles_packed_83
+  - first:
+      213: -4807786236600488673
+    second: platform_tiles_packed_84
+  - first:
+      213: -7433260253242043777
+    second: platform_tiles_packed_85
+  - first:
+      213: -5952136700742480859
+    second: platform_tiles_packed_86
+  - first:
+      213: -4268749360605756963
+    second: platform_tiles_packed_87
+  - first:
+      213: 8814957987060968493
+    second: platform_tiles_packed_88
+  - first:
+      213: 3344275822739764112
+    second: platform_tiles_packed_89
+  - first:
+      213: -7758512781344511479
+    second: platform_tiles_packed_0
+  - first:
+      213: 103526008543085871
+    second: platform_tiles_packed_1
+  - first:
+      213: 5313042191951844146
+    second: platform_tiles_packed_2
+  - first:
+      213: 3437309090584958429
+    second: platform_tiles_packed_3
+  - first:
+      213: -7974964714639563982
+    second: platform_tiles_packed_4
+  - first:
+      213: 2547191751581562479
+    second: platform_tiles_packed_5
+  - first:
+      213: 4385475708254252286
+    second: platform_tiles_packed_6
+  - first:
+      213: 2654010778412195833
+    second: platform_tiles_packed_7
+  - first:
+      213: -9135409950113266288
+    second: platform_tiles_packed_8
+  - first:
+      213: -6798220940202219304
+    second: platform_tiles_packed_9
+  - first:
+      213: -4084966907026735027
+    second: platform_tiles_packed_10
+  - first:
+      213: -7431807470147404944
+    second: platform_tiles_packed_11
+  - first:
+      213: -4727416245249213772
+    second: platform_tiles_packed_12
+  - first:
+      213: -7345390498269768628
+    second: platform_tiles_packed_13
+  - first:
+      213: -3771036569393147585
+    second: platform_tiles_packed_14
+  - first:
+      213: 836723305498727429
+    second: platform_tiles_packed_15
+  - first:
+      213: -2940169984536486570
+    second: platform_tiles_packed_16
+  - first:
+      213: 8757513160205621120
+    second: platform_tiles_packed_17
+  - first:
+      213: -7644503362562879094
+    second: platform_tiles_packed_18
+  - first:
+      213: 7313239232562324504
+    second: platform_tiles_packed_19
+  - first:
+      213: -3400193112488498723
+    second: platform_tiles_packed_20
+  - first:
+      213: -7243117923571497589
+    second: platform_tiles_packed_21
+  - first:
+      213: -5870922079513298235
+    second: platform_tiles_packed_22
+  - first:
+      213: -6949511296215245004
+    second: platform_tiles_packed_23
+  - first:
+      213: 7740347490847118551
+    second: platform_tiles_packed_24
+  - first:
+      213: 3547142076541868072
+    second: platform_tiles_packed_25
+  - first:
+      213: 9137720745411824586
+    second: platform_tiles_packed_26
+  - first:
+      213: 5365666495963110328
+    second: platform_tiles_packed_27
+  - first:
+      213: -42442110890629339
+    second: platform_tiles_packed_28
+  - first:
+      213: 6950033214135099721
+    second: platform_tiles_packed_29
+  - first:
+      213: 342127283156009866
+    second: platform_tiles_packed_30
+  - first:
+      213: -3808746383548117136
+    second: platform_tiles_packed_31
+  - first:
+      213: -8343652511206910572
+    second: platform_tiles_packed_32
+  - first:
+      213: -2230428210784246609
+    second: platform_tiles_packed_33
+  - first:
+      213: 7263044062773774149
+    second: platform_tiles_packed_34
+  - first:
+      213: -4256598127887873035
+    second: platform_tiles_packed_35
+  - first:
+      213: -4955430665634926484
+    second: platform_tiles_packed_36
+  - first:
+      213: -3985200032359941015
+    second: platform_tiles_packed_37
+  - first:
+      213: -6577339112318455725
+    second: platform_tiles_packed_38
+  - first:
+      213: -9002217774895602050
+    second: platform_tiles_packed_39
+  - first:
+      213: 6812198452294875440
+    second: platform_tiles_packed_40
+  - first:
+      213: -9047549581549520456
+    second: platform_tiles_packed_41
+  - first:
+      213: 3166085510171053419
+    second: platform_tiles_packed_42
+  - first:
+      213: 8042798787817269247
+    second: platform_tiles_packed_43
+  - first:
+      213: -7075419438772306103
+    second: platform_tiles_packed_44
+  - first:
+      213: 3783266119411058414
+    second: platform_tiles_packed_45
+  - first:
+      213: 4544420322879790711
+    second: platform_tiles_packed_46
+  - first:
+      213: -7772109277368346065
+    second: platform_tiles_packed_47
+  - first:
+      213: 2966011466435415586
+    second: platform_tiles_packed_48
+  - first:
+      213: -1345642722596343479
+    second: platform_tiles_packed_49
+  - first:
+      213: -4875706816219545796
+    second: platform_tiles_packed_50
+  - first:
+      213: 6934094728844243321
+    second: platform_tiles_packed_51
+  - first:
+      213: -4040527947913168988
+    second: platform_tiles_packed_52
+  - first:
+      213: 2487130992977012861
+    second: platform_tiles_packed_53
+  - first:
+      213: 2398238287485186164
+    second: platform_tiles_packed_54
+  - first:
+      213: 4600375830124607096
+    second: platform_tiles_packed_55
+  - first:
+      213: 5462559714871129098
+    second: platform_tiles_packed_56
+  - first:
+      213: -3372549288964493351
+    second: platform_tiles_packed_57
+  - first:
+      213: 5128370948932258899
+    second: platform_tiles_packed_58
+  - first:
+      213: -8716058911599731222
+    second: platform_tiles_packed_59
+  - first:
+      213: -4544761994988643478
+    second: platform_tiles_packed_60
+  - first:
+      213: 3516065801480286918
+    second: platform_tiles_packed_61
+  - first:
+      213: -3350057000437448690
+    second: platform_tiles_packed_62
+  - first:
+      213: 945717098372792814
+    second: platform_tiles_packed_63
+  - first:
+      213: -1655189443382242288
+    second: platform_tiles_packed_64
+  - first:
+      213: -8101672480327271569
+    second: platform_tiles_packed_65
+  - first:
+      213: -7999376220858276244
+    second: platform_tiles_packed_66
+  - first:
+      213: 2942028775663804466
+    second: platform_tiles_packed_67
+  - first:
+      213: -4342780358129595535
+    second: platform_tiles_packed_68
+  - first:
+      213: -5175885831538801893
+    second: platform_tiles_packed_69
+  - first:
+      213: 2468491987761355184
+    second: platform_tiles_packed_70
+  - first:
+      213: -7312771089194978244
+    second: platform_tiles_packed_71
+  - first:
+      213: 5177259830034276806
+    second: platform_tiles_packed_72
+  - first:
+      213: 8261942854901871998
+    second: platform_tiles_packed_73
+  - first:
+      213: 7984061571720717339
+    second: platform_tiles_packed_74
+  - first:
+      213: 7485194905143679331
+    second: platform_tiles_packed_75
+  - first:
+      213: 1881786001033869821
+    second: platform_tiles_packed_76
+  - first:
+      213: 5862251477524875565
+    second: platform_tiles_packed_77
+  - first:
+      213: -3277266897680400357
+    second: platform_tiles_packed_78
+  - first:
+      213: -5930535098775471767
+    second: platform_tiles_packed_79
+  - first:
+      213: 9127139260644713913
+    second: platform_tiles_packed_80
+  - first:
+      213: 7949066036407153403
+    second: platform_tiles_packed_81
+  - first:
+      213: -2755968966216910610
+    second: platform_tiles_packed_82
+  - first:
+      213: -3447825335407858416
+    second: platform_tiles_packed_83
+  - first:
+      213: -4708272934326945258
+    second: platform_tiles_packed_84
+  - first:
+      213: -554221974735620124
+    second: platform_tiles_packed_85
+  - first:
+      213: -1118567995253568941
+    second: platform_tiles_packed_86
+  - first:
+      213: 4720914146510455685
+    second: platform_tiles_packed_87
+  - first:
+      213: -5631818515386395796
+    second: platform_tiles_packed_88
+  - first:
+      213: 6450397152179920924
+    second: platform_tiles_packed_89
+  - first:
+      213: -5726621417694894217
+    second: platform_tiles_packed_90
+  - first:
+      213: 2517394595368644670
+    second: platform_tiles_packed_91
+  - first:
+      213: 5805921821674338128
+    second: platform_tiles_packed_92
+  - first:
+      213: -5986000650982198074
+    second: platform_tiles_packed_93
+  - first:
+      213: 8171083991902402000
+    second: platform_tiles_packed_94
+  - first:
+      213: 4764004634679190702
+    second: platform_tiles_packed_95
+  - first:
+      213: -3170688196947168642
+    second: platform_tiles_packed_96
+  - first:
+      213: -5724634447569407235
+    second: platform_tiles_packed_97
+  - first:
+      213: 1178436851946719824
+    second: platform_tiles_packed_98
+  - first:
+      213: -7951862703635420902
+    second: platform_tiles_packed_99
+  - first:
+      213: -53206966376149162
+    second: platform_tiles_packed_100
+  - first:
+      213: 7791685851402740736
+    second: platform_tiles_packed_101
+  - first:
+      213: -7254713748395446346
+    second: platform_tiles_packed_102
+  - first:
+      213: 8185554275888866088
+    second: platform_tiles_packed_103
+  - first:
+      213: 595525028541857401
+    second: platform_tiles_packed_104
+  - first:
+      213: -2624135173939783457
+    second: platform_tiles_packed_105
+  - first:
+      213: 7320808136527780464
+    second: platform_tiles_packed_106
+  - first:
+      213: 293794372195801935
+    second: platform_tiles_packed_107
+  - first:
+      213: -643457301572910919
+    second: platform_tiles_packed_108
+  - first:
+      213: 2059044591471153012
+    second: platform_tiles_packed_109
+  - first:
+      213: 8824902085056917328
+    second: platform_tiles_packed_110
+  - first:
+      213: 1353387264986138329
+    second: platform_tiles_packed_111
+  - first:
+      213: 25647525034514519
+    second: platform_tiles_packed_112
+  - first:
+      213: 2238065200021638804
+    second: platform_tiles_packed_113
+  - first:
+      213: -1764731897465883626
+    second: platform_tiles_packed_114
+  - first:
+      213: -4104665102838997352
+    second: platform_tiles_packed_115
+  - first:
+      213: 2247748125748714000
+    second: platform_tiles_packed_116
+  - first:
+      213: 919962346825165480
+    second: platform_tiles_packed_117
+  - first:
+      213: 2899459390309510363
+    second: platform_tiles_packed_118
+  - first:
+      213: 2586573881561394214
+    second: platform_tiles_packed_119
+  - first:
+      213: 2397455598208626484
+    second: platform_tiles_packed_120
+  - first:
+      213: -3285330752649070876
+    second: platform_tiles_packed_121
+  - first:
+      213: -8332325420403253860
+    second: platform_tiles_packed_122
+  - first:
+      213: 5188385373855507785
+    second: platform_tiles_packed_123
+  - first:
+      213: 7401404017217718701
+    second: platform_tiles_packed_124
+  - first:
+      213: -8851756078534302825
+    second: platform_tiles_packed_125
+  - first:
+      213: -1092955651994378272
+    second: platform_tiles_packed_126
+  - first:
+      213: -7867049856024350843
+    second: platform_tiles_packed_127
+  - first:
+      213: 8020197183844421646
+    second: platform_tiles_packed_128
+  - first:
+      213: 7998839489565510409
+    second: platform_tiles_packed_129
+  - first:
+      213: -27261678076601769
+    second: platform_tiles_packed_130
+  - first:
+      213: -8006164505070371452
+    second: platform_tiles_packed_131
+  - first:
+      213: 2757593537267208184
+    second: platform_tiles_packed_132
+  - first:
+      213: 3888105776835306133
+    second: platform_tiles_packed_133
+  - first:
+      213: 2374719944295640730
+    second: platform_tiles_packed_134
+  - first:
+      213: -9024584437299346582
+    second: platform_tiles_packed_135
+  - first:
+      213: 3263557096177707064
+    second: platform_tiles_packed_136
+  - first:
+      213: -6946419642418994550
+    second: platform_tiles_packed_137
+  - first:
+      213: 6828069481806173951
+    second: platform_tiles_packed_138
+  - first:
+      213: -2409098625274469251
+    second: platform_tiles_packed_139
+  - first:
+      213: -3333714392806218335
+    second: platform_tiles_packed_140
+  - first:
+      213: -9177979688065757189
+    second: platform_tiles_packed_141
+  - first:
+      213: -926251631462488528
+    second: platform_tiles_packed_142
+  - first:
+      213: -945388732977244458
+    second: platform_tiles_packed_143
+  - first:
+      213: -3668396199723074025
+    second: platform_tiles_packed_144
+  - first:
+      213: -8966671087226301994
+    second: platform_tiles_packed_145
+  - first:
+      213: -1319948600033581555
+    second: platform_tiles_packed_146
+  - first:
+      213: -3473432008977823539
+    second: platform_tiles_packed_147
+  - first:
+      213: -5062451777896763192
+    second: platform_tiles_packed_148
+  - first:
+      213: -1059710816648489436
+    second: platform_tiles_packed_149
+  - first:
+      213: 5579083423421433080
+    second: platform_tiles_packed_150
+  - first:
+      213: 2998611557468222858
+    second: platform_tiles_packed_151
+  - first:
+      213: 3538106738980814414
+    second: platform_tiles_packed_152
+  - first:
+      213: 6307853614063918516
+    second: platform_tiles_packed_153
+  - first:
+      213: 7545491926354054720
+    second: platform_tiles_packed_154
+  - first:
+      213: -6881979468172824076
+    second: platform_tiles_packed_155
+  - first:
+      213: 1874222899807385745
+    second: platform_tiles_packed_156
+  - first:
+      213: -315600677369509253
+    second: platform_tiles_packed_157
+  - first:
+      213: -9108954815457877572
+    second: platform_tiles_packed_158
+  - first:
+      213: -5866460461697859775
+    second: platform_tiles_packed_159
+  - first:
+      213: -5171778217974209905
+    second: platform_tiles_packed_160
+  - first:
+      213: 8977036364251665682
+    second: platform_tiles_packed_161
+  - first:
+      213: -7846348406249888414
+    second: platform_tiles_packed_162
+  - first:
+      213: 321205789851985475
+    second: platform_tiles_packed_163
+  - first:
+      213: -3482247043599573492
+    second: platform_tiles_packed_164
+  - first:
+      213: -6585925410580336667
+    second: platform_tiles_packed_165
+  - first:
+      213: -3474926436087369260
+    second: platform_tiles_packed_166
+  - first:
+      213: -5135531732328069342
+    second: platform_tiles_packed_167
+  - first:
+      213: 858906524193540709
+    second: platform_tiles_packed_168
+  - first:
+      213: 1378513132495160473
+    second: platform_tiles_packed_169
+  - first:
+      213: 6996914395405142560
+    second: platform_tiles_packed_170
+  - first:
+      213: 70906691120206449
+    second: platform_tiles_packed_171
+  - first:
+      213: -8895309367630565550
+    second: platform_tiles_packed_172
+  - first:
+      213: 5385295790439930369
+    second: platform_tiles_packed_173
+  - first:
+      213: -4145794708491612373
+    second: platform_tiles_packed_174
+  - first:
+      213: -2567790301813292881
+    second: platform_tiles_packed_175
+  - first:
+      213: 8172204086938212860
+    second: platform_tiles_packed_176
+  - first:
+      213: 3877741352424755826
+    second: platform_tiles_packed_177
+  - first:
+      213: -7718550839464206232
+    second: platform_tiles_packed_178
+  - first:
+      213: 7564465552101581181
+    second: platform_tiles_packed_179
+  - first:
+      213: 4584380047041396785
+    second: platformer_tiles_packed_0
+  - first:
+      213: -7841870117222840874
+    second: platformer_tiles_packed_1
+  - first:
+      213: -6022609415253937299
+    second: platformer_tiles_packed_2
+  - first:
+      213: -2860779545091490725
+    second: platformer_tiles_packed_3
+  - first:
+      213: 8333205279311641252
+    second: platformer_tiles_packed_4
+  - first:
+      213: -6032748374813336629
+    second: platformer_tiles_packed_5
+  - first:
+      213: 4759904479715252452
+    second: platformer_tiles_packed_6
+  - first:
+      213: -1214465648503576848
+    second: platformer_tiles_packed_7
+  - first:
+      213: 1059311022602954660
+    second: platformer_tiles_packed_8
+  - first:
+      213: 1780566667956134657
+    second: platformer_tiles_packed_9
+  - first:
+      213: 8547699266893066784
+    second: platformer_tiles_packed_10
+  - first:
+      213: 8482427960345011083
+    second: platformer_tiles_packed_11
+  - first:
+      213: -1436752002129419056
+    second: platformer_tiles_packed_12
+  - first:
+      213: -8797657514092916695
+    second: platformer_tiles_packed_13
+  - first:
+      213: 5496866793233792500
+    second: platformer_tiles_packed_14
+  - first:
+      213: 348810704801239922
+    second: platformer_tiles_packed_15
+  - first:
+      213: -426070271514154392
+    second: platformer_tiles_packed_16
+  - first:
+      213: -5353135053789635842
+    second: platformer_tiles_packed_17
+  - first:
+      213: 359823210865410849
+    second: platformer_tiles_packed_18
+  - first:
+      213: -6399808194252426885
+    second: platformer_tiles_packed_19
+  - first:
+      213: 6026372586750514154
+    second: platformer_tiles_packed_20
+  - first:
+      213: 4454311315003959705
+    second: platformer_tiles_packed_21
+  - first:
+      213: -7040823728910544648
+    second: platformer_tiles_packed_22
+  - first:
+      213: 4153629774590058656
+    second: platformer_tiles_packed_23
+  - first:
+      213: 9059726214668888989
+    second: platformer_tiles_packed_24
+  - first:
+      213: -928329357670396928
+    second: platformer_tiles_packed_25
+  - first:
+      213: -2181867836686489482
+    second: platformer_tiles_packed_26
+  - first:
+      213: 837040390448058106
+    second: platformer_tiles_packed_27
+  - first:
+      213: -2232040396242147707
+    second: platformer_tiles_packed_28
+  - first:
+      213: 6040403241651458070
+    second: platformer_tiles_packed_29
+  - first:
+      213: -7716478011863598178
+    second: platformer_tiles_packed_30
+  - first:
+      213: 2332615323591560882
+    second: platformer_tiles_packed_31
+  - first:
+      213: 9106210824189595692
+    second: platformer_tiles_packed_32
+  - first:
+      213: 5683763852086179543
+    second: platformer_tiles_packed_33
+  - first:
+      213: -404447510461318868
+    second: platformer_tiles_packed_34
+  - first:
+      213: 1476403892870975687
+    second: platformer_tiles_packed_35
+  - first:
+      213: 4937751089319752
+    second: platformer_tiles_packed_36
+  - first:
+      213: -4635581240571515893
+    second: platformer_tiles_packed_37
+  - first:
+      213: -1012159438815728563
+    second: platformer_tiles_packed_38
+  - first:
+      213: -3407380608558027957
+    second: platformer_tiles_packed_39
+  - first:
+      213: 5458082078861946437
+    second: platformer_tiles_packed_40
+  - first:
+      213: -841955976841160310
+    second: platformer_tiles_packed_41
+  - first:
+      213: -182233158000114798
+    second: platformer_tiles_packed_42
+  - first:
+      213: 9031452568360275597
+    second: platformer_tiles_packed_43
+  - first:
+      213: -5675925541165350341
+    second: platformer_tiles_packed_44
+  - first:
+      213: -2405791170428531058
+    second: platformer_tiles_packed_45
+  - first:
+      213: 8453818281527622334
+    second: platformer_tiles_packed_46
+  - first:
+      213: 2764827298117194816
+    second: platformer_tiles_packed_47
+  - first:
+      213: -6603681718832698548
+    second: platformer_tiles_packed_48
+  - first:
+      213: -3082402375605358961
+    second: platformer_tiles_packed_49
+  - first:
+      213: -7027548709682097748
+    second: platformer_tiles_packed_50
+  - first:
+      213: -8332221743385421761
+    second: platformer_tiles_packed_51
+  - first:
+      213: -2592746795475174753
+    second: platformer_tiles_packed_52
+  - first:
+      213: 8511360731774336584
+    second: platformer_tiles_packed_53
+  - first:
+      213: 2856883972052621619
+    second: platformer_tiles_packed_54
+  - first:
+      213: -5639677528620478856
+    second: platformer_tiles_packed_55
+  - first:
+      213: -679668443528326980
+    second: platformer_tiles_packed_56
+  - first:
+      213: 2456260502165863637
+    second: platformer_tiles_packed_57
+  - first:
+      213: -383981742320592464
+    second: platformer_tiles_packed_58
+  - first:
+      213: -8524556099443627328
+    second: platformer_tiles_packed_59
+  - first:
+      213: -4157601592116597886
+    second: platformer_tiles_packed_60
+  - first:
+      213: 6113766342163230614
+    second: platformer_tiles_packed_61
+  - first:
+      213: -4215267090305975011
+    second: platformer_tiles_packed_62
+  - first:
+      213: 8114383038008640584
+    second: platformer_tiles_packed_63
+  - first:
+      213: -5106311770036098687
+    second: platformer_tiles_packed_64
+  - first:
+      213: 2011376868590233929
+    second: platformer_tiles_packed_65
+  - first:
+      213: -5547187427223313128
+    second: platformer_tiles_packed_66
+  - first:
+      213: -7891181081280880946
+    second: platformer_tiles_packed_67
+  - first:
+      213: -6506129514272918084
+    second: platformer_tiles_packed_68
+  - first:
+      213: -15105741684929576
+    second: platformer_tiles_packed_69
+  - first:
+      213: 4074046055417630683
+    second: platformer_tiles_packed_70
+  - first:
+      213: 8108806098923393232
+    second: platformer_tiles_packed_71
+  - first:
+      213: -2007010793794772851
+    second: platformer_tiles_packed_72
+  - first:
+      213: -1124945915472365981
+    second: platformer_tiles_packed_73
+  - first:
+      213: 3765068297405981920
+    second: platformer_tiles_packed_74
+  - first:
+      213: 4759040078328171755
+    second: platformer_tiles_packed_75
+  - first:
+      213: -534807021366861093
+    second: platformer_tiles_packed_76
+  - first:
+      213: -8429351169618356731
+    second: platformer_tiles_packed_77
+  - first:
+      213: 9221138553327329786
+    second: platformer_tiles_packed_78
+  - first:
+      213: -6373337732713826917
+    second: platformer_tiles_packed_79
+  - first:
+      213: 9054305225253063558
+    second: platformer_tiles_packed_80
+  - first:
+      213: 7214509832519901323
+    second: platformer_tiles_packed_81
+  - first:
+      213: -2634240234275870839
+    second: platformer_tiles_packed_82
+  - first:
+      213: -8684684992259974264
+    second: platformer_tiles_packed_83
+  - first:
+      213: -5655199112728620035
+    second: platformer_tiles_packed_84
+  - first:
+      213: -7019754689223631093
+    second: platformer_tiles_packed_85
+  - first:
+      213: 5496307419946114132
+    second: platformer_tiles_packed_86
+  - first:
+      213: -6830130566392208744
+    second: platformer_tiles_packed_87
+  - first:
+      213: -7611140341632002019
+    second: platformer_tiles_packed_88
+  - first:
+      213: -3853352240262110372
+    second: platformer_tiles_packed_89
+  - first:
+      213: -2380521240591203822
+    second: platformer_tiles_packed_90
+  - first:
+      213: 2987458252863804920
+    second: platformer_tiles_packed_91
+  - first:
+      213: 2428276177662105974
+    second: platformer_tiles_packed_92
+  - first:
+      213: -6331569169823352165
+    second: platformer_tiles_packed_93
+  - first:
+      213: -6271829222736421850
+    second: platformer_tiles_packed_94
+  - first:
+      213: 6614177826603333473
+    second: platformer_tiles_packed_95
+  - first:
+      213: 8439997831695142170
+    second: platformer_tiles_packed_96
+  - first:
+      213: -1788743499662882359
+    second: platformer_tiles_packed_97
+  - first:
+      213: -6139856973791855742
+    second: platformer_tiles_packed_98
+  - first:
+      213: -8884785365251626818
+    second: platformer_tiles_packed_99
+  - first:
+      213: -3836226540307624971
+    second: platformer_tiles_packed_100
+  - first:
+      213: -323435945677535078
+    second: platformer_tiles_packed_101
+  - first:
+      213: 4502456216149787166
+    second: platformer_tiles_packed_102
+  - first:
+      213: 6913755741837969053
+    second: platformer_tiles_packed_103
+  - first:
+      213: 7427371823081256912
+    second: platformer_tiles_packed_104
+  - first:
+      213: 5400908129745741303
+    second: platformer_tiles_packed_105
+  - first:
+      213: -1312616719277063095
+    second: platformer_tiles_packed_106
+  - first:
+      213: 885441068968836504
+    second: platformer_tiles_packed_107
+  - first:
+      213: -8568122909096739428
+    second: platformer_tiles_packed_108
+  - first:
+      213: 7911181973388969121
+    second: platformer_tiles_packed_109
+  - first:
+      213: 8689047146989466498
+    second: platformer_tiles_packed_110
+  - first:
+      213: -929192298412879503
+    second: platformer_tiles_packed_111
+  - first:
+      213: 2038398899480763070
+    second: platformer_tiles_packed_112
+  - first:
+      213: -1014050193504428793
+    second: platformer_tiles_packed_113
+  - first:
+      213: -5259971799220702641
+    second: platformer_tiles_packed_114
+  - first:
+      213: 5382567296693674780
+    second: platformer_tiles_packed_115
+  - first:
+      213: -3821001579378648188
+    second: platformer_tiles_packed_116
+  - first:
+      213: 2704785739665719585
+    second: platformer_tiles_packed_117
+  - first:
+      213: 3637507664884766044
+    second: platformer_tiles_packed_118
+  - first:
+      213: -7275956364060839646
+    second: platformer_tiles_packed_119
+  - first:
+      213: 6980095587543485049
+    second: platformer_tiles_packed_120
+  - first:
+      213: 3232905823732875836
+    second: platformer_tiles_packed_121
+  - first:
+      213: -2041774116909053449
+    second: platformer_tiles_packed_122
+  - first:
+      213: -77614488460625777
+    second: platformer_tiles_packed_123
+  - first:
+      213: -7948332927463377642
+    second: platformer_tiles_packed_124
+  - first:
+      213: -2892264740574257477
+    second: platformer_tiles_packed_125
+  - first:
+      213: 7555547431579551784
+    second: platformer_tiles_packed_126
+  - first:
+      213: 6388040867320787028
+    second: platformer_tiles_packed_127
+  - first:
+      213: -6448689297490302630
+    second: platformer_tiles_packed_128
+  - first:
+      213: 1554419991692321650
+    second: platformer_tiles_packed_129
+  - first:
+      213: -949626598228201486
+    second: platformer_tiles_packed_130
+  - first:
+      213: 2373630359448147614
+    second: platformer_tiles_packed_131
+  - first:
+      213: 4589147343102051265
+    second: platformer_tiles_packed_132
+  - first:
+      213: -5793406317361392878
+    second: platformer_tiles_packed_133
+  - first:
+      213: -1325210262662174258
+    second: platformer_tiles_packed_134
+  - first:
+      213: -7240530943247191376
+    second: platformer_tiles_packed_135
+  - first:
+      213: -8138432834343106173
+    second: platformer_tiles_packed_136
+  - first:
+      213: 4084577522780618135
+    second: platformer_tiles_packed_137
+  - first:
+      213: 8206785536218701512
+    second: platformer_tiles_packed_138
+  - first:
+      213: -6697512707359430424
+    second: platformer_tiles_packed_139
+  - first:
+      213: 684723967870301432
+    second: platformer_tiles_packed_140
+  - first:
+      213: -8931691671858633748
+    second: platformer_tiles_packed_141
+  - first:
+      213: -5119357339037080766
+    second: platformer_tiles_packed_142
+  - first:
+      213: 450681795986472533
+    second: platformer_tiles_packed_143
+  - first:
+      213: -6943661993721710140
+    second: platformer_tiles_packed_144
+  - first:
+      213: -1487825865379939968
+    second: platformer_tiles_packed_145
+  - first:
+      213: -602408548384538257
+    second: platformer_tiles_packed_146
+  - first:
+      213: -2450384955456355106
+    second: platformer_tiles_packed_147
+  - first:
+      213: -5870904494444043499
+    second: platformer_tiles_packed_148
+  - first:
+      213: -4613628027917370679
+    second: platformer_tiles_packed_149
+  - first:
+      213: 1341458740587563291
+    second: platformer_tiles_packed_150
+  - first:
+      213: 7561179353257816212
+    second: platformer_tiles_packed_151
+  - first:
+      213: 5966209275313986272
+    second: platformer_tiles_packed_152
+  - first:
+      213: 4769435218356020823
+    second: platformer_tiles_packed_153
+  - first:
+      213: 4641532107465385055
+    second: platformer_tiles_packed_154
+  - first:
+      213: 2899851978646407261
+    second: platformer_tiles_packed_155
+  - first:
+      213: -1411418811630157909
+    second: platformer_tiles_packed_156
+  - first:
+      213: -4149961632861792399
+    second: platformer_tiles_packed_157
+  - first:
+      213: -6350961784395651208
+    second: platformer_tiles_packed_158
+  - first:
+      213: 1478944586285871141
+    second: platformer_tiles_packed_159
+  - first:
+      213: -2010051045637085607
+    second: platformer_tiles_packed_160
+  - first:
+      213: -3890818202078437435
+    second: platformer_tiles_packed_161
+  - first:
+      213: -2591438943810180409
+    second: platformer_tiles_packed_162
+  - first:
+      213: -782239072998348068
+    second: platformer_tiles_packed_163
+  - first:
+      213: -6782761812033794649
+    second: platformer_tiles_packed_164
+  - first:
+      213: 8768272714581944784
+    second: platformer_tiles_packed_165
+  - first:
+      213: -3313327737503924830
+    second: platformer_tiles_packed_166
+  - first:
+      213: 765003328221848914
+    second: platformer_tiles_packed_167
+  - first:
+      213: -4138702793457749332
+    second: platformer_tiles_packed_168
+  - first:
+      213: -5497143682374759958
+    second: platformer_tiles_packed_169
+  - first:
+      213: -3235447345315266783
+    second: platformer_tiles_packed_170
+  - first:
+      213: -2899702019162435489
+    second: platformer_tiles_packed_171
+  - first:
+      213: -9069211148440276976
+    second: platformer_tiles_packed_172
+  - first:
+      213: 8997086476283997575
+    second: platformer_tiles_packed_173
+  - first:
+      213: -7602934424474180321
+    second: platformer_tiles_packed_174
+  - first:
+      213: -4300712712479141970
+    second: platformer_tiles_packed_175
+  - first:
+      213: 4691544323444362344
+    second: platformer_tiles_packed_176
+  - first:
+      213: -3026708514090737527
+    second: platformer_tiles_packed_177
+  - first:
+      213: -7572960714071662944
+    second: platformer_tiles_packed_178
+  - first:
+      213: 8955530186427746395
+    second: platformer_tiles_packed_179
+  - first:
+      213: 2429261924487752296
+    second: platformer_tiles_packed_0
+  - first:
+      213: 8383942330834278355
+    second: platformer_tiles_packed_1
+  - first:
+      213: -7541303640759744827
+    second: platformer_tiles_packed_2
+  - first:
+      213: 8249499330042805329
+    second: platformer_tiles_packed_3
+  - first:
+      213: -362089011571388564
+    second: platformer_tiles_packed_4
+  - first:
+      213: 4457327669855804801
+    second: platformer_tiles_packed_5
+  - first:
+      213: -8119646897704219350
+    second: platformer_tiles_packed_6
+  - first:
+      213: 5915940426900473083
+    second: platformer_tiles_packed_7
+  - first:
+      213: -6820095550348725122
+    second: platformer_tiles_packed_8
+  - first:
+      213: 1967277697330573417
+    second: platformer_tiles_packed_9
+  - first:
+      213: -2578143036990907943
+    second: platformer_tiles_packed_10
+  - first:
+      213: 785104088112657709
+    second: platformer_tiles_packed_11
+  - first:
+      213: -5545927741855436881
+    second: platformer_tiles_packed_12
+  - first:
+      213: 5681389974522071399
+    second: platformer_tiles_packed_13
+  - first:
+      213: 4809914748339549407
+    second: platformer_tiles_packed_14
+  - first:
+      213: -8484260780889970549
+    second: platformer_tiles_packed_15
+  - first:
+      213: 6404813200936398923
+    second: platformer_tiles_packed_16
+  - first:
+      213: 7130508040430548833
+    second: platformer_tiles_packed_17
+  - first:
+      213: 461174354233504056
+    second: platformer_tiles_packed_18
+  - first:
+      213: -1686442546325486128
+    second: platformer_tiles_packed_19
+  - first:
+      213: -3930212799048558974
+    second: platformer_tiles_packed_20
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: platformer_tiles_packed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a697b79d876b120800000000000000
+      internalID: 4584380047041396785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7dcbe312fb95470800000000000000
+      internalID: -7841870117222840874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6c7255b48e75790800000000000000
+      internalID: -6022609415253937299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c3606deeb1c7270800000000000000
+      internalID: -2860779545091490725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f073066f999faf0800000000000000
+      internalID: 8333205279311641252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d564956eb9bdd30800000000000000
+      internalID: -6032748374813336629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dccb09a28315f80800000000000000
+      internalID: 4759904479715252452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf486c96974a91250800000000000000
+      internalID: -1214465648503576848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74fd3b3b372a51a0800000000000000
+      internalID: 1059311022602954660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ffe384ac2d4b10800000000000000
+      internalID: 1780566667956134657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d992044198983cd0800000000000000
+      internalID: 8547699266893066784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2579ab220045ea00800000000000000
+      internalID: 8482427960345011083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe8b43a18e803b0800000000000000
+      internalID: -1436752002129419056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7698add941a58de40800000000000000
+      internalID: -8797657514092916695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4f0b6caff30c240800000000000000
+      internalID: 5496866793233792500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88664575c9d14a80800000000000000
+      internalID: 348810704801239922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40fb8e0ca772e850800000000000000
+      internalID: -426070271514154392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167fde1a847a4f260800000000000000
+      internalID: -5353135053789635842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bb9bb1ab666600800000000000000
+      internalID: 359823210865410849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d50a24707d8898e0800000000000000
+      internalID: -6399808194252426885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286540d48441579c0800000000000000
+      internalID: 6026372586750514154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99960d18a84e0dd30800000000000000
+      internalID: 4454311315003959705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f055285f18f94e90800000000000000
+      internalID: -7040823728910544648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a02deae548a4a930800000000000000
+      internalID: 4153629774590058656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b22a3edfc9abd70800000000000000
+      internalID: 9059726214668888989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c4d712e59ed13f0800000000000000
+      internalID: -928329357670396928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678a37733c278b1e0800000000000000
+      internalID: -2181867836686489482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe8f4fdcc3cd9b00800000000000000
+      internalID: 837040390448058106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862aa1e5133601e0800000000000000
+      internalID: -2232040396242147707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610d0ceaeb2d3d350800000000000000
+      internalID: 6040403241651458070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bf1c1c12099e490800000000000000
+      internalID: -7716478011863598178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bece40374d1f5020800000000000000
+      internalID: 2332615323591560882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2053a17f72cf5e70800000000000000
+      internalID: 9106210824189595692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d67dce0c19c0ee40800000000000000
+      internalID: 5683763852086179543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2979a0d12d136af0800000000000000
+      internalID: -404447510461318868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0149ba48d3d7410800000000000000
+      internalID: 1476403892870975687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f0ba3cbda811000800000000000000
+      internalID: 4937751089319752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_37
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c254c0c6b1bafb0800000000000000
+      internalID: -4635581240571515893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c64516a5614f1f0800000000000000
+      internalID: -1012159438815728563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b285cb36d86b0d0800000000000000
+      internalID: -3407380608558027957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eed798bb00fbb40800000000000000
+      internalID: 5458082078861946437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a899ddbff75c054f0800000000000000
+      internalID: -841955976841160310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_42
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930b1788e3987df0800000000000000
+      internalID: -182233158000114798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e47ee924a265d70800000000000000
+      internalID: 9031452568360275597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c54beacf0b31b0800000000000000
+      internalID: -5675925541165350341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_45
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e06da4da9ec9ed0800000000000000
+      internalID: -2405791170428531058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba3822dfeef15570800000000000000
+      internalID: 8453818281527622334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_47
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044149967c3ae5620800000000000000
+      internalID: 2764827298117194816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6c3be6720b54a0800000000000000
+      internalID: -6603681718832698548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_49
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ee833ee5b1935d0800000000000000
+      internalID: -3082402375605358961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1d4ad9ea1297e90800000000000000
+      internalID: -7027548709682097748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d9bb68700e5c80800000000000000
+      internalID: -8332221743385421761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_52
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a7b27c686b40cd0800000000000000
+      internalID: -2592746795475174753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e3e9c8d7d6e1670800000000000000
+      internalID: 8511360731774336584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_54
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33914be06d0b5a720800000000000000
+      internalID: 2856883972052621619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_55
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec2d20b27dbb1b0800000000000000
+      internalID: -5639677528620478856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb09372d6255196f0800000000000000
+      internalID: -679668443528326980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_57
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc3b63b9e3661220800000000000000
+      internalID: 2456260502165863637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9deb8c3a2dbaaf0800000000000000
+      internalID: -383981742320592464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_59
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cae5c08461b2b980800000000000000
+      internalID: -8524556099443627328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28baa40416b3d46c0800000000000000
+      internalID: -4157601592116597886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe068981678d450800000000000000
+      internalID: 6113766342163230614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_62
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dfae03aec5085c0800000000000000
+      internalID: -4215267090305975011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_63
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844c5f791641c9070800000000000000
+      internalID: 8114383038008640584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1892a92ef7cb229b0800000000000000
+      internalID: -5106311770036098687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_65
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94922c1fa98d9eb10800000000000000
+      internalID: 2011376868590233929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81567d9dc6e6403b0800000000000000
+      internalID: -5547187427223313128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_67
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece58f7ad94ec7290800000000000000
+      internalID: -7891181081280880946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f31f7da595b5a0800000000000000
+      internalID: -6506129514272918084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_69
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db0dc078655acff0800000000000000
+      internalID: -15105741684929576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_70
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfcfbb5d4be98830800000000000000
+      internalID: 4074046055417630683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_71
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d099d64f24488070800000000000000
+      internalID: 8108806098923393232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_72
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80ec7f015aa524e0800000000000000
+      internalID: -2007010793794772851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_73
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3663ebc66a36360f0800000000000000
+      internalID: -1124945915472365981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_74
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4e7f51ba5304430800000000000000
+      internalID: 3765068297405981920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_75
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec099c9cb18b0240800000000000000
+      internalID: 4759040078328171755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd22b0cf8dbf398f0800000000000000
+      internalID: -534807021366861093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_77
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506dfd795cde40b80800000000000000
+      internalID: -8429351169618356731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_78
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af12cb798a018ff70800000000000000
+      internalID: 9221138553327329786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_79
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95bff7791b5d87a0800000000000000
+      internalID: -6373337732713826917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b0c2f61aa57ad70800000000000000
+      internalID: 9054305225253063558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8069e3f7761f1460800000000000000
+      internalID: 7214509832519901323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_82
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987e1f6b67c417bd0800000000000000
+      internalID: -2634240234275870839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_83
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b9d22530dc97780800000000000000
+      internalID: -8684684992259974264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_84
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3d4b79e52b481b0800000000000000
+      internalID: -5655199112728620035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_85
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f517a6d42d49e90800000000000000
+      internalID: -7019754689223631093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_86
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c5b3e4a7ec64c40800000000000000
+      internalID: 5496307419946114132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_87
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a7acff608631a0800000000000000
+      internalID: -6830130566392208744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1811615f2ccf5690800000000000000
+      internalID: -7611140341632002019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_89
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a8bcad84268ac0800000000000000
+      internalID: -3853352240262110372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_90
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2120a425b80b6fed0800000000000000
+      internalID: -2380521240591203822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_91
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f59147e375957920800000000000000
+      internalID: 2987458252863804920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_92
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d71a6158f2b120800000000000000
+      internalID: 2428276177662105974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_93
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a3dd9d26fb128a0800000000000000
+      internalID: -6331569169823352165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_94
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c91ee2d8cf5f8a0800000000000000
+      internalID: -6271829222736421850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_95
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167f4fb90b74acb50800000000000000
+      internalID: 6614177826603333473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d81479f45e02570800000000000000
+      internalID: 8439997831695142170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_97
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c90e44a34b1d27e0800000000000000
+      internalID: -1788743499662882359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_98
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b7e69dc98dacaa0800000000000000
+      internalID: -6139856973791855742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_99
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8669ea8c6e2b480800000000000000
+      internalID: -8884785365251626818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbc90b694cf2cac0800000000000000
+      internalID: -3836226540307624971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_101
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a984c4698bce28bf0800000000000000
+      internalID: -323435945677535078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_102
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e128b54d210fb7e30800000000000000
+      internalID: 4502456216149787166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_103
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96c110773892ff50800000000000000
+      internalID: 6913755741837969053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7f0893253531760800000000000000
+      internalID: 7427371823081256912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_105
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5a30a2451e3fa40800000000000000
+      internalID: 5400908129745741303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_106
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94480416c06a8cde0800000000000000
+      internalID: -1312616719277063095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_107
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dfd6106f7b94c00800000000000000
+      internalID: 885441068968836504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_108
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9df66b2c99e71980800000000000000
+      internalID: -8568122909096739428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_109
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c25de61a2acd60800000000000000
+      internalID: 7911181973388969121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_110
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283bde8f752b59870800000000000000
+      internalID: 8689047146989466498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_111
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17152151788da13f0800000000000000
+      internalID: -929192298412879503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_112
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba191acff8d94c10800000000000000
+      internalID: 2038398899480763070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_113
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d90cfb8be5de1f0800000000000000
+      internalID: -1014050193504428793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_114
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42b0e26483d007b0800000000000000
+      internalID: -5259971799220702641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_115
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13af033078b2ba40800000000000000
+      internalID: 5382567296693674780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bddeede4319fac0800000000000000
+      internalID: -3821001579378648188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_117
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1214156bc44598520800000000000000
+      internalID: 2704785739665719585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_118
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c559739e2f50b7230800000000000000
+      internalID: 3637507664884766044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_119
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22139ee8c3c960b90800000000000000
+      internalID: -7275956364060839646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a0dc964f74ed060800000000000000
+      internalID: 6980095587543485049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32c3efc7b69ddc20800000000000000
+      internalID: 3232905823732875836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_122
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f98c0a22492aa3e0800000000000000
+      internalID: -2041774116909053449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_123
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8871e1b8024ceef0800000000000000
+      internalID: -77614488460625777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_124
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61531068059d1b190800000000000000
+      internalID: -7948332927463377642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_125
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe1fa5da8c9cd7d0800000000000000
+      internalID: -2892264740574257477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_126
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8280ae6ab52bad860800000000000000
+      internalID: 7555547431579551784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_127
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507553d251e6a850800000000000000
+      internalID: 6388040867320787028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_128
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a592a342047a186a0800000000000000
+      internalID: -6448689297490302630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_129
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273269c2fb8629510800000000000000
+      internalID: 1554419991692321650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_130
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff6857e3af32d2f0800000000000000
+      internalID: -949626598228201486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_131
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965df26c34d0f020800000000000000
+      internalID: 2373630359448147614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_132
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38687b13defaf30800000000000000
+      internalID: 4589147343102051265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_133
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139b2e26afa99fa0800000000000000
+      internalID: -5793406317361392878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_134
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a1519948eb9de0800000000000000
+      internalID: -1325210262662174258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_135
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f6861877748b90800000000000000
+      internalID: -7240530943247191376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3898a98d47a7e0f80800000000000000
+      internalID: -8138432834343106173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_137
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d32eead955fa830800000000000000
+      internalID: 4084577522780618135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_138
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce112ab6fb54e170800000000000000
+      internalID: 8206785536218701512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_139
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82d277da7ad03a0800000000000000
+      internalID: -6697512707359430424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4fa1a22d0a08900800000000000000
+      internalID: 684723967870301432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_141
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32d8f1fb14c0480800000000000000
+      internalID: -8931691671858633748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_142
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e768af9364f8b0800000000000000
+      internalID: -5119357339037080766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_143
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e3284a4b4214600800000000000000
+      internalID: 450681795986472533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c936dfa43823af90800000000000000
+      internalID: -6943661993721710140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_145
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f36e124e2a5be0800000000000000
+      internalID: -1487825865379939968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_146
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6181efed90d3a7f0800000000000000
+      internalID: -602408548384538257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_147
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4001f9ddb7efdd0800000000000000
+      internalID: -2450384955456355106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5132b6ab77b568ea0800000000000000
+      internalID: -5870904494444043499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_149
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caf23ea0c919ffb0800000000000000
+      internalID: -4613628027917370679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_150
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1980910e91dd9210800000000000000
+      internalID: 1341458740587563291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_151
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49033f99f84bee860800000000000000
+      internalID: 7561179353257816212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_152
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea1bbeb9bb3cc250800000000000000
+      internalID: 5966209275313986272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562951cf00703240800000000000000
+      internalID: 4769435218356020823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_154
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f546b0f1cd80a6040800000000000000
+      internalID: 4641532107465385055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_155
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ce60b2085e3820800000000000000
+      internalID: 2899851978646407261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_156
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baffa7f9112a96ce0800000000000000
+      internalID: -1411418811630157909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_157
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d5c1e1ef5866c0800000000000000
+      internalID: -4149961632861792399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_158
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877240be7e9dcd7a0800000000000000
+      internalID: -6350961784395651208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_159
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5207e04f344468410800000000000000
+      internalID: 1478944586285871141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9562664493dda14e0800000000000000
+      internalID: -2010051045637085607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf9d7ba579010ac0800000000000000
+      internalID: -3890818202078437435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_162
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caa419b20c590cd0800000000000000
+      internalID: -2591438943810180409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_163
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa08425bde425f0800000000000000
+      internalID: -782239072998348068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_164
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad04ad811aced1a0800000000000000
+      internalID: -6782761812033794649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_165
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9286ed3992fa970800000000000000
+      internalID: 8768272714581944784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_166
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad31ad3af1b402d0800000000000000
+      internalID: -3313327737503924830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_167
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255a7ae4976dd9a00800000000000000
+      internalID: 765003328221848914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_168
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b805bcbf5096c0800000000000000
+      internalID: -4138702793457749332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_169
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae905cc22f836b3b0800000000000000
+      internalID: -5497143682374759958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_170
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb00518c16913d0800000000000000
+      internalID: -3235447345315266783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_171
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f501759706032c7d0800000000000000
+      internalID: -2899702019162435489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_172
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0107430e280b32280800000000000000
+      internalID: -9069211148440276976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_173
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de0684b721cdc70800000000000000
+      internalID: 8997086476283997575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_174
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15a0aa4c63fc7690800000000000000
+      internalID: -7602934424474180321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_175
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf8cabf29cc054c0800000000000000
+      internalID: -4300712712479141970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_176
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cc6ee84b6bb1140800000000000000
+      internalID: 4691544323444362344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_177
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a8f284a8fef5d0800000000000000
+      internalID: -3026708514090737527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_178
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae15c39a5077e690800000000000000
+      internalID: -7572960714071662944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer_tiles_packed_179
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584051914f684c70800000000000000
+      internalID: 8955530186427746395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      platformer_tiles_packed_0: 4584380047041396785
+      platformer_tiles_packed_1: -7841870117222840874
+      platformer_tiles_packed_10: 8547699266893066784
+      platformer_tiles_packed_100: -3836226540307624971
+      platformer_tiles_packed_101: -323435945677535078
+      platformer_tiles_packed_102: 4502456216149787166
+      platformer_tiles_packed_103: 6913755741837969053
+      platformer_tiles_packed_104: 7427371823081256912
+      platformer_tiles_packed_105: 5400908129745741303
+      platformer_tiles_packed_106: -1312616719277063095
+      platformer_tiles_packed_107: 885441068968836504
+      platformer_tiles_packed_108: -8568122909096739428
+      platformer_tiles_packed_109: 7911181973388969121
+      platformer_tiles_packed_11: 8482427960345011083
+      platformer_tiles_packed_110: 8689047146989466498
+      platformer_tiles_packed_111: -929192298412879503
+      platformer_tiles_packed_112: 2038398899480763070
+      platformer_tiles_packed_113: -1014050193504428793
+      platformer_tiles_packed_114: -5259971799220702641
+      platformer_tiles_packed_115: 5382567296693674780
+      platformer_tiles_packed_116: -3821001579378648188
+      platformer_tiles_packed_117: 2704785739665719585
+      platformer_tiles_packed_118: 3637507664884766044
+      platformer_tiles_packed_119: -7275956364060839646
+      platformer_tiles_packed_12: -1436752002129419056
+      platformer_tiles_packed_120: 6980095587543485049
+      platformer_tiles_packed_121: 3232905823732875836
+      platformer_tiles_packed_122: -2041774116909053449
+      platformer_tiles_packed_123: -77614488460625777
+      platformer_tiles_packed_124: -7948332927463377642
+      platformer_tiles_packed_125: -2892264740574257477
+      platformer_tiles_packed_126: 7555547431579551784
+      platformer_tiles_packed_127: 6388040867320787028
+      platformer_tiles_packed_128: -6448689297490302630
+      platformer_tiles_packed_129: 1554419991692321650
+      platformer_tiles_packed_13: -8797657514092916695
+      platformer_tiles_packed_130: -949626598228201486
+      platformer_tiles_packed_131: 2373630359448147614
+      platformer_tiles_packed_132: 4589147343102051265
+      platformer_tiles_packed_133: -5793406317361392878
+      platformer_tiles_packed_134: -1325210262662174258
+      platformer_tiles_packed_135: -7240530943247191376
+      platformer_tiles_packed_136: -8138432834343106173
+      platformer_tiles_packed_137: 4084577522780618135
+      platformer_tiles_packed_138: 8206785536218701512
+      platformer_tiles_packed_139: -6697512707359430424
+      platformer_tiles_packed_14: 5496866793233792500
+      platformer_tiles_packed_140: 684723967870301432
+      platformer_tiles_packed_141: -8931691671858633748
+      platformer_tiles_packed_142: -5119357339037080766
+      platformer_tiles_packed_143: 450681795986472533
+      platformer_tiles_packed_144: -6943661993721710140
+      platformer_tiles_packed_145: -1487825865379939968
+      platformer_tiles_packed_146: -602408548384538257
+      platformer_tiles_packed_147: -2450384955456355106
+      platformer_tiles_packed_148: -5870904494444043499
+      platformer_tiles_packed_149: -4613628027917370679
+      platformer_tiles_packed_15: 348810704801239922
+      platformer_tiles_packed_150: 1341458740587563291
+      platformer_tiles_packed_151: 7561179353257816212
+      platformer_tiles_packed_152: 5966209275313986272
+      platformer_tiles_packed_153: 4769435218356020823
+      platformer_tiles_packed_154: 4641532107465385055
+      platformer_tiles_packed_155: 2899851978646407261
+      platformer_tiles_packed_156: -1411418811630157909
+      platformer_tiles_packed_157: -4149961632861792399
+      platformer_tiles_packed_158: -6350961784395651208
+      platformer_tiles_packed_159: 1478944586285871141
+      platformer_tiles_packed_16: -426070271514154392
+      platformer_tiles_packed_160: -2010051045637085607
+      platformer_tiles_packed_161: -3890818202078437435
+      platformer_tiles_packed_162: -2591438943810180409
+      platformer_tiles_packed_163: -782239072998348068
+      platformer_tiles_packed_164: -6782761812033794649
+      platformer_tiles_packed_165: 8768272714581944784
+      platformer_tiles_packed_166: -3313327737503924830
+      platformer_tiles_packed_167: 765003328221848914
+      platformer_tiles_packed_168: -4138702793457749332
+      platformer_tiles_packed_169: -5497143682374759958
+      platformer_tiles_packed_17: -5353135053789635842
+      platformer_tiles_packed_170: -3235447345315266783
+      platformer_tiles_packed_171: -2899702019162435489
+      platformer_tiles_packed_172: -9069211148440276976
+      platformer_tiles_packed_173: 8997086476283997575
+      platformer_tiles_packed_174: -7602934424474180321
+      platformer_tiles_packed_175: -4300712712479141970
+      platformer_tiles_packed_176: 4691544323444362344
+      platformer_tiles_packed_177: -3026708514090737527
+      platformer_tiles_packed_178: -7572960714071662944
+      platformer_tiles_packed_179: 8955530186427746395
+      platformer_tiles_packed_18: 359823210865410849
+      platformer_tiles_packed_19: -6399808194252426885
+      platformer_tiles_packed_2: -6022609415253937299
+      platformer_tiles_packed_20: 6026372586750514154
+      platformer_tiles_packed_21: 4454311315003959705
+      platformer_tiles_packed_22: -7040823728910544648
+      platformer_tiles_packed_23: 4153629774590058656
+      platformer_tiles_packed_24: 9059726214668888989
+      platformer_tiles_packed_25: -928329357670396928
+      platformer_tiles_packed_26: -2181867836686489482
+      platformer_tiles_packed_27: 837040390448058106
+      platformer_tiles_packed_28: -2232040396242147707
+      platformer_tiles_packed_29: 6040403241651458070
+      platformer_tiles_packed_3: -2860779545091490725
+      platformer_tiles_packed_30: -7716478011863598178
+      platformer_tiles_packed_31: 2332615323591560882
+      platformer_tiles_packed_32: 9106210824189595692
+      platformer_tiles_packed_33: 5683763852086179543
+      platformer_tiles_packed_34: -404447510461318868
+      platformer_tiles_packed_35: 1476403892870975687
+      platformer_tiles_packed_36: 4937751089319752
+      platformer_tiles_packed_37: -4635581240571515893
+      platformer_tiles_packed_38: -1012159438815728563
+      platformer_tiles_packed_39: -3407380608558027957
+      platformer_tiles_packed_4: 8333205279311641252
+      platformer_tiles_packed_40: 5458082078861946437
+      platformer_tiles_packed_41: -841955976841160310
+      platformer_tiles_packed_42: -182233158000114798
+      platformer_tiles_packed_43: 9031452568360275597
+      platformer_tiles_packed_44: -5675925541165350341
+      platformer_tiles_packed_45: -2405791170428531058
+      platformer_tiles_packed_46: 8453818281527622334
+      platformer_tiles_packed_47: 2764827298117194816
+      platformer_tiles_packed_48: -6603681718832698548
+      platformer_tiles_packed_49: -3082402375605358961
+      platformer_tiles_packed_5: -6032748374813336629
+      platformer_tiles_packed_50: -7027548709682097748
+      platformer_tiles_packed_51: -8332221743385421761
+      platformer_tiles_packed_52: -2592746795475174753
+      platformer_tiles_packed_53: 8511360731774336584
+      platformer_tiles_packed_54: 2856883972052621619
+      platformer_tiles_packed_55: -5639677528620478856
+      platformer_tiles_packed_56: -679668443528326980
+      platformer_tiles_packed_57: 2456260502165863637
+      platformer_tiles_packed_58: -383981742320592464
+      platformer_tiles_packed_59: -8524556099443627328
+      platformer_tiles_packed_6: 4759904479715252452
+      platformer_tiles_packed_60: -4157601592116597886
+      platformer_tiles_packed_61: 6113766342163230614
+      platformer_tiles_packed_62: -4215267090305975011
+      platformer_tiles_packed_63: 8114383038008640584
+      platformer_tiles_packed_64: -5106311770036098687
+      platformer_tiles_packed_65: 2011376868590233929
+      platformer_tiles_packed_66: -5547187427223313128
+      platformer_tiles_packed_67: -7891181081280880946
+      platformer_tiles_packed_68: -6506129514272918084
+      platformer_tiles_packed_69: -15105741684929576
+      platformer_tiles_packed_7: -1214465648503576848
+      platformer_tiles_packed_70: 4074046055417630683
+      platformer_tiles_packed_71: 8108806098923393232
+      platformer_tiles_packed_72: -2007010793794772851
+      platformer_tiles_packed_73: -1124945915472365981
+      platformer_tiles_packed_74: 3765068297405981920
+      platformer_tiles_packed_75: 4759040078328171755
+      platformer_tiles_packed_76: -534807021366861093
+      platformer_tiles_packed_77: -8429351169618356731
+      platformer_tiles_packed_78: 9221138553327329786
+      platformer_tiles_packed_79: -6373337732713826917
+      platformer_tiles_packed_8: 1059311022602954660
+      platformer_tiles_packed_80: 9054305225253063558
+      platformer_tiles_packed_81: 7214509832519901323
+      platformer_tiles_packed_82: -2634240234275870839
+      platformer_tiles_packed_83: -8684684992259974264
+      platformer_tiles_packed_84: -5655199112728620035
+      platformer_tiles_packed_85: -7019754689223631093
+      platformer_tiles_packed_86: 5496307419946114132
+      platformer_tiles_packed_87: -6830130566392208744
+      platformer_tiles_packed_88: -7611140341632002019
+      platformer_tiles_packed_89: -3853352240262110372
+      platformer_tiles_packed_9: 1780566667956134657
+      platformer_tiles_packed_90: -2380521240591203822
+      platformer_tiles_packed_91: 2987458252863804920
+      platformer_tiles_packed_92: 2428276177662105974
+      platformer_tiles_packed_93: -6331569169823352165
+      platformer_tiles_packed_94: -6271829222736421850
+      platformer_tiles_packed_95: 6614177826603333473
+      platformer_tiles_packed_96: 8439997831695142170
+      platformer_tiles_packed_97: -1788743499662882359
+      platformer_tiles_packed_98: -6139856973791855742
+      platformer_tiles_packed_99: -8884785365251626818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

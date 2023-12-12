@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Starmap Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 49bc5045-0660-4dfc-a5a8-51b1bb3212d8
+      name: Star
+      tiles:
+      - tile: {fileID: 11400000, guid: f3be447e1916b680a98ae63c14484ef2, type: 2}
+      - tile: {fileID: 11400000, guid: 91a4bf9ae71871b33b8e0093029d2dda, type: 2}
+      - tile: {fileID: 11400000, guid: c4d87823197f7489a903202ddd95fd0e, type: 2}
+      - tile: {fileID: 11400000, guid: b690a2ff3854730e7b1e0a3030579311, type: 2}
+      - tile: {fileID: 11400000, guid: 2b093f4d3742d184393fa69933d99926, type: 2}
+      - tile: {fileID: 11400000, guid: 240e07c79e666ca3b84ce43aacbdce83, type: 2}
+      - tile: {fileID: 11400000, guid: 2935ca9bb0d1426bca1d4100e4ff1222, type: 2}
+      - tile: {fileID: 11400000, guid: 859e2aa25095e9022921da01056ba204, type: 2}
+      - tile: {fileID: 11400000, guid: 40df41c0fb5aaaadead5f206809d96c0, type: 2}
+      - tile: {fileID: 11400000, guid: ecaba13da20b54005a794806fbf93a04, type: 2}
+      - tile: {fileID: 11400000, guid: bdec05844e74d7f5eba966df8aeb7bc8, type: 2}
+      - tile: {fileID: 11400000, guid: c84a164348c1b4a41b4ebf1d6dc919c0, type: 2}
+      - tile: {fileID: 11400000, guid: 40a6242364af2e475b4b7408d26bcbbd, type: 2}
+      - tile: {fileID: 11400000, guid: 18fd51b613b277fe2b2943b688c5b597, type: 2}
+      - tile: {fileID: 11400000, guid: f75322463f874b8e39412542e836262a, type: 2}
+      - tile: {fileID: 11400000, guid: a9dbcc755f4e70cfe89d0961b34fd4ec, type: 2}
+      - tile: {fileID: 11400000, guid: 7f96169ec7574be259d30be234538be6, type: 2}
+      - tile: {fileID: 11400000, guid: 1ffbd885db4880da79c7d0b9ad081437, type: 2}
+      - tile: {fileID: 11400000, guid: bc99801c1c203c606983581eeb08824c, type: 2}
+      - tile: {fileID: 11400000, guid: 8a13b27d7f10c0d179aaba05950a8580, type: 2}
+      - tile: {fileID: 11400000, guid: 3f960fe354b6f14109f6d81e2b26676e, type: 2}
+      - tile: {fileID: 11400000, guid: c8d76168af36964338610e3f33301da9, type: 2}
+      - tile: {fileID: 11400000, guid: 38f28a1f4e079780697d86c7b6843d8f, type: 2}
+      - tile: {fileID: 11400000, guid: c70b66d52c8f52f84a5709c980ece032, type: 2}
+    - id: 6531c9dc-b737-4b57-9cf1-dbe07347ad43
+      name: Sun
+      tiles:
+      - tile: {fileID: 11400000, guid: e066909786383c12b88a7c4622e1da55, type: 2}
+    orderedIds:
+    - 49bc5045-0660-4dfc-a5a8-51b1bb3212d8
+    - 6531c9dc-b737-4b57-9cf1-dbe07347ad43
+  tileTypes: []

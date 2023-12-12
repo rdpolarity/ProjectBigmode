@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Labyrinth Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: a17f6ad4-5267-40d4-8692-910c81bc2370
+      name: Floor
+      tiles:
+      - tile: {fileID: 11400000, guid: a810eef11d464c7098879f60d7eb9003, type: 2}
+    - id: 1aa9da22-1407-4438-82fb-5a490ce3f4cc
+      name: Wall
+      tiles:
+      - tile: {fileID: 11400000, guid: c001fffb5e10c046292eeba2be21db23, type: 2}
+    - id: 6c6414d3-44ff-401a-8fc0-7fbef67d5b4d
+      name: Enemy
+      tiles:
+      - tile: {fileID: 11400000, guid: c5b55d6c927d57a8b8362ba9fa43b534, type: 2}
+    orderedIds:
+    - a17f6ad4-5267-40d4-8692-910c81bc2370
+    - 1aa9da22-1407-4438-82fb-5a490ce3f4cc
+    - 6c6414d3-44ff-401a-8fc0-7fbef67d5b4d
+  tileTypes: []

@@ -29,14 +29,80 @@ MonoBehaviour:
         tile: {fileID: 11400000, guid: 3469ff18f5a20994495f14a7af2f5127, type: 2}
       - weight: 1
         tile: {fileID: 11400000, guid: bae10e6ae1ae0e84699b08f6b3ab9a15, type: 2}
-    - id: 57c7a2e9-1739-49ab-893f-3b79acf2cff3
-      name: DarkGrass
+    - id: ca323268-8749-4d8f-8bd6-a40e4bda0d24
+      name: Path
       isWeightEnabled: 0
       totalWeight: 1
       tiles:
       - weight: 1
-        tile: {fileID: 11400000, guid: ffac23c4afcb6a442b492c70d10d221d, type: 2}
+        tile: {fileID: 11400000, guid: 9a626e78d310cc84b97b11b9cee29810, type: 2}
+    - id: ccbea19e-5221-48b4-b657-6c83848f75f3
+      name: GrassShadow
+      isWeightEnabled: 0
+      totalWeight: 1
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: deb7e40b016a33543b589f74ad1ab52a, type: 2}
+    - id: 4de9d371-6a61-44e9-b148-f4729aa3ab39
+      name: Bush
+      isWeightEnabled: 0
+      totalWeight: 1
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: 4307f14658ded8a4d81286bfffc3c655, type: 2}
+    - id: 1d0bd6c7-7ec7-472c-9246-d17116ffe92f
+      name: Rocks
+      isWeightEnabled: 0
+      totalWeight: 3
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: f8ffbdbe177d3b34ca8b5bb5af5eefc3, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 1bfbac63881ce1f429f5b3a36faaed6c, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 8ae5a8f5f7c315f47ac47ec2edb32796, type: 2}
+    - id: 9d90e386-5084-4bff-bce2-1ed59f963e7d
+      name: Flowers
+      isWeightEnabled: 0
+      totalWeight: 4
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: 152ec0f3d6b2a80479148bec1a15eccb, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 94b70773ade415c438dfccfd4fcbacfc, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 4ea3f68e64ccd29458a499c401ca3103, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 4c9636015bdd7304db86ca508641f78a, type: 2}
+    - id: 9e4d7137-51b4-4310-9c46-22049d1899d5
+      name: Logs
+      isWeightEnabled: 0
+      totalWeight: 3
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: 0b62ef8460fa1ca42aa9f56705e1e2b6, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 8a723595d0b865d429acb7b10c59ecae, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: c38d3b109693317418276f95251c6245, type: 2}
+    - id: fbfbbc74-3303-4544-94b9-83159029246c
+      name: Weeds
+      isWeightEnabled: 0
+      totalWeight: 3
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: d06d3870e098137438ed6783772abbf4, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 30070cb636e33854c8692159d9739a51, type: 2}
+      - weight: 1
+        tile: {fileID: 11400000, guid: 09adbcdb953c26f48b516c6fd23af0d0, type: 2}
     orderedIds:
     - b6910784-47c9-46c3-9d90-cd80d82857d4
-    - 57c7a2e9-1739-49ab-893f-3b79acf2cff3
+    - ca323268-8749-4d8f-8bd6-a40e4bda0d24
+    - ccbea19e-5221-48b4-b657-6c83848f75f3
+    - 4de9d371-6a61-44e9-b148-f4729aa3ab39
+    - 1d0bd6c7-7ec7-472c-9246-d17116ffe92f
+    - 9d90e386-5084-4bff-bce2-1ed59f963e7d
+    - 9e4d7137-51b4-4310-9c46-22049d1899d5
+    - fbfbbc74-3303-4544-94b9-83159029246c
   tileTypes: []

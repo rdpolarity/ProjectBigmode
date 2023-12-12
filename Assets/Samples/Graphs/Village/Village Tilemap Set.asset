@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf254295b6c39e949bbf7561eb247850, type: 3}
+  m_Name: Village Tilemap Set
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTilemapSet:
+    elements:
+    - id: 96b0d942-4307-4df2-a8e0-644c4d67c4da
+      name: House
+      tilemapEntries:
+      - tilemap: {fileID: 7893185155401062064, guid: 542b7a4e4218e7094a88251b68d0d7f6,
+          type: 3}
+      - tilemap: {fileID: 7893185155401062064, guid: 48526b32e5a21c892b9ad35af38f7c99,
+          type: 3}
+      - tilemap: {fileID: 7893185155401062064, guid: 653f8f805245d36ff9a1891ed4b0be88,
+          type: 3}
+    - id: b9c2d129-283b-4dd2-b2e0-fb43cd11b25e
+      name: Decoration
+      tilemapEntries:
+      - tilemap: {fileID: 7893185155401062064, guid: 94c78a0c234bc5c7ca465052c95887d8,
+          type: 3}
+      - tilemap: {fileID: 7893185155401062064, guid: ac9d9fa33a2184d619992aac89b1f2d1,
+          type: 3}
+      - tilemap: {fileID: 7893185155401062064, guid: be533873a103b4d34ab9feee3316d239,
+          type: 3}
+      - tilemap: {fileID: 7893185155401062064, guid: da0c1955dadcf953db4bbd35a1769f09,
+          type: 3}
+    orderedIds:
+    - 96b0d942-4307-4df2-a8e0-644c4d67c4da
+    - b9c2d129-283b-4dd2-b2e0-fb43cd11b25e
+  tilemapTypes: []

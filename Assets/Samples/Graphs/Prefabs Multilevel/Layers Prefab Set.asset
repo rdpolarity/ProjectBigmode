@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dded20f928340d3bd4366169cdae5a5, type: 3}
+  m_Name: Layers Prefab Set
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  prefabWidth: 1
+  prefabHeight: 1
+  prefabTypes: []
+  openPrefabSet:
+    elements:
+    - id: 91e04f04-9917-4293-bda0-cd4cd7c94b38
+      name: Wall
+      prefabs:
+      - prefab: {fileID: 1803322832258238362, guid: 6bbeb594f89cf95bbb66d2539e98a227,
+          type: 3}
+    - id: d8b69fe1-fdd7-4195-aa5c-72ec7c17bbbf
+      name: Floor
+      prefabs:
+      - prefab: {fileID: 1803322832258238362, guid: e1c0980526c3a9817a1cbdb127721e46,
+          type: 3}
+    - id: a518518b-7ae4-4830-8fb4-852824bda4c3
+      name: Snow
+      prefabs:
+      - prefab: {fileID: 1803322832258238362, guid: a8baf6fe05c78d0559daef89060713d2,
+          type: 3}
+    - id: 6fed102b-98ae-4a0f-9e89-9772ad7377bf
+      name: Decor
+      prefabs:
+      - prefab: {fileID: 2560226333332829425, guid: 80f3b1ed2b2b3209eb5e10164ead6787,
+          type: 3}
+      - prefab: {fileID: 2069472616479936859, guid: af9125d920431d9d28ff463991bfdbe1,
+          type: 3}
+      - prefab: {fileID: 9183687126697713667, guid: 510594c35a3bdd056a6a3b3a2b5357be,
+          type: 3}
+      - prefab: {fileID: 4122902342514130030, guid: 31c667a0d14dcbdd788a8cee64e42853,
+          type: 3}
+      - prefab: {fileID: 6056612514889933566, guid: 92f589150cc3fb7c687b6be9f3989d89,
+          type: 3}
+      - prefab: {fileID: 7891029053614696627, guid: bbcc2f8c65f266c868acd46ed4072a02,
+          type: 3}
+      - prefab: {fileID: 7053938936299595859, guid: 278b3caaae15756bc9e7766b48b6b297,
+          type: 3}
+    - id: f0e29b6d-8e34-431c-981b-9baa01f38034
+      name: Snow Decor
+      prefabs:
+      - prefab: {fileID: 8015078937833011540, guid: 0e83b0d94f6c60905a910e499706f28b,
+          type: 3}
+      - prefab: {fileID: 103183920530780694, guid: 8e378e64467fde897877e8be8b1feee6,
+          type: 3}
+      - prefab: {fileID: 7053938936299595859, guid: 278b3caaae15756bc9e7766b48b6b297,
+          type: 3}
+    orderedIds:
+    - 91e04f04-9917-4293-bda0-cd4cd7c94b38
+    - d8b69fe1-fdd7-4195-aa5c-72ec7c17bbbf
+    - a518518b-7ae4-4830-8fb4-852824bda4c3
+    - 6fed102b-98ae-4a0f-9e89-9772ad7377bf
+    - f0e29b6d-8e34-431c-981b-9baa01f38034

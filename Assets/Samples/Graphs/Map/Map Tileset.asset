@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Map Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 3108ad5e-fcb6-4fa3-8d59-39188ac1f714
+      name: Landmark
+      tiles:
+      - tile: {fileID: 11400000, guid: b91bf39a40fa780fd8442bde315f3391, type: 2}
+    - id: f8799fe8-b1f6-489b-b1f7-7e3604ebec68
+      name: Road
+      tiles:
+      - tile: {fileID: 11400000, guid: e08396dbad8b31bcc8dacc48a439c590, type: 2}
+    - id: 848d14fc-0fee-42a4-a75e-71857c2ce50e
+      name: Forest
+      tiles:
+      - tile: {fileID: 11400000, guid: 2735013e5354e1cebb0bdebdf1ee6950, type: 2}
+    - id: 3ab0a2cf-5f2e-439a-ba4e-e159fa193a46
+      name: Mountain
+      tiles:
+      - tile: {fileID: 11400000, guid: cf779bb51dcf6280e9d19a26268936e5, type: 2}
+    - id: 93478cdb-d6f4-4601-92a0-6ae214972c0e
+      name: Roadside Landmark
+      tiles:
+      - tile: {fileID: 11400000, guid: 0fe45e9cfb6ba0b2ab339a2ac53b7113, type: 2}
+    orderedIds:
+    - 3108ad5e-fcb6-4fa3-8d59-39188ac1f714
+    - f8799fe8-b1f6-489b-b1f7-7e3604ebec68
+    - 848d14fc-0fee-42a4-a75e-71857c2ce50e
+    - 3ab0a2cf-5f2e-439a-ba4e-e159fa193a46
+    - 93478cdb-d6f4-4601-92a0-6ae214972c0e
+  tileTypes: []

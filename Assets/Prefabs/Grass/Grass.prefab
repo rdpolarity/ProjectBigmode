@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8172935929198546838}
   - component: {fileID: 1260703806371324731}
-  - component: {fileID: 7505653743813800202}
   - component: {fileID: 549080098292311527}
   - component: {fileID: 4796556447875685414}
+  - component: {fileID: 786701044600165700}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Grass
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8e8d81fc58158498ab115723d6337aa9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4cb80339ab9c4814bf9b7d44f60139e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,26 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7505653743813800202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6909702240675621392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52a0fd90136347b7bc043f8a19ffc09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  perlinNoiseScale: 1.35
-  sprites:
-  - {fileID: 21300000, guid: e4cb80339ab9c4814bf9b7d44f60139e, type: 3}
-  - {fileID: 21300000, guid: d9b3741fe8464437ca1c2b98d69047ba, type: 3}
-  - {fileID: 21300000, guid: 3e05e5b1b960e4782b8246212d504dbe, type: 3}
-  - {fileID: 21300000, guid: 7beb5ae2e3f11400dbf35f3618c75843, type: 3}
-  - {fileID: 21300000, guid: 8e8d81fc58158498ab115723d6337aa9, type: 3}
-  - {fileID: 21300000, guid: 7165f35d07c7c4b0982855111eb2ad9c, type: 3}
 --- !u!61 &549080098292311527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,3 +147,23 @@ MonoBehaviour:
   wobbleAmount: 10
   wobbleSpeed: 10
   wobbleDuration: 0.5
+--- !u!114 &786701044600165700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909702240675621392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c52a0fd90136347b7bc043f8a19ffc09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  perlinNoiseScale: 0.1
+  sprites:
+  - {fileID: 21300000, guid: e4cb80339ab9c4814bf9b7d44f60139e, type: 3}
+  - {fileID: 21300000, guid: d9b3741fe8464437ca1c2b98d69047ba, type: 3}
+  - {fileID: 21300000, guid: 3e05e5b1b960e4782b8246212d504dbe, type: 3}
+  - {fileID: 21300000, guid: 7beb5ae2e3f11400dbf35f3618c75843, type: 3}
+  - {fileID: 21300000, guid: 8e8d81fc58158498ab115723d6337aa9, type: 3}
+  - {fileID: 21300000, guid: 7165f35d07c7c4b0982855111eb2ad9c, type: 3}

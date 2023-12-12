@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Platformer Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 40fe1464-a790-4546-b266-a335724e2f9b
+      name: Background
+      tiles:
+      - tile: {fileID: 11400000, guid: 83cdbe7a1ae0b5343ae63b1f198ee7a8, type: 2}
+    - id: 6d953500-56b1-4b5d-86fd-40d4748980a2
+      name: Wall
+      tiles:
+      - tile: {fileID: 11400000, guid: c67ebfcb039953430ba6ac71dc5ef18e, type: 2}
+    - id: 97421eb7-c826-4648-af71-d77ff60c8d51
+      name: Ladder
+      tiles:
+      - tile: {fileID: 11400000, guid: 68c33e459ae3ec9f9b6d317c11c45b61, type: 2}
+    - id: 98461dd7-2a8c-4da8-ae8c-95b2860f21fa
+      name: Platform
+      tiles:
+      - tile: {fileID: 11400000, guid: b32228ea989165885b315e24a5f8b36c, type: 2}
+    orderedIds:
+    - 40fe1464-a790-4546-b266-a335724e2f9b
+    - 6d953500-56b1-4b5d-86fd-40d4748980a2
+    - 97421eb7-c826-4648-af71-d77ff60c8d51
+    - 98461dd7-2a8c-4da8-ae8c-95b2860f21fa
+  tileTypes: []

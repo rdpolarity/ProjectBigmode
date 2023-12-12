@@ -21,14 +21,50 @@ MonoBehaviour:
       color:
         serializedVersion: 2
         rgba: 4282871136
-    - id: 21846917-bea0-4bb9-9bbd-075bb08ce251
-      name: DarkGrass
+    - id: 99bbed15-d38c-4086-a0fa-07a2292a3a1d
+      name: Path
       color:
         serializedVersion: 2
-        rgba: 4282015275
+        rgba: 4287026175
+    - id: d344327d-cff1-448b-9205-ed42063619b3
+      name: GrassShadow
+      color:
+        serializedVersion: 2
+        rgba: 4280890665
+    - id: ae00408b-aeb8-43df-a92c-f0d4a7161e99
+      name: Bush
+      color:
+        serializedVersion: 2
+        rgba: 4284146571
+    - id: bb5704ba-b42e-478d-bb33-2a64a015aa82
+      name: Rocks
+      color:
+        serializedVersion: 2
+        rgba: 4281677109
+    - id: dbf673c7-1329-4c22-ac91-da3a50baaed1
+      name: Flowers
+      color:
+        serializedVersion: 2
+        rgba: 4281265883
+    - id: 688e1615-6a1d-4602-ba07-999193a19437
+      name: Logs
+      color:
+        serializedVersion: 2
+        rgba: 4281102485
+    - id: d1807106-6166-4e8f-b05e-ea2a036741b8
+      name: Weeds
+      color:
+        serializedVersion: 2
+        rgba: 4279579924
     orderedIds:
     - 81b5735e-f3dc-402a-b042-2884739a9df1
-    - 21846917-bea0-4bb9-9bbd-075bb08ce251
+    - 99bbed15-d38c-4086-a0fa-07a2292a3a1d
+    - d344327d-cff1-448b-9205-ed42063619b3
+    - ae00408b-aeb8-43df-a92c-f0d4a7161e99
+    - bb5704ba-b42e-478d-bb33-2a64a015aa82
+    - dbf673c7-1329-4c22-ac91-da3a50baaed1
+    - 688e1615-6a1d-4602-ba07-999193a19437
+    - d1807106-6166-4e8f-b05e-ea2a036741b8
   serializedNames: []
   serializedColors: []
   serializedLinkedSets:

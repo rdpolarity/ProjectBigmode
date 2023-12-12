@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf254295b6c39e949bbf7561eb247850, type: 3}
+  m_Name: RPG Tilemap Prefabs
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTilemapSet:
+    elements:
+    - id: f8afb4bc-c31d-4979-ae54-ae72bd1ac282
+      name: Tables
+      tilemapEntries:
+      - tilemap: {fileID: 1020249031241361801, guid: e26d3ce8914e5983e8bcf6a624607836,
+          type: 3}
+    orderedIds:
+    - f8afb4bc-c31d-4979-ae54-ae72bd1ac282
+  tilemapTypes: []

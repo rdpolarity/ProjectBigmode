@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dded20f928340d3bd4366169cdae5a5, type: 3}
+  m_Name: Prefab Set
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  prefabWidth: 1
+  prefabHeight: 1
+  prefabTypes: []
+  openPrefabSet:
+    elements:
+    - id: c3863a2d-3f48-4351-9540-e650f17f3eda
+      name: Wall
+      prefabs:
+      - prefab: {fileID: 2126126398721123003, guid: 340b1a043bd2fa671998ef9b051990bd,
+          type: 3}
+    - id: b9184ff1-d7a9-4cdf-b9f0-6bf4f44d5815
+      name: Floor
+      prefabs:
+      - prefab: {fileID: 8794365194930682535, guid: c3d2b98263d7ad126a6df443fe2439d7,
+          type: 3}
+    orderedIds:
+    - c3863a2d-3f48-4351-9540-e650f17f3eda
+    - b9184ff1-d7a9-4cdf-b9f0-6bf4f44d5815

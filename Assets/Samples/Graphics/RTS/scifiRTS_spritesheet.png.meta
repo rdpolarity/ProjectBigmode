@@ -1,0 +1,3290 @@
+fileFormatVersion: 2
+guid: 31f9b3f5533a3d21c8d943db25cc53f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4782738077768998668
+    second: scifiEnvironment_01.png
+  - first:
+      213: -4771286632213353704
+    second: scifiEnvironment_02.png
+  - first:
+      213: -7203881924046958146
+    second: scifiEnvironment_03.png
+  - first:
+      213: -9044330065540586874
+    second: scifiEnvironment_04.png
+  - first:
+      213: 865467024851744444
+    second: scifiEnvironment_05.png
+  - first:
+      213: -6537304196257979342
+    second: scifiEnvironment_06.png
+  - first:
+      213: 5865379734420104024
+    second: scifiEnvironment_07.png
+  - first:
+      213: -1210620779806666274
+    second: scifiEnvironment_08.png
+  - first:
+      213: 8029969340870729040
+    second: scifiEnvironment_09.png
+  - first:
+      213: 5391037804617342555
+    second: scifiEnvironment_10.png
+  - first:
+      213: 822087515573131047
+    second: scifiEnvironment_11.png
+  - first:
+      213: 9083142335205608638
+    second: scifiEnvironment_12.png
+  - first:
+      213: -5567341822436054105
+    second: scifiEnvironment_13.png
+  - first:
+      213: 5015250583244283965
+    second: scifiEnvironment_14.png
+  - first:
+      213: 4353693054802185571
+    second: scifiEnvironment_15.png
+  - first:
+      213: 6323217328382088695
+    second: scifiEnvironment_16.png
+  - first:
+      213: 8195486664171495941
+    second: scifiEnvironment_17.png
+  - first:
+      213: 6839336134767090907
+    second: scifiEnvironment_18.png
+  - first:
+      213: -1339933510762848474
+    second: scifiEnvironment_19.png
+  - first:
+      213: 4782386149835230511
+    second: scifiEnvironment_20.png
+  - first:
+      213: 4564735244447218417
+    second: scifiStructure_01.png
+  - first:
+      213: -3198263260227910218
+    second: scifiStructure_02.png
+  - first:
+      213: 6738657162080290605
+    second: scifiStructure_03.png
+  - first:
+      213: 8722850104753277975
+    second: scifiStructure_04.png
+  - first:
+      213: -3064494555176315269
+    second: scifiStructure_05.png
+  - first:
+      213: 1020972854399023430
+    second: scifiStructure_06.png
+  - first:
+      213: 8165781634169064853
+    second: scifiStructure_07.png
+  - first:
+      213: 8652411117900888723
+    second: scifiStructure_08.png
+  - first:
+      213: -5017608912756501595
+    second: scifiStructure_09.png
+  - first:
+      213: 1919349784325102109
+    second: scifiStructure_10.png
+  - first:
+      213: -8921234304433386399
+    second: scifiStructure_11.png
+  - first:
+      213: -31636672566906047
+    second: scifiStructure_12.png
+  - first:
+      213: -612111898345793205
+    second: scifiStructure_13.png
+  - first:
+      213: -3486171686394085783
+    second: scifiStructure_14.png
+  - first:
+      213: 6777182853043404089
+    second: scifiStructure_15.png
+  - first:
+      213: 5215930968437365507
+    second: scifiStructure_16.png
+  - first:
+      213: 7893355031483920249
+    second: scifiTile_01.png
+  - first:
+      213: 6567491209269547697
+    second: scifiTile_02.png
+  - first:
+      213: 7063738378228103817
+    second: scifiTile_03.png
+  - first:
+      213: -5944677224200097111
+    second: scifiTile_04.png
+  - first:
+      213: 3267046008531661910
+    second: scifiTile_05.png
+  - first:
+      213: -4292809975595256879
+    second: scifiTile_06.png
+  - first:
+      213: 4788722846500433559
+    second: scifiTile_07.png
+  - first:
+      213: 3149500863612068770
+    second: scifiTile_08.png
+  - first:
+      213: -3037654366715317361
+    second: scifiTile_09.png
+  - first:
+      213: -3220983860588806397
+    second: scifiTile_10.png
+  - first:
+      213: 6147633302165426687
+    second: scifiTile_11.png
+  - first:
+      213: 3337586898295130017
+    second: scifiTile_12.png
+  - first:
+      213: 8120319198923982277
+    second: scifiTile_13.png
+  - first:
+      213: -6611884344497734064
+    second: scifiTile_14.png
+  - first:
+      213: 125774792041831636
+    second: scifiTile_15.png
+  - first:
+      213: 3679721256543175707
+    second: scifiTile_16.png
+  - first:
+      213: -348963163224021594
+    second: scifiTile_17.png
+  - first:
+      213: -8768400749144456625
+    second: scifiTile_18.png
+  - first:
+      213: -3105832091264923275
+    second: scifiTile_19.png
+  - first:
+      213: -6883478344967200401
+    second: scifiTile_20.png
+  - first:
+      213: 6571759753006928564
+    second: scifiTile_21.png
+  - first:
+      213: 5437058210288330397
+    second: scifiTile_22.png
+  - first:
+      213: 4569441116925428735
+    second: scifiTile_23.png
+  - first:
+      213: -7633120154323207289
+    second: scifiTile_24.png
+  - first:
+      213: 3459483722441553244
+    second: scifiTile_25.png
+  - first:
+      213: -3189108888174294808
+    second: scifiTile_26.png
+  - first:
+      213: -2544539532300377405
+    second: scifiTile_27.png
+  - first:
+      213: 4344783336504224148
+    second: scifiTile_28.png
+  - first:
+      213: 3981490656203876445
+    second: scifiTile_29.png
+  - first:
+      213: 5880404636627933023
+    second: scifiTile_30.png
+  - first:
+      213: 4651276284572457229
+    second: scifiTile_31.png
+  - first:
+      213: -3657296447005936484
+    second: scifiTile_32.png
+  - first:
+      213: -6148570583218180606
+    second: scifiTile_33.png
+  - first:
+      213: 5313646329840646854
+    second: scifiTile_34.png
+  - first:
+      213: 6476102577234651991
+    second: scifiTile_35.png
+  - first:
+      213: 3088950176925329859
+    second: scifiTile_36.png
+  - first:
+      213: 37697016307016707
+    second: scifiTile_37.png
+  - first:
+      213: -7040198197016074424
+    second: scifiTile_38.png
+  - first:
+      213: 474258601923744546
+    second: scifiTile_39.png
+  - first:
+      213: -7811106049434908194
+    second: scifiTile_40.png
+  - first:
+      213: -5798438099195599648
+    second: scifiTile_41.png
+  - first:
+      213: 7809522267223002297
+    second: scifiTile_42.png
+  - first:
+      213: 7547392683456980187
+    second: scifiUnit_01.png
+  - first:
+      213: -2819187915322920712
+    second: scifiUnit_02.png
+  - first:
+      213: 2756017505764809425
+    second: scifiUnit_03.png
+  - first:
+      213: -9219040960183232903
+    second: scifiUnit_04.png
+  - first:
+      213: 1917306238904094807
+    second: scifiUnit_05.png
+  - first:
+      213: 6360818187560489218
+    second: scifiUnit_06.png
+  - first:
+      213: 5542347938893848142
+    second: scifiUnit_07.png
+  - first:
+      213: 610131296714384925
+    second: scifiUnit_08.png
+  - first:
+      213: -770060046802514927
+    second: scifiUnit_09.png
+  - first:
+      213: 1088833172267136202
+    second: scifiUnit_10.png
+  - first:
+      213: 8998849636445237924
+    second: scifiUnit_11.png
+  - first:
+      213: -6614557379404787933
+    second: scifiUnit_12.png
+  - first:
+      213: -2166883629376057852
+    second: scifiUnit_13.png
+  - first:
+      213: -3446056480694168245
+    second: scifiUnit_14.png
+  - first:
+      213: 1125085527718621273
+    second: scifiUnit_15.png
+  - first:
+      213: 105678206217407796
+    second: scifiUnit_16.png
+  - first:
+      213: 3756110619977760170
+    second: scifiUnit_17.png
+  - first:
+      213: -9149702571767144951
+    second: scifiUnit_18.png
+  - first:
+      213: 6965767006307792397
+    second: scifiUnit_19.png
+  - first:
+      213: -1745494431042725395
+    second: scifiUnit_20.png
+  - first:
+      213: 3401069581785463545
+    second: scifiUnit_21.png
+  - first:
+      213: 4040114191459314182
+    second: scifiUnit_22.png
+  - first:
+      213: -8062824030221961377
+    second: scifiUnit_23.png
+  - first:
+      213: -2054804632418647060
+    second: scifiUnit_24.png
+  - first:
+      213: 5383133683445393316
+    second: scifiUnit_25.png
+  - first:
+      213: 4619352916267590576
+    second: scifiUnit_26.png
+  - first:
+      213: 5157978708021481055
+    second: scifiUnit_27.png
+  - first:
+      213: -1083541600763214389
+    second: scifiUnit_28.png
+  - first:
+      213: 5514469859856546591
+    second: scifiUnit_29.png
+  - first:
+      213: -4634612649942422721
+    second: scifiUnit_30.png
+  - first:
+      213: 78392206561945629
+    second: scifiUnit_31.png
+  - first:
+      213: 3189000029777514102
+    second: scifiUnit_32.png
+  - first:
+      213: -4391790466823808582
+    second: scifiUnit_33.png
+  - first:
+      213: -2393775056288110034
+    second: scifiUnit_34.png
+  - first:
+      213: -7987202276529367949
+    second: scifiUnit_35.png
+  - first:
+      213: 4766312856106675825
+    second: scifiUnit_36.png
+  - first:
+      213: 7662474824733176020
+    second: scifiUnit_37.png
+  - first:
+      213: -6574589879275849615
+    second: scifiUnit_38.png
+  - first:
+      213: 6868362868046627916
+    second: scifiUnit_39.png
+  - first:
+      213: -6431431350744912322
+    second: scifiUnit_40.png
+  - first:
+      213: -1756043640514679186
+    second: scifiUnit_41.png
+  - first:
+      213: -867333573663961923
+    second: scifiUnit_42.png
+  - first:
+      213: -211938042566291117
+    second: scifiUnit_43.png
+  - first:
+      213: 6083899910625500413
+    second: scifiUnit_44.png
+  - first:
+      213: -9194487609198557577
+    second: scifiUnit_45.png
+  - first:
+      213: 4471089997072419372
+    second: scifiUnit_46.png
+  - first:
+      213: -2728162681900171755
+    second: scifiUnit_47.png
+  - first:
+      213: 3243281613302614614
+    second: scifiUnit_48.png
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scifiEnvironment_01.png
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 275
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fd72311f2bf5240800000000000000
+      internalID: 4782738077768998668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_02.png
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 442
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b6a5d561cf8cdb0800000000000000
+      internalID: -4771286632213353704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_03.png
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1d251de8ba60c90800000000000000
+      internalID: -7203881924046958146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_04.png
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682611c69b51c7280800000000000000
+      internalID: -9044330065540586874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_05.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 310
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb63a157ca1c20c00800000000000000
+      internalID: 865467024851744444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_06.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 342
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2346f593874d645a0800000000000000
+      internalID: -6537304196257979342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_07.png
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 478
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853a2e6dac3066150800000000000000
+      internalID: 5865379734420104024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_08.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 143
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1daed90d2033fe0800000000000000
+      internalID: -1210620779806666274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_09.png
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 108
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d90e7229e207f60800000000000000
+      internalID: 8029969340870729040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_10.png
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 105
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e1be20250d0da40800000000000000
+      internalID: 5391037804617342555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_11.png
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 186
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72715046d34a86b00800000000000000
+      internalID: 822087515573131047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_12.png
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 14
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc0e3e44ddcd0e70800000000000000
+      internalID: 9083142335205608638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_13.png
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 341
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abe58a0c14dcb2b0800000000000000
+      internalID: -5567341822436054105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_14.png
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 242
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30a8d165dfb99540800000000000000
+      internalID: 5015250583244283965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_15.png
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dc19834cc6b6c30800000000000000
+      internalID: 4353693054802185571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_16.png
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 402
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51fc788a490c750800000000000000
+      internalID: 6323217328382088695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_17.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502a46313b73cb170800000000000000
+      internalID: 8195486664171495941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_18.png
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 305
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc194c6af33aee50800000000000000
+      internalID: 6839336134767090907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_19.png
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 273
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f965c3299976de0800000000000000
+      internalID: -1339933510762848474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiEnvironment_20.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 52
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d4da77dd27e5240800000000000000
+      internalID: 4782386149835230511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_01.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 267
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa7bf21582395f30800000000000000
+      internalID: 4564735244447218417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_02.png
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 385
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5ceeb828c7d93d0800000000000000
+      internalID: -3198263260227910218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_03.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 329
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2700f86cf4848d50800000000000000
+      internalID: 6738657162080290605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_04.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 273
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c4cc264f9cd0970800000000000000
+      internalID: 8722850104753277975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_05.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 459
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76d89e307ab875d0800000000000000
+      internalID: -3064494555176315269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_06.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 4
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64935c7d6693b2e00800000000000000
+      internalID: 1020972854399023430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_07.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 385
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d4e02d12fa25170800000000000000
+      internalID: 8165781634169064853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_08.png
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 469
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a7f1db11a831870800000000000000
+      internalID: 8652411117900888723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_09.png
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 425
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3905d374fdd5ab0800000000000000
+      internalID: -5017608912756501595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_10.png
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 181
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a9b6ea576e2aa10800000000000000
+      internalID: 1919349784325102109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_11.png
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 333
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c0836baa8613480800000000000000
+      internalID: -8921234304433386399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_12.png
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 417
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14336c92d9a9f8ff0800000000000000
+      internalID: -31636672566906047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_13.png
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 200
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b491f48b8775187f0800000000000000
+      internalID: -612111898345793205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_14.png
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 286
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eb47e5251ae9fc0800000000000000
+      internalID: -3486171686394085783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_15.png
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 301
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d3585d5e36d0e50800000000000000
+      internalID: 6777182853043404089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiStructure_16.png
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 257
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b1ba2a495b26840800000000000000
+      internalID: 5215930968437365507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_01.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 203
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f24a19494da8d60800000000000000
+      internalID: 7893355031483920249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_02.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 139
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b21302757a642b50800000000000000
+      internalID: 6567491209269547697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_03.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 75
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a749431a0770260800000000000000
+      internalID: 7063738378228103817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_04.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2b2339f83408da0800000000000000
+      internalID: -5944677224200097111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_05.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65433630901e65d20800000000000000
+      internalID: 3267046008531661910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_06.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3346c4210ec64c0800000000000000
+      internalID: -4292809975595256879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_07.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 449
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ea471ae06f47240800000000000000
+      internalID: 4788722846500433559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_08.png
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 338
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a32263495645bb20800000000000000
+      internalID: 3149500863612068770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_09.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83f489927518d5d0800000000000000
+      internalID: -3037654366715317361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_10.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f765a8e34cc43d0800000000000000
+      internalID: -3220983860588806397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_11.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 52
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff19ee0bae7c05550800000000000000
+      internalID: 6147633302165426687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_12.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a701e7c99d715e20800000000000000
+      internalID: 3337586898295130017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_13.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c506a2c94b21b070800000000000000
+      internalID: 8120319198923982277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05efe3e483edd34a0800000000000000
+      internalID: -6611884344497734064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_15.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc1a59c187deb100800000000000000
+      internalID: 125774792041831636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_16.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14c5b0acfef01330800000000000000
+      internalID: 3679721256543175707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_17.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 385
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5e5581adb382bf0800000000000000
+      internalID: -348963163224021594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_18.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 449
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c9f2c9f1605680800000000000000
+      internalID: -8768400749144456625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_19.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 11
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579452c1b2ed5e4d0800000000000000
+      internalID: -3105832091264923275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_20.png
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 395
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61e22d5ae8f870a0800000000000000
+      internalID: -6883478344967200401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_21.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2df2b3da4933b50800000000000000
+      internalID: 6571759753006928564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_22.png
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 187
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d966b5fa2af447b40800000000000000
+      internalID: 5437058210288330397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_23.png
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 258
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff387646c7ae96f30800000000000000
+      internalID: 4569441116925428735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_24.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 87
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bb0b169a5b11690800000000000000
+      internalID: -7633120154323207289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_25.png
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 95
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55ff5ecd1e820030800000000000000
+      internalID: 3459483722441553244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_26.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 23
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e88452ec520eb3d0800000000000000
+      internalID: -3189108888174294808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_27.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c22c44e6caffacd0800000000000000
+      internalID: -2544539532300377405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_28.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499ee56cc65cb4c30800000000000000
+      internalID: 4344783336504224148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_29.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58a19f28a8114730800000000000000
+      internalID: 3981490656203876445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_30.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5794cd7cd46b9150800000000000000
+      internalID: 5880404636627933023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_31.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09d3262327ac8040800000000000000
+      internalID: 4651276284572457229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_32.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94b9e5324cae3dc0800000000000000
+      internalID: -3657296447005936484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_33.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 385
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e2dde81a3ebaaa0800000000000000
+      internalID: -6148570583218180606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_34.png
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 449
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cab5302f2dddb940800000000000000
+      internalID: 5313646329840646854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_35.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b201d6bfcbfd950800000000000000
+      internalID: 6476102577234651991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_36.png
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 140
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9a388e1d72eda20800000000000000
+      internalID: 3088950176925329859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_37.png
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 230
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30462129c3de58000800000000000000
+      internalID: 37697016307016707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_38.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 123
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847e2865a013c4e90800000000000000
+      internalID: -7040198197016074424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_39.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 5
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223965b8fa7e49600800000000000000
+      internalID: 474258601923744546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_40.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 55
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9078cde60699390800000000000000
+      internalID: -7811106049434908194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_41.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4ea5d254fc78fa0800000000000000
+      internalID: -5798438099195599648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiTile_42.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc845b102ff06c60800000000000000
+      internalID: 7809522267223002297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_01.png
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 314
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4e5d568a9bdb860800000000000000
+      internalID: 7547392683456980187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_02.png
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 369
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f07a18178b30e8d0800000000000000
+      internalID: -2819187915322920712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_03.png
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 218
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da9ed9c1575f3620800000000000000
+      internalID: 2756017505764809425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_04.png
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 84
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976908e57136f0080800000000000000
+      internalID: -9219040960183232903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_05.png
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 393
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750d48fadd3ab9a10800000000000000
+      internalID: 1917306238904094807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_06.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 345
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2011366c07a264850800000000000000
+      internalID: 6360818187560489218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_07.png
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 104
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed267f5106aec40800000000000000
+      internalID: 5542347938893848142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_08.png
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 177
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1662078e2f977800800000000000000
+      internalID: 610131296714384925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_09.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 197
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c8d96a7723055f0800000000000000
+      internalID: -770060046802514927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_10.png
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 345
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4f4a450005c1f00800000000000000
+      internalID: 1088833172267136202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_11.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 377
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2b87ff01652ec70800000000000000
+      internalID: 8998849636445237924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_12.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 465
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f832edb1f5434a0800000000000000
+      internalID: -6614557379404787933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_13.png
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 290
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e4e69d1deade1e0800000000000000
+      internalID: -2166883629376057852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_14.png
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 60
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b459a4883e52d20d0800000000000000
+      internalID: -3446056480694168245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_15.png
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 449
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950f995935b1d9f00800000000000000
+      internalID: 1125085527718621273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_16.png
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 60
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dc616c4c1777100800000000000000
+      internalID: 105678206217407796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_17.png
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 262
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadb8d845b2602430800000000000000
+      internalID: 3756110619977760170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_18.png
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e5759fcf9b50180800000000000000
+      internalID: -9149702571767144951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_19.png
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 477
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06bc1f9f206ba060800000000000000
+      internalID: 6965767006307792397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_20.png
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 402
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de996402012c6c7e0800000000000000
+      internalID: -1745494431042725395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_21.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 235
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa75b6d3c6033f20800000000000000
+      internalID: 3401069581785463545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_22.png
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 15
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a62f1a37e511830800000000000000
+      internalID: 4040114191459314182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_23.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 218
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57f22063481b1090800000000000000
+      internalID: -8062824030221961377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_24.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 441
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce30cd9d21edb73e0800000000000000
+      internalID: -2054804632418647060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_25.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 417
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e334609bb4ba40800000000000000
+      internalID: 5383133683445393316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_26.png
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 489
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b36b42c00d3b1040800000000000000
+      internalID: 4619352916267590576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_27.png
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 378
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e06aa8e42d49740800000000000000
+      internalID: 5157978708021481055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_28.png
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 418
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5862ba7ac76f0f0800000000000000
+      internalID: -1083541600763214389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_29.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 121
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bf851ee15578c40800000000000000
+      internalID: 5514469859856546591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_30.png
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 385
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b66a0a95c8eafb0800000000000000
+      internalID: -4634612649942422721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_31.png
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 28
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18a849eb41861100800000000000000
+      internalID: 78392206561945629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_32.png
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 473
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e499b81aa914c20800000000000000
+      internalID: 3189000029777514102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_33.png
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 14
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab91501d6d93d03c0800000000000000
+      internalID: -4391790466823808582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_34.png
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 55
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aa1c1e44a97ced0800000000000000
+      internalID: -2393775056288110034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_35.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 178
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3749646f8d1c72190800000000000000
+      internalID: -7987202276529367949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_36.png
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 12
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ead942a48552240800000000000000
+      internalID: 4766312856106675825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_37.png
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 36
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0389c6144965a60800000000000000
+      internalID: 7662474824733176020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_38.png
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 84
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17872e5a65d52c4a0800000000000000
+      internalID: -6574589879275849615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_39.png
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 163
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44076a63a3515f50800000000000000
+      internalID: 6868362868046627916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_40.png
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 163
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ee98df247feb6a0800000000000000
+      internalID: -6431431350744912322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_41.png
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 489
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ee905ec9741a7e0800000000000000
+      internalID: -1756043640514679186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_42.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc4df7c5bc96f3f0800000000000000
+      internalID: -867333573663961923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_43.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 104
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351d172297b0f0df0800000000000000
+      internalID: -211938042566291117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_44.png
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 217
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc1ddd1cba5e6450800000000000000
+      internalID: 6083899910625500413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_45.png
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 159
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7764df1eb3e966080800000000000000
+      internalID: -9194487609198557577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_46.png
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 305
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2acd4ad9a08c0e30800000000000000
+      internalID: 4471089997072419372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_47.png
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51efcd7ce7e932ad0800000000000000
+      internalID: -2728162681900171755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifiUnit_48.png
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 218
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a45739173720d20800000000000000
+      internalID: 3243281613302614614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      scifiEnvironment_01.png: 4782738077768998668
+      scifiEnvironment_02.png: -4771286632213353704
+      scifiEnvironment_03.png: -7203881924046958146
+      scifiEnvironment_04.png: -9044330065540586874
+      scifiEnvironment_05.png: 865467024851744444
+      scifiEnvironment_06.png: -6537304196257979342
+      scifiEnvironment_07.png: 5865379734420104024
+      scifiEnvironment_08.png: -1210620779806666274
+      scifiEnvironment_09.png: 8029969340870729040
+      scifiEnvironment_10.png: 5391037804617342555
+      scifiEnvironment_11.png: 822087515573131047
+      scifiEnvironment_12.png: 9083142335205608638
+      scifiEnvironment_13.png: -5567341822436054105
+      scifiEnvironment_14.png: 5015250583244283965
+      scifiEnvironment_15.png: 4353693054802185571
+      scifiEnvironment_16.png: 6323217328382088695
+      scifiEnvironment_17.png: 8195486664171495941
+      scifiEnvironment_18.png: 6839336134767090907
+      scifiEnvironment_19.png: -1339933510762848474
+      scifiEnvironment_20.png: 4782386149835230511
+      scifiStructure_01.png: 4564735244447218417
+      scifiStructure_02.png: -3198263260227910218
+      scifiStructure_03.png: 6738657162080290605
+      scifiStructure_04.png: 8722850104753277975
+      scifiStructure_05.png: -3064494555176315269
+      scifiStructure_06.png: 1020972854399023430
+      scifiStructure_07.png: 8165781634169064853
+      scifiStructure_08.png: 8652411117900888723
+      scifiStructure_09.png: -5017608912756501595
+      scifiStructure_10.png: 1919349784325102109
+      scifiStructure_11.png: -8921234304433386399
+      scifiStructure_12.png: -31636672566906047
+      scifiStructure_13.png: -612111898345793205
+      scifiStructure_14.png: -3486171686394085783
+      scifiStructure_15.png: 6777182853043404089
+      scifiStructure_16.png: 5215930968437365507
+      scifiTile_01.png: 7893355031483920249
+      scifiTile_02.png: 6567491209269547697
+      scifiTile_03.png: 7063738378228103817
+      scifiTile_04.png: -5944677224200097111
+      scifiTile_05.png: 3267046008531661910
+      scifiTile_06.png: -4292809975595256879
+      scifiTile_07.png: 4788722846500433559
+      scifiTile_08.png: 3149500863612068770
+      scifiTile_09.png: -3037654366715317361
+      scifiTile_10.png: -3220983860588806397
+      scifiTile_11.png: 6147633302165426687
+      scifiTile_12.png: 3337586898295130017
+      scifiTile_13.png: 8120319198923982277
+      scifiTile_14.png: -6611884344497734064
+      scifiTile_15.png: 125774792041831636
+      scifiTile_16.png: 3679721256543175707
+      scifiTile_17.png: -348963163224021594
+      scifiTile_18.png: -8768400749144456625
+      scifiTile_19.png: -3105832091264923275
+      scifiTile_20.png: -6883478344967200401
+      scifiTile_21.png: 6571759753006928564
+      scifiTile_22.png: 5437058210288330397
+      scifiTile_23.png: 4569441116925428735
+      scifiTile_24.png: -7633120154323207289
+      scifiTile_25.png: 3459483722441553244
+      scifiTile_26.png: -3189108888174294808
+      scifiTile_27.png: -2544539532300377405
+      scifiTile_28.png: 4344783336504224148
+      scifiTile_29.png: 3981490656203876445
+      scifiTile_30.png: 5880404636627933023
+      scifiTile_31.png: 4651276284572457229
+      scifiTile_32.png: -3657296447005936484
+      scifiTile_33.png: -6148570583218180606
+      scifiTile_34.png: 5313646329840646854
+      scifiTile_35.png: 6476102577234651991
+      scifiTile_36.png: 3088950176925329859
+      scifiTile_37.png: 37697016307016707
+      scifiTile_38.png: -7040198197016074424
+      scifiTile_39.png: 474258601923744546
+      scifiTile_40.png: -7811106049434908194
+      scifiTile_41.png: -5798438099195599648
+      scifiTile_42.png: 7809522267223002297
+      scifiUnit_01.png: 7547392683456980187
+      scifiUnit_02.png: -2819187915322920712
+      scifiUnit_03.png: 2756017505764809425
+      scifiUnit_04.png: -9219040960183232903
+      scifiUnit_05.png: 1917306238904094807
+      scifiUnit_06.png: 6360818187560489218
+      scifiUnit_07.png: 5542347938893848142
+      scifiUnit_08.png: 610131296714384925
+      scifiUnit_09.png: -770060046802514927
+      scifiUnit_10.png: 1088833172267136202
+      scifiUnit_11.png: 8998849636445237924
+      scifiUnit_12.png: -6614557379404787933
+      scifiUnit_13.png: -2166883629376057852
+      scifiUnit_14.png: -3446056480694168245
+      scifiUnit_15.png: 1125085527718621273
+      scifiUnit_16.png: 105678206217407796
+      scifiUnit_17.png: 3756110619977760170
+      scifiUnit_18.png: -9149702571767144951
+      scifiUnit_19.png: 6965767006307792397
+      scifiUnit_20.png: -1745494431042725395
+      scifiUnit_21.png: 3401069581785463545
+      scifiUnit_22.png: 4040114191459314182
+      scifiUnit_23.png: -8062824030221961377
+      scifiUnit_24.png: -2054804632418647060
+      scifiUnit_25.png: 5383133683445393316
+      scifiUnit_26.png: 4619352916267590576
+      scifiUnit_27.png: 5157978708021481055
+      scifiUnit_28.png: -1083541600763214389
+      scifiUnit_29.png: 5514469859856546591
+      scifiUnit_30.png: -4634612649942422721
+      scifiUnit_31.png: 78392206561945629
+      scifiUnit_32.png: 3189000029777514102
+      scifiUnit_33.png: -4391790466823808582
+      scifiUnit_34.png: -2393775056288110034
+      scifiUnit_35.png: -7987202276529367949
+      scifiUnit_36.png: 4766312856106675825
+      scifiUnit_37.png: 7662474824733176020
+      scifiUnit_38.png: -6574589879275849615
+      scifiUnit_39.png: 6868362868046627916
+      scifiUnit_40.png: -6431431350744912322
+      scifiUnit_41.png: -1756043640514679186
+      scifiUnit_42.png: -867333573663961923
+      scifiUnit_43.png: -211938042566291117
+      scifiUnit_44.png: 6083899910625500413
+      scifiUnit_45.png: -9194487609198557577
+      scifiUnit_46.png: 4471089997072419372
+      scifiUnit_47.png: -2728162681900171755
+      scifiUnit_48.png: 3243281613302614614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

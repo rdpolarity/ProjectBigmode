@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Village Named Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets: []
+  namedColorDataSet:
+    elements:
+    - id: cc2e5e1f-f224-4e7a-9ce2-b394578a7f68
+      name: Land
+      color:
+        serializedVersion: 2
+        rgba: 4278255371
+    - id: 6bbcb36d-88b5-4fdd-9d1a-c664de9203f2
+      name: Water
+      color:
+        serializedVersion: 2
+        rgba: 4294927360
+    - id: a51da1a8-1a7b-4d2e-a513-f938266bdcf2
+      name: Trees
+      color:
+        serializedVersion: 2
+        rgba: 4279860480
+    - id: 569b994c-33b4-439e-812f-ab9209ed349c
+      name: Dark Grass
+      color:
+        serializedVersion: 2
+        rgba: 4278208534
+    - id: 77a3d2e7-c1e0-44dc-8725-02a86aab414a
+      name: Dirt
+      color:
+        serializedVersion: 2
+        rgba: 4279517833
+    - id: e6a3dfd4-3b0c-4ef4-b05b-ca1e5baee572
+      name: Fence
+      color:
+        serializedVersion: 2
+        rgba: 4278197839
+    - id: 2f8dbfd1-59ff-4115-acf0-0554c20e5cbb
+      name: Cobblestone
+      color:
+        serializedVersion: 2
+        rgba: 4288322202
+    - id: d3552eea-ebc0-4564-b3d7-5d15decff09d
+      name: Land Overlay
+      color:
+        serializedVersion: 2
+        rgba: 4278252799
+    orderedIds:
+    - cc2e5e1f-f224-4e7a-9ce2-b394578a7f68
+    - 6bbcb36d-88b5-4fdd-9d1a-c664de9203f2
+    - a51da1a8-1a7b-4d2e-a513-f938266bdcf2
+    - 569b994c-33b4-439e-812f-ab9209ed349c
+    - 77a3d2e7-c1e0-44dc-8725-02a86aab414a
+    - e6a3dfd4-3b0c-4ef4-b05b-ca1e5baee572
+    - 2f8dbfd1-59ff-4115-acf0-0554c20e5cbb
+    - d3552eea-ebc0-4564-b3d7-5d15decff09d
+  serializedNames: []
+  serializedColors: []

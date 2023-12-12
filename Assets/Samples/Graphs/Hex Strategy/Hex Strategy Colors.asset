@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Hex Strategy Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets: []
+  namedColorDataSet:
+    elements:
+    - id: 9b4bd63e-cc46-4274-bb7f-1eaeff508bdd
+      name: Grass
+      color:
+        serializedVersion: 2
+        rgba: 4279608373
+    - id: ee293334-50b6-4361-bafe-fa0ef9fe6095
+      name: Water
+      color:
+        serializedVersion: 2
+        rgba: 4291009801
+    - id: ba6b3580-f322-4a26-83bb-daf2f7fb3848
+      name: Shallow Water
+      color:
+        serializedVersion: 2
+        rgba: 4294639360
+    - id: 364ca32e-a994-42a1-8289-e6aeb755b70c
+      name: Mountain
+      color:
+        serializedVersion: 2
+        rgba: 4284835173
+    - id: 50331bf6-d26b-411d-824d-7d49c3366fc2
+      name: Snowy Mountain
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    - id: 28f9ec3d-4aab-4718-9da0-31a74eea100d
+      name: Forest
+      color:
+        serializedVersion: 2
+        rgba: 4278343442
+    orderedIds:
+    - 9b4bd63e-cc46-4274-bb7f-1eaeff508bdd
+    - ee293334-50b6-4361-bafe-fa0ef9fe6095
+    - ba6b3580-f322-4a26-83bb-daf2f7fb3848
+    - 364ca32e-a994-42a1-8289-e6aeb755b70c
+    - 50331bf6-d26b-411d-824d-7d49c3366fc2
+    - 28f9ec3d-4aab-4718-9da0-31a74eea100d
+  serializedNames: []
+  serializedColors: []

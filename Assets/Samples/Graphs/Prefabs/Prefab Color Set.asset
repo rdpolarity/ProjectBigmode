@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Prefab Color Set
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  serializedLinkedSets: []
+  namedColorDataSet:
+    elements:
+    - id: 508db337-8e03-4b68-b65e-8c9b0cd0cfd2
+      name: Wall
+      color:
+        serializedVersion: 2
+        rgba: 4278190080
+    - id: 7b384d4d-7cec-43a5-a9f3-c7db407385bf
+      name: Floor
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    orderedIds:
+    - 508db337-8e03-4b68-b65e-8c9b0cd0cfd2
+    - 7b384d4d-7cec-43a5-a9f3-c7db407385bf
+  serializedNames: []
+  serializedColors: []

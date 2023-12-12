@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: Village Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 5480ddd2-90b3-4867-b4a1-206a1694c53f
+      name: Land
+      tiles:
+      - tile: {fileID: 11400000, guid: e276f36f70b5e6e6990174c368f2aa94, type: 2}
+    - id: 5a5de3bf-447e-466b-8c99-94869dd6487e
+      name: Water
+      tiles:
+      - tile: {fileID: 11400000, guid: 912e8c1f616f37f7784e34d0ef0a6de5, type: 2}
+    - id: 23a97357-fbf3-4a8f-802d-2d1b3adb3e24
+      name: Trees
+      tiles:
+      - tile: {fileID: 11400000, guid: 12dfd47308f9ac9a896d81ffc1957606, type: 2}
+    - id: e3328c43-1b32-45e3-84ba-52adaa4e3437
+      name: Dark Grass
+      tiles:
+      - tile: {fileID: 11400000, guid: cdd25a3aefb53d9e982b01040fcc0e4f, type: 2}
+    - id: 13d688da-6dd7-4931-9d06-5e0850e7e985
+      name: Dirt
+      tiles:
+      - tile: {fileID: 11400000, guid: b6aa268422be81a7b9a82987530ddfe1, type: 2}
+    - id: d23feead-bcbd-4494-ac50-0eaa558f4d27
+      name: Fence
+      tiles:
+      - tile: {fileID: 11400000, guid: d59f8722aa6cd33988c8639ce9b73498, type: 2}
+    - id: b4e5e601-fa03-488b-aa86-3120c73ed2bc
+      name: Cobblestone
+      tiles:
+      - tile: {fileID: 11400000, guid: 1282bff6099103a4187f9c56cfdd27b2, type: 2}
+    - id: bee1f069-4d33-4b7a-b032-f63e982c7eee
+      name: Land Overlay
+      tiles:
+      - tile: {fileID: 11400000, guid: b9fc7cdb44a8fd05e8500e4ae849e93a, type: 2}
+    orderedIds:
+    - 5480ddd2-90b3-4867-b4a1-206a1694c53f
+    - 5a5de3bf-447e-466b-8c99-94869dd6487e
+    - 23a97357-fbf3-4a8f-802d-2d1b3adb3e24
+    - e3328c43-1b32-45e3-84ba-52adaa4e3437
+    - 13d688da-6dd7-4931-9d06-5e0850e7e985
+    - d23feead-bcbd-4494-ac50-0eaa558f4d27
+    - b4e5e601-fa03-488b-aa86-3120c73ed2bc
+    - bee1f069-4d33-4b7a-b032-f63e982c7eee
+  tileTypes: []

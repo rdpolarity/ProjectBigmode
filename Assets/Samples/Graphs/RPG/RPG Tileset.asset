@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: RPG Tileset
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.15
+  openTileset:
+    elements:
+    - id: 9ed78450-ea9f-48b3-b403-60d616f82324
+      name: Wall
+      tiles:
+      - tile: {fileID: 11400000, guid: 9f1a6bb26df5bc7c8806cb820a684ff8, type: 2}
+    - id: 34403add-fff8-4c13-b203-dd79e79c50e0
+      name: Floor
+      tiles:
+      - tile: {fileID: 11400000, guid: 8037b4514850224f6ae60e5f4cf8b119, type: 2}
+    - id: 5d39cd94-cd54-4f46-a466-b28029eff8bb
+      name: Bookcase
+      tiles:
+      - tile: {fileID: 11400000, guid: 706151e0de5b5d5bcb291e1382a9428e, type: 2}
+    orderedIds:
+    - 9ed78450-ea9f-48b3-b403-60d616f82324
+    - 34403add-fff8-4c13-b203-dd79e79c50e0
+    - 5d39cd94-cd54-4f46-a466-b28029eff8bb
+  tileTypes: []
