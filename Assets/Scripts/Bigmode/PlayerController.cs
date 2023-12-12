@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 
@@ -13,6 +14,7 @@ namespace Bigmode
         // Working vars
         public Animator walkIdleAnimator;
         private new Rigidbody2D rigidbody;
+
         private Controls.PlayerActions playerActions;
         private Vector2 movementInput;
 

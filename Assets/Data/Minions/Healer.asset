@@ -25,5 +25,5 @@ MonoBehaviour:
   name: Healer
   description: Heals nearby units and yourself
   sprite: {fileID: -443016119, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
-  prefab: {fileID: 8522736550195871869, guid: 68652448d6de18f45b3274984f34477d, type: 3}
+  prefab: {fileID: 444722436143659534, guid: fa9f43f32fe26dd408ec7216f0ee08b1, type: 3}
   color: {r: 0.44691172, g: 0.7830189, b: 0.7773858, a: 0}

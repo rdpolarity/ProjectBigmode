@@ -1,10 +1,6 @@
 using System.Collections.Generic;
-using System.ComponentModel;
-using Sirenix.OdinInspector;
 using Sirenix.Utilities;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Bigmode
 {
@@ -105,7 +101,7 @@ namespace Bigmode
                 // instantiate minion prefab at position
                 var spawnPos = transform.position;
                 spawnPos.y += spawnYDisplacement; // Displace spawn position below mouth
-                Instantiate(minionType.prefab, transform.position, Quaternion.identity);
+                Instantiate(minionType.prefab, transform.position, transform.rotation);
 
                 return true;
             }
