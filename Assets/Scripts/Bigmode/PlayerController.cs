@@ -9,7 +9,6 @@ namespace Bigmode
     {
         // Configuration
         [SerializeField] private float force;
-        [SerializeField] private float walkingThreshold = 0.2f;
 
         // Working vars
         public Animator walkIdleAnimator;
@@ -19,10 +18,10 @@ namespace Bigmode
         private Vector2 movementInput;
 
         // Constants
-        private static readonly int IsWalking = Animator.StringToHash("IsWalking");
 
         // Properties
         public Vector3Int Cell => transform.position.Cell();
+
 
         protected override void Awake()
         {
@@ -46,14 +45,7 @@ namespace Bigmode
             var desired = movementInput * force;
             var delta = desired - rigidbody.velocity;
 
-            rigidbody.AddForce(delta);
-
-            var isMoving = rigidbody.velocity.magnitude > walkingThreshold;
-            walkIdleAnimator.SetBool(IsWalking, isMoving);
-
-            float speed = rigidbody.velocity.magnitude;
-            if (isMoving) walkIdleAnimator.speed = speed / 2;
-            else walkIdleAnimator.speed = 1;
+            rigidbody.AddForce(delta * Time.deltaTime);
         }
 
         // IPlayerActions
