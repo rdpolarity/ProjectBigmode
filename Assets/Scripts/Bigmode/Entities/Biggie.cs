@@ -20,11 +20,12 @@ namespace Bigmode
         private float spawnYDisplacement = 1f;
         [SerializeField]
         private SpriteRenderer spriteRenderer;
+        [SerializeField]
+        private LineRenderer tongueRenderer;
 
 #nullable enable
         private Minion? grabbedMinion = null;
 
-        private LineRenderer tongueRenderer;
         private float maxTongueLength = 1f;
 
         void Start()
@@ -32,7 +33,7 @@ namespace Bigmode
             MassChanged();
             SelectMinion(selectMinion);
             // create tongue rendere
-            tongueRenderer = gameObject.AddComponent<LineRenderer>();
+            if (tongueRenderer == null) tongueRenderer = gameObject.AddComponent<LineRenderer>();
             tongueRenderer.startColor = Color.red;
             tongueRenderer.endColor = Color.red;
             // set width 0.1
@@ -141,7 +142,7 @@ namespace Bigmode
             if (grabbedMinion != null)
             {
                 tongueRenderer.enabled = true;
-                var start = transform.position;
+                var start = tongueRenderer.transform.position;
                 var end = grabbedMinion.transform.position;
                 tongueRenderer.SetPositions(new Vector3[] { start, end });
 
