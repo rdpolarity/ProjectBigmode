@@ -1362,8 +1362,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 3164
-          y: -572
+          x: 2882
+          y: -423
           width: 208
           height: 301
         providerNode:
