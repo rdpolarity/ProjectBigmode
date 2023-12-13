@@ -96,6 +96,13 @@ MonoBehaviour:
         tile: {fileID: 11400000, guid: 30070cb636e33854c8692159d9739a51, type: 2}
       - weight: 1
         tile: {fileID: 11400000, guid: 09adbcdb953c26f48b516c6fd23af0d0, type: 2}
+    - id: c2101671-3f21-495f-ba57-e7caeb889142
+      name: Smalls
+      isWeightEnabled: 0
+      totalWeight: 1
+      tiles:
+      - weight: 1
+        tile: {fileID: 11400000, guid: 8adedadf04183b94b90799a6ece5b0aa, type: 2}
     orderedIds:
     - b6910784-47c9-46c3-9d90-cd80d82857d4
     - ca323268-8749-4d8f-8bd6-a40e4bda0d24
@@ -105,4 +112,5 @@ MonoBehaviour:
     - 9d90e386-5084-4bff-bce2-1ed59f963e7d
     - 9e4d7137-51b4-4310-9c46-22049d1899d5
     - fbfbbc74-3303-4544-94b9-83159029246c
+    - c2101671-3f21-495f-ba57-e7caeb889142
   tileTypes: []
