@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 6773695206060035462}
   - component: {fileID: -575370574856530338}
   - component: {fileID: 6310326409459981731}
+  - component: {fileID: 6905299063857455801}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Minion
@@ -346,6 +347,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overlayTime: 0.5
+--- !u!114 &6905299063857455801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522736550195871869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21fd3830f3bb02b4db5ff6337d010f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 1
 --- !u!1001 &7170064187377558929
 PrefabInstance:
   m_ObjectHideFlags: 0
