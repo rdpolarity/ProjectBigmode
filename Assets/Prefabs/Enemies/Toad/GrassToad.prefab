@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ec1a931dc011534da748f745b64f4ce, type: 3}
+    - target: {fileID: 6657525446037258695, guid: 300aa020f25350f45b17372d23137414, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 85603297b2a756848b281225ae851731, type: 2}
     - target: {fileID: 6698954049328219918, guid: 300aa020f25350f45b17372d23137414, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -55,6 +59,10 @@ PrefabInstance:
     - target: {fileID: 8522736550195871869, guid: 300aa020f25350f45b17372d23137414, type: 3}
       propertyPath: m_Name
       value: GrassToad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8811448290389687285, guid: 300aa020f25350f45b17372d23137414, type: 3}
+      propertyPath: health
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

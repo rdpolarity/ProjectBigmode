@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Bigmode
@@ -6,22 +8,45 @@ namespace Bigmode
     public abstract class Entity : MonoBehaviour
     {
 
-        public float Health
+        public float MaxHealth { get; set; } = 10;
+
+        private SpriteFlasher _damageFlasher;
+
+        [SerializeField] private float health = 10;
+
+        public float GetHealth()
+        { return health; }
+
+        public void SetHealth(float value)
         {
-            get { return Health; }
-            set { Health = Math.Clamp(value, 0, MaxHealth); }
+            health = Math.Clamp(value, 0, MaxHealth);
+            if (health <= 0) Die();
         }
 
-        public float MaxHealth { get; set; }
-
-        void Damage(float amount)
+        void Awake()
         {
-            Health -= amount;
+            _damageFlasher = GetComponent<SpriteFlasher>();
+            if (_damageFlasher == null)
+                _damageFlasher = gameObject.AddComponent<SpriteFlasher>();
         }
 
-        void Heal(float amount)
+        [Button]
+        public void Damage(float amount)
         {
-            Health += amount;
+            SetHealth(GetHealth() - amount);
+            _damageFlasher.Flash(Color.white);
+        }
+
+        [Button]
+        public void Heal(float amount)
+        {
+            SetHealth(GetHealth() + amount);
+            _damageFlasher.Flash(Color.green);
+        }
+
+        public void Die()
+        {
+            Destroy(gameObject);
         }
     }
 }

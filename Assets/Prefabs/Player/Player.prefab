@@ -96,8 +96,8 @@ GameObject:
   - component: {fileID: 1886459963051291242}
   - component: {fileID: 5369461379499086570}
   - component: {fileID: 6188044979194316824}
-  - component: {fileID: 783030949215386360}
   - component: {fileID: 8787224455442445464}
+  - component: {fileID: 783030949215386360}
   - component: {fileID: 4841474127007823214}
   m_Layer: 6
   m_Name: Player
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f5160626736a4f4e8aeeea6f6d39361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
   mass: 10
   minions:
   - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
@@ -188,18 +189,6 @@ MonoBehaviour:
   spawnYDisplacement: 1
   spriteRenderer: {fileID: 1096314056600653241}
   tongueRenderer: {fileID: 4468055074968652944}
---- !u!114 &783030949215386360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5466092182061348791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e39f6090724e4a4a8aadeb042afa2bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!208 &8787224455442445464
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -216,6 +205,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &783030949215386360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466092182061348791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e39f6090724e4a4a8aadeb042afa2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &4841474127007823214
 CircleCollider2D:
   m_ObjectHideFlags: 0
