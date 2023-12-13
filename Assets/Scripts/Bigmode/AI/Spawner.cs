@@ -11,8 +11,10 @@ namespace Bigmode
         [SerializeField] private float spawnInterval = 10f;
         [SerializeField] private float triggerRadius = 5f;
         [SerializeField] private string spawnTriggerTag = "Player";
+        [SerializeField] private bool preventOnScreenSpawning = true;
 
-        private void OnDrawGizmos() {
+        private void OnDrawGizmos()
+        {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, triggerRadius);
 
@@ -38,11 +40,17 @@ namespace Bigmode
             return false;
         }
 
+        bool CheckIfOnScreen()
+        {
+            var screenPoint = Camera.main.WorldToViewportPoint(transform.position);
+            return screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
+        }
+
         private IEnumerator Spawning()
         {
             while (true)
             {
-                if (CheckIfTagInRange(spawnTriggerTag))
+                if (CheckIfTagInRange(spawnTriggerTag) && (!preventOnScreenSpawning || !CheckIfOnScreen()))
                 {
                     Vector2 spawnPosition = (Vector2)(transform.position + Random.insideUnitSphere * spawnRadius);
                     var spawnObject = spawnableObjects[Random.Range(0, spawnableObjects.Length)];
