@@ -7,6 +7,8 @@ namespace Bigmode
 {
     public class PlayerController : Singleton<PlayerController>, Controls.IPlayerActions
     {
+        public GameObject pauseMenu;
+
         // Configuration
         [SerializeField] private float force;
 
@@ -26,6 +28,7 @@ namespace Bigmode
         protected override void Awake()
         {
             rigidbody = GetComponent<Rigidbody2D>();
+            OnResume();
         }
 
         private void OnEnable()
@@ -93,6 +96,24 @@ namespace Bigmode
             {
                 biggie.TongueRelease();
             }
+        }
+
+        public void OnEscapeMenu(InputAction.CallbackContext context)
+        {
+            Debug.Log("Escape Key Pressed.");
+            if (! pauseMenu.activeSelf){
+                Time.timeScale = 0f;
+                pauseMenu.SetActive(true);
+            }
+            else { // toggle pause
+                OnResume();
+            }
+        }
+
+        public void OnResume(){
+            Debug.Log("Resuming game...");
+            Time.timeScale = 1.0f;
+            pauseMenu.SetActive(false);
         }
     }
 }
