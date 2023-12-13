@@ -56,6 +56,11 @@ MonoBehaviour:
       color:
         serializedVersion: 2
         rgba: 4279579924
+    - id: 1b5b5e38-6dfd-4a0d-aa46-933a8eaee2d6
+      name: Smalls
+      color:
+        serializedVersion: 2
+        rgba: 4281814320
     orderedIds:
     - 81b5735e-f3dc-402a-b042-2884739a9df1
     - 99bbed15-d38c-4086-a0fa-07a2292a3a1d
@@ -65,6 +70,7 @@ MonoBehaviour:
     - dbf673c7-1329-4c22-ac91-da3a50baaed1
     - 688e1615-6a1d-4602-ba07-999193a19437
     - d1807106-6166-4e8f-b05e-ea2a036741b8
+    - 1b5b5e38-6dfd-4a0d-aa46-933a8eaee2d6
   serializedNames: []
   serializedColors: []
   serializedLinkedSets:
