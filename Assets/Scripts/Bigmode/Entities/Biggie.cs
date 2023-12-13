@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using Sirenix.Utilities;
+using Unity.Entities.UniversalDelegates;
 using UnityEngine;
 
 namespace Bigmode
@@ -22,11 +24,11 @@ namespace Bigmode
         private SpriteRenderer spriteRenderer;
         [SerializeField]
         private LineRenderer tongueRenderer;
+        [SerializeField]
+        private float maxTongueLength = 2f;
 
 #nullable enable
-        private Minion? grabbedMinion = null;
-
-        private float maxTongueLength = 1f;
+        private Mass? grabbedMass = null;
 
         void Start()
         {
@@ -111,39 +113,50 @@ namespace Bigmode
 
         public void TongueGrab()
         {
-            // get closest minion to biggie
-            var minions = FindObjectsOfType<Minion>();
-            if (minions.Length == 0) return;
 
-            minions.Sort((a, b) =>
+            // find objects in physics 2D overlap circle
+            var colliders = Physics2D.OverlapCircleAll(transform.position, maxTongueLength);
+
+            var masses = new List<Mass>();
+            // filter out everything but Minions and Fly tags
+            foreach (var collider in colliders)
+            {
+                if (collider.TryGetComponent<Mass>(out var mass))
+                {
+                    masses.Add(mass);
+                }
+            }
+
+            if (masses.Count == 0) return;
+
+            // sort by distance
+            masses.Sort((a, b) =>
             {
                 var aDist = Vector3.Distance(a.transform.position, transform.position);
                 var bDist = Vector3.Distance(b.transform.position, transform.position);
                 return aDist.CompareTo(bDist);
             });
 
-            var closestMinion = minions[0];
-
-            grabbedMinion = closestMinion;
+            grabbedMass = masses[0];
         }
 
         public void TongueRelease()
         {
-            if (grabbedMinion == null) return;
+            if (grabbedMass == null) return;
 
-            Destroy(grabbedMinion.gameObject);
-            IncreaseMass(grabbedMinion.type.cost);
+            IncreaseMass(grabbedMass.mass);
+            Destroy(grabbedMass.gameObject);
 
-            grabbedMinion = null;
+            grabbedMass = null;
         }
 
         void Update()
         {
-            if (grabbedMinion != null)
+            if (grabbedMass != null)
             {
                 tongueRenderer.enabled = true;
                 var start = tongueRenderer.transform.position;
-                var end = grabbedMinion.transform.position;
+                var end = grabbedMass.transform.position;
                 tongueRenderer.SetPositions(new Vector3[] { start, end });
 
                 // Calculate the distance between the player and the minion
@@ -153,7 +166,7 @@ namespace Bigmode
                 if (distance > maxTongueLength)
                 {
                     // Move the minion towards the player
-                    grabbedMinion.transform.position = Vector3.MoveTowards(end, start, distance - maxTongueLength);
+                    grabbedMass.transform.position = Vector3.MoveTowards(end, start, distance - maxTongueLength);
                 }
             }
             else

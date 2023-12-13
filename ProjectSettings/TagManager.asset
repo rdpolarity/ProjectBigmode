@@ -7,6 +7,7 @@ TagManager:
   - Grass
   - Minion
   - Enemy
+  - Fly
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5481257a16c3f2f4b9f1edaf6b30fbe9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - flyPrefab: {fileID: 2038283992127825771, guid: c5dd561a2ab259d45b9149885198fad4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
