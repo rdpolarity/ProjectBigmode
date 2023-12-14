@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Bigmode
 {
@@ -9,6 +11,7 @@ namespace Bigmode
         [SerializeField] private float spawnRadius = 2f;
         [SerializeField] private GameObject[] spawnableObjects = new GameObject[0];
         [SerializeField] private float spawnInterval = 10f;
+        [SerializeField] private float spawnIntervalPerRound = 0.1f;
         [SerializeField] private float triggerRadius = 5f;
         [SerializeField] private string spawnTriggerTag = "Player";
         [SerializeField] private bool preventOnScreenSpawning = true;
@@ -57,7 +60,9 @@ namespace Bigmode
                     Instantiate(spawnObject, spawnPosition, Quaternion.identity);
                 }
 
-                yield return new WaitForSeconds(spawnInterval);
+                var spawnCooldown = Mathf.Clamp(spawnInterval - RoundManager.Instance.Round * spawnIntervalPerRound, 1, 100f);
+
+                yield return new WaitForSeconds(spawnCooldown);
             }
         }
     }

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=c07c8e7a23c32d3499773d287f594274&amp;type=3#styles" />
+    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Upgrade" class="upgrade" style="width: 366px; height: 470px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+        <ui:VisualElement name="UpgradeContainer" style="flex-grow: 1; align-self: auto; align-items: center; height: 409px;">
+            <ui:Label tabindex="-1" text="Upgrade Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="font-size: 40px; color: rgb(255, 207, 0);" />
+            <ui:VisualElement name="Icon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Art/Biggie/Biggie_Small.png?fileID=-1031338787&amp;guid=729f5f19ec92e470bb18f457b3b260dc&amp;type=3#Biggie_Small_2&apos;); width: 200px; height: 200px; flex-shrink: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; -unity-background-scale-mode: scale-to-fit;" />
+            <ui:Label tabindex="-1" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has " parse-escape-sequences="true" display-tooltip-when-elided="true" name="Description" style="white-space: normal; font-size: 20px; -unity-background-image-tint-color: rgb(255, 255, 255); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

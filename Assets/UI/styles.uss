@@ -1,0 +1,29 @@
+.upgrade {
+    background-color: rgba(0, 0, 0, 0.56);
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    -unity-font: url('project://database/Assets/UI/Fonts/Minecraft.ttf?fileID=12800000&guid=c9a41adcd4eae3c46a99cfcb6c126460&type=3#Minecraft');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Minecraft%20SDF.asset?fileID=11400000&guid=f90c9c6db15381043b22f3b309494326&type=2#Minecraft SDF');
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.upgrade:hover {
+    background-color: rgba(46, 46, 46, 0.557);
+    border-width: 10px;
+}

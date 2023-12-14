@@ -59,7 +59,6 @@ public class UIManager : MonoBehaviour, IMassChangeListener, IMinionCountChangeL
     }
 
     public void MinionCountChanged(int delta){
-        Debug.Log("Minion Count Changed: "+delta);
         minionCount += delta;
         MinionCountText.SetText(HUD_MINION_COUNT_APPEND_TEXT + minionCount);
     }
