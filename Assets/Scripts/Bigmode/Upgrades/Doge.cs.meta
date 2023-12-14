@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 54505f530ae79be489114d988cb32864
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dogePrefab: {fileID: 8522736550195871869, guid: d08d0a63f2b96fb448e7b3841ef1665e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

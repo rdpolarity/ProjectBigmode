@@ -28,5 +28,5 @@ MonoBehaviour:
       Entry: 8
       Data: 
   Title: Leaf
-  Icon: {fileID: -1142783486, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
+  Icon: {fileID: 3727299347251631315, guid: 65fadf73c5cea418da8a74a72b17b349, type: 3}
   Description: Increase biggie's walk speed

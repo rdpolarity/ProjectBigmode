@@ -28,19 +28,20 @@ namespace Bigmode
         private SpriteRenderer spriteRenderer;
         [SerializeField]
         private LineRenderer tongueRenderer;
-
-        // for events associated with mass change
         [SerializeField]
-        public List<IMassChangeListener> massChangeListeners = new List<IMassChangeListener>();
+        private GameObject dogePrefab;
 
-        [SerializeField]
-        public List<IMinionCountChangeListener> minionCountChangeListeners = new List<IMinionCountChangeListener>();
+        public List<IMassChangeListener> massChangeListeners = new();
 
-        // This variable will scale with transform.scale
+        public List<IMinionCountChangeListener> minionCountChangeListeners = new();
+
+        public int AdditionalMassPerFly = 0; 
+
         [SerializeField]
         private float baseMaxTongueLength = 2f;
         [SerializeField]
         private GameObject mouthSprite;
+        
 
         private CircleRenderer circleRenderer;
 #nullable enable
@@ -64,6 +65,10 @@ namespace Bigmode
             {
                 circleRenderer.Radius = baseMaxTongueLength;
             }
+        }
+        
+        public void SpawnDoge() {
+            Instantiate(dogePrefab, transform.position, transform.rotation);
         }
 
         public void IncreaseTongueLength(float length)
@@ -101,19 +106,19 @@ namespace Bigmode
             SetMass((int)GetHealth());
         }
 
-        void SetMass(int amount)
+        public void SetMass(int amount)
         {
             mass = amount;
             MassChanged();
         }
 
-        void IncreaseMass(int amount)
+        public void IncreaseMass(int amount)
         {
             mass += amount;
             MassChanged();
         }
 
-        void DecreaseMass(int amount)
+        public void DecreaseMass(int amount)
         {
             mass -= amount;
             MassChanged();
@@ -210,7 +215,7 @@ namespace Bigmode
         {
             if (grabbedMass == null) return;
 
-            IncreaseMass(grabbedMass.mass);
+            IncreaseMass(grabbedMass.mass + AdditionalMassPerFly);
             Destroy(grabbedMass.gameObject);
 
             grabbedMass = null;
