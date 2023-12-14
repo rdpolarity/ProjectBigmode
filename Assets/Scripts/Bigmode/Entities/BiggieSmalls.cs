@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BiggieSmalls : MonoBehaviour
@@ -8,6 +7,11 @@ public class BiggieSmalls : MonoBehaviour
     [SerializeField] private GameObject flyPrefab;
     private GameObject flyInstance;
     private bool isCooldown = false;
+
+    private void Start()
+    {
+        SpawnFly();
+    }
 
     private void Update()
     {
@@ -20,8 +24,9 @@ public class BiggieSmalls : MonoBehaviour
 
     private void SpawnFly()
     {
-        Vector2 spawnPosition = (Vector2)(transform.position) + new Vector2(0, 0.5f);
+        Vector2 spawnPosition = (Vector2)transform.position + new Vector2(0, 0.5f);
         flyInstance = Instantiate(flyPrefab, spawnPosition, Quaternion.identity);
+        flyInstance.transform.SetParent(transform);
     }
 
 
