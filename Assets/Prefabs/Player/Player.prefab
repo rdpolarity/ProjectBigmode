@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
-  force: 900
+  force: 800
   walkIdleAnimator: {fileID: 4151629162763812496}
 --- !u!50 &5369461379499086570
 Rigidbody2D:
@@ -278,7 +278,7 @@ MonoBehaviour:
   spawnYDisplacement: 1
   spriteRenderer: {fileID: 1096314056600653241}
   tongueRenderer: {fileID: 4468055074968652944}
-  baseMaxTongueLength: 2
+  baseMaxTongueLength: 1
   mouthSprite: {fileID: 1043858174671306584}
 --- !u!208 &8787224455442445464
 NavMeshObstacle:
