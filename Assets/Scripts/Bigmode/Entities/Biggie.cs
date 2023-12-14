@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Cinemachine;
+using Sirenix.Serialization;
 using Sirenix.Utilities;
 using Unity.Entities.UniversalDelegates;
 using UnityEngine;
@@ -27,6 +28,13 @@ namespace Bigmode
         private SpriteRenderer spriteRenderer;
         [SerializeField]
         private LineRenderer tongueRenderer;
+
+        // for events associated with mass change
+        [SerializeField]
+        public List<IMassChangeListener> massChangeListeners = new List<IMassChangeListener>();
+
+        [SerializeField]
+        public List<IMinionCountChangeListener> minionCountChangeListeners = new List<IMinionCountChangeListener>();
 
         // This variable will scale with transform.scale
         [SerializeField]
@@ -71,6 +79,11 @@ namespace Bigmode
             camera.m_Lens.FieldOfView = baseFOV + (mass * cameraZoomOutPerMass);
 
             SetHealth(mass);
+
+            // notify listners
+            foreach (IMassChangeListener listener in massChangeListeners) {
+                listener.MassChanged(mass);
+            }
         }
 
         public override void Damage(float amount)
@@ -139,7 +152,16 @@ namespace Bigmode
                 // instantiate minion prefab at position
                 var spawnPos = transform.position;
                 spawnPos.y += spawnYDisplacement; // Displace spawn position below mouth
-                Instantiate(minionType.prefab, transform.position, transform.rotation);
+
+                GameObject lilGuy = Instantiate(minionType.prefab, transform.position, transform.rotation);
+
+                // pass minion count listner to the created minion
+                Minion lilMinion = lilGuy.GetComponent<Minion>();
+                lilMinion.minionCountChangeListener = minionCountChangeListeners[0];
+
+                foreach (IMinionCountChangeListener listener in minionCountChangeListeners){
+                    listener.MinionCountChanged(1);
+                }
 
                 return true;
             }

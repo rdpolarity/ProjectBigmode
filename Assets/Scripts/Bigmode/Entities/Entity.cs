@@ -44,7 +44,7 @@ namespace Bigmode
             _damageFlasher.Flash(Color.green);
         }
 
-        public void Die()
+        virtual public void Die()
         {
             Destroy(gameObject);
         }
