@@ -14,10 +14,10 @@ namespace Bigmode
 
         [SerializeField] private float health = 10;
 
-        public float GetHealth()
+        virtual public float GetHealth()
         { return health; }
 
-        public void SetHealth(float value)
+        virtual public void SetHealth(float value)
         {
             health = Math.Clamp(value, 0, MaxHealth);
             if (health <= 0) Die();
@@ -31,14 +31,14 @@ namespace Bigmode
         }
 
         [Button]
-        public void Damage(float amount)
+        virtual public void Damage(float amount)
         {
             SetHealth(GetHealth() - amount);
             _damageFlasher.Flash(Color.white);
         }
 
         [Button]
-        public void Heal(float amount)
+        virtual public void Heal(float amount)
         {
             SetHealth(GetHealth() + amount);
             _damageFlasher.Flash(Color.green);

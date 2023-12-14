@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Cinemachine;
 using Sirenix.Utilities;
 using Unity.Entities.UniversalDelegates;
 using UnityEngine;
@@ -19,28 +20,42 @@ namespace Bigmode
         [SerializeField]
         private float healthPerMass = 1f;
         [SerializeField]
+        private float cameraZoomOutPerMass = 0.1f;
+        [SerializeField]
         private float spawnYDisplacement = 1f;
         [SerializeField]
         private SpriteRenderer spriteRenderer;
         [SerializeField]
         private LineRenderer tongueRenderer;
-        [SerializeField]
-        private float maxTongueLength = 2f;
 
+        // This variable will scale with transform.scale
+        [SerializeField]
+        private float baseMaxTongueLength = 2f;
+        [SerializeField]
+        private GameObject mouthSprite;
+
+        private CircleRenderer circleRenderer;
 #nullable enable
         private Mass? grabbedMass = null;
+        private int baseFOV = 50;
 
         void Start()
         {
             MassChanged();
             SelectMinion(selectMinion);
             // create tongue rendere
+            circleRenderer = GetComponent<CircleRenderer>();
             if (tongueRenderer == null) tongueRenderer = gameObject.AddComponent<LineRenderer>();
             tongueRenderer.startColor = Color.red;
             tongueRenderer.endColor = Color.red;
             // set width 0.1
             tongueRenderer.startWidth = 0.1f;
             tongueRenderer.endWidth = 0.05f;
+
+            if (circleRenderer)
+            {
+                circleRenderer.Radius = baseMaxTongueLength;
+            }
         }
 
         void MassChanged()
@@ -48,6 +63,26 @@ namespace Bigmode
             MaxHealth = 1 + (mass * healthPerMass);
             var scale = 1 + (mass * sizePerMass);
             transform.localScale = Vector3.one * scale;
+
+            // Update cinemachine base follow offset z
+            var brain = Camera.main.GetComponent<CinemachineBrain>();
+            var camera = brain.ActiveVirtualCamera as CinemachineVirtualCamera;
+            if (camera == null) return;
+            camera.m_Lens.FieldOfView = baseFOV + (mass * cameraZoomOutPerMass);
+
+            SetHealth(mass);
+        }
+
+        public override void Damage(float amount)
+        {
+            base.Damage(amount);
+            SetMass((int)GetHealth());
+        }
+
+        void SetMass(int amount)
+        {
+            mass = amount;
+            MassChanged();
         }
 
         void IncreaseMass(int amount)
@@ -71,7 +106,7 @@ namespace Bigmode
         bool SpendMass(int amount)
         {
             var finalMass = mass - amount;
-            if (finalMass < 0) return false;
+            if (finalMass < 1) return false;
 
             DecreaseMass(amount);
             return true;
@@ -115,7 +150,7 @@ namespace Bigmode
         {
 
             // find objects in physics 2D overlap circle
-            var colliders = Physics2D.OverlapCircleAll(transform.position, maxTongueLength);
+            var colliders = Physics2D.OverlapCircleAll(transform.position, baseMaxTongueLength * transform.localScale.x);
 
             var masses = new List<Mass>();
             // filter out everything but Minions and Fly tags
@@ -152,9 +187,11 @@ namespace Bigmode
 
         void Update()
         {
+
             if (grabbedMass != null)
             {
                 tongueRenderer.enabled = true;
+                mouthSprite.SetActive(true);
                 var start = tongueRenderer.transform.position;
                 var end = grabbedMass.transform.position;
                 tongueRenderer.SetPositions(new Vector3[] { start, end });
@@ -163,15 +200,16 @@ namespace Bigmode
                 float distance = Vector3.Distance(start, end);
 
                 // If the minion is further away than the max tongue length, pull it closer
-                if (distance > maxTongueLength)
+                if (distance > (baseMaxTongueLength * transform.localScale.x))
                 {
                     // Move the minion towards the player
-                    grabbedMass.transform.position = Vector3.MoveTowards(end, start, distance - maxTongueLength);
+                    grabbedMass.transform.position = Vector3.MoveTowards(end, start, distance - baseMaxTongueLength);
                 }
             }
             else
             {
                 tongueRenderer.enabled = false;
+                mouthSprite.SetActive(false);
             }
         }
     }
