@@ -20,7 +20,13 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
+    SerializationNodes:
+    - Name: UpgradeLogic
+      Entry: 7
+      Data: 0|EpicFly, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
   Title: Epic Fly
   Icon: {fileID: -1219940724, guid: daf8664635d0b42dcb1f1e49d7aa4d67, type: 3}
-  Description: Gain an addition fly each time you eat a fly
+  Description: Gain an addition fly each time you eat a fly (humgry)
