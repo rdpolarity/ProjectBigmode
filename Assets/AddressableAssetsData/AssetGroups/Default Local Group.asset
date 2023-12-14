@@ -29,6 +29,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - TiledStructure
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2acbf00befe375c438271de312bab03f
+    m_Address: Assets/Data/Upgrades/Tongue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c32d75bc14283d04798a2123115e1106, type: 2}
   m_SchemaSet:
