@@ -49,6 +49,12 @@ public class UIManager : MonoBehaviour, IMassChangeListener, IMinionCountChangeL
         MassCountText.SetText(HUD_MASS_APPEND_TEXT + playerMass);
         if (playerMass == 0)
             MassCountText.SetText(HUD_MASS_APPEND_TEXT + "tiny 'lil guy");
+        if (playerMass <= 5) {
+            MassCountText.color = Color.red;
+        }
+        if (playerMass > 5) {
+            MassCountText.color = Color.white;
+        }
         if (playerMass <= 0){ // pause and display Game Over screen if the player is dead
             MassCountText.SetText(HUD_MASS_APPEND_TEXT + "Oh no");
             GameOverScreen.SetActive(true);
