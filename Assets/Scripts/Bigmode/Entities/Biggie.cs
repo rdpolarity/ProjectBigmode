@@ -66,6 +66,15 @@ namespace Bigmode
             }
         }
 
+        public void IncreaseTongueLength(float length)
+        {
+            baseMaxTongueLength += length;
+            if (circleRenderer)
+            {
+                circleRenderer.Radius += length;
+            }
+        }
+
         void MassChanged()
         {
             MaxHealth = 1 + (mass * healthPerMass);

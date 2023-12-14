@@ -20,7 +20,13 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
+    SerializationNodes:
+    - Name: UpgradeLogic
+      Entry: 7
+      Data: 0|Tongue, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
   Title: Tongue
   Icon: {fileID: 5058940923275392842, guid: 65fadf73c5cea418da8a74a72b17b349, type: 3}
   Description: Increase tongue pickup radius
