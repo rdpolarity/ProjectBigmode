@@ -10,7 +10,7 @@ namespace Bigmode
         public GameObject pauseMenu;
 
         // Configuration
-        [SerializeField] private float force;
+        public float Force;
 
         // Working vars
         public Animator walkIdleAnimator;
@@ -45,7 +45,7 @@ namespace Bigmode
 
         private void Update()
         {
-            var desired = movementInput * force;
+            var desired = movementInput * Force;
             var delta = desired - rigidbody.velocity;
 
             rigidbody.AddForce(delta * Time.deltaTime);
@@ -101,16 +101,19 @@ namespace Bigmode
         public void OnEscapeMenu(InputAction.CallbackContext context)
         {
             Debug.Log("Escape Key Pressed.");
-            if (! pauseMenu.activeSelf){
+            if (!pauseMenu.activeSelf)
+            {
                 Time.timeScale = 0f;
                 pauseMenu.SetActive(true);
             }
-            else { // toggle pause
+            else
+            { // toggle pause
                 OnResume();
             }
         }
 
-        public void OnResume(){
+        public void OnResume()
+        {
             Debug.Log("Resuming game...");
             Time.timeScale = 1.0f;
             pauseMenu.SetActive(false);

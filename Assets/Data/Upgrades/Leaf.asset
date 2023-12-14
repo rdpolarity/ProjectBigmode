@@ -20,7 +20,13 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
+    SerializationNodes:
+    - Name: UpgradeLogic
+      Entry: 7
+      Data: 0|Leaf, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
   Title: Leaf
   Icon: {fileID: -1142783486, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
   Description: Increase biggie's walk speed

@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class UpgradeManager : Singleton<UpgradeManager>
 {
-    [SerializeField] private List<Upgrade> upgrades;
-    [SerializeField] private List<Upgrade> currentUpgrades;
+    [SerializeField] private List<UpgradeDef> upgrades;
+    [SerializeField] private List<UpgradeDef> currentUpgrades;
 
     // Will choose 'amount' random upgrades from the list of upgrades
     // Each upgrade generated HAS to be unique
     // Returns a list of upgrades
-    public List<Upgrade> GenerateRandomUpgrades(int amount)
+    public List<UpgradeDef> GenerateRandomUpgrades(int amount)
     {
-        List<Upgrade> shuffledUpgrades = new(upgrades);
+        List<UpgradeDef> shuffledUpgrades = new(upgrades);
         System.Random rng = new();
         int n = shuffledUpgrades.Count;
 
@@ -29,8 +29,12 @@ public class UpgradeManager : Singleton<UpgradeManager>
         return shuffledUpgrades.GetRange(0, Mathf.Min(amount, shuffledUpgrades.Count));
     }
 
-    public void PickUpgrade(Upgrade upgrade)
+    public void PickUpgrade(UpgradeDef upgrade)
     {
         currentUpgrades.Add(upgrade);
+        if (upgrade.UpgradeLogic != null)
+        {
+            upgrade.UpgradeLogic.Init();
+        }
     }
 }

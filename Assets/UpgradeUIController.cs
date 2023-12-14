@@ -16,7 +16,7 @@ public class UpgradeUIController : MonoBehaviour
         }
     }
 
-    TemplateContainer MakeUpgradeCard(Upgrade upgrade) {
+    TemplateContainer MakeUpgradeCard(UpgradeDef upgrade) {
         var upgradeCard = upgradeCardTemplate.CloneTree();
         upgradeCard.Q<Button>("Upgrade").clicked += () => OnClickUpgrade(upgrade);
         upgradeCard.Q<Label>("Title").text = upgrade.Title;
@@ -25,7 +25,7 @@ public class UpgradeUIController : MonoBehaviour
         return upgradeCard;
     }
 
-    void OnClickUpgrade(Upgrade upgrade) {
+    void OnClickUpgrade(UpgradeDef upgrade) {
         RoundManager.Instance.OnUpgradeSelected();
         UpgradeManager.Instance.PickUpgrade(upgrade);
     }

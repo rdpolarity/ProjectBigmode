@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
-  force: 800
+  Force: 800
   walkIdleAnimator: {fileID: 4151629162763812496}
 --- !u!50 &5369461379499086570
 Rigidbody2D:
