@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2db06b90b9f8d45b2eea614a5f97df, type: 3}
+  m_Name: GrassToadsSwarm
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 847561868088983649, guid: 0d085532f16e7274b842b2144dcb8581, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spawnSettings
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[SpawnDef+SpawnSettings, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: SpawnDef+SpawnSettings, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: triggerSpawnEvery
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: SpawnDef+SpawnSettings, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: triggerSpawnEvery
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: SpawnDef+SpawnSettings, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: triggerSpawnEvery
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: SpawnDef+SpawnSettings, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: triggerSpawnEvery
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: SpawnDef+SpawnSettings, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: triggerSpawnEvery
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  minRound: 2
+  maxRound: 0
