@@ -268,7 +268,7 @@ MonoBehaviour:
   health: 10
   onDamageSound: {fileID: 11400000, guid: 1e77f0e6b90e4ba4aa732369f05612fc, type: 2}
   onHealSound: {fileID: 0}
-  mass: 100
+  mass: 10
   minions:
   - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
   - {fileID: 11400000, guid: 3ac83d6720dd19244ab80934c7f4b278, type: 2}
