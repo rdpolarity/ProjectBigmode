@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UpgradeCard" src="project://database/Assets/UI/UpgradeCard.uxml?fileID=9197481963319205126&amp;guid=6ae9ea4c01e8ad946a278f60cd30a80e&amp;type=3#UpgradeCard" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; -unity-font: url(&apos;project://database/Assets/UI/Fonts/Minecraft.ttf?fileID=12800000&amp;guid=c9a41adcd4eae3c46a99cfcb6c126460&amp;type=3#Minecraft&apos;); color: rgb(255, 255, 255); font-size: 20px; -unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/Minecraft%20SDF.asset?fileID=11400000&amp;guid=f90c9c6db15381043b22f3b309494326&amp;type=2#Minecraft SDF&apos;); padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; justify-content: space-between;">
+        <ui:Label tabindex="-1" text="Round:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Round" style="align-self: center; font-size: 50px;" />
+        <ui:Label tabindex="-1" text="30" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Time" style="align-self: center; font-size: 100px;" />
+    </ui:VisualElement>
+    <ui:Instance template="UpgradeCard" name="UpgradeCard" style="position: absolute; scale: 1 1; top: 1px; right: 1536px; left: 0;" />
+</ui:UXML>

@@ -36,22 +36,29 @@ namespace Bigmode
 
         public List<IMinionCountChangeListener> minionCountChangeListeners = new();
 
-        public int AdditionalMassPerFly = 0; 
+        public int AdditionalMassPerFly = 0;
 
         [SerializeField]
         private float baseMaxTongueLength = 2f;
         [SerializeField]
         private GameObject mouthSprite;
-        
+
+        public delegate void OnSelectedMinionChanged(MinionType minion);
+        public static event OnSelectedMinionChanged OnSelectedMinionChangedEvent;
+
 
         private CircleRenderer circleRenderer;
 #nullable enable
         private Mass? grabbedMass = null;
         private int baseFOV = 50;
 
-        void Start()
+        void OnEnable()
         {
             MassChanged();
+        }
+
+        void Start()
+        {
             SelectMinion(selectMinion);
             // create tongue rendere
             circleRenderer = GetComponent<CircleRenderer>();
@@ -66,9 +73,12 @@ namespace Bigmode
             {
                 circleRenderer.Radius = baseMaxTongueLength;
             }
+
+            MassChanged();
         }
-        
-        public void SpawnDoge() {
+
+        public void SpawnDoge()
+        {
             Instantiate(dogePrefab, transform.position, transform.rotation);
         }
 
@@ -96,7 +106,8 @@ namespace Bigmode
             SetHealth(mass);
 
             // notify listners
-            foreach (IMassChangeListener listener in massChangeListeners) {
+            foreach (IMassChangeListener listener in massChangeListeners)
+            {
                 listener.MassChanged(mass);
             }
         }
@@ -155,6 +166,7 @@ namespace Bigmode
             {
                 selectMinion = index;
                 spriteRenderer.sprite = minions[selectMinion].sprite;
+                OnSelectedMinionChangedEvent?.Invoke(minions[selectMinion]);
                 return true;
             }
         }
@@ -174,7 +186,8 @@ namespace Bigmode
                 Minion lilMinion = lilGuy.GetComponent<Minion>();
                 lilMinion.minionCountChangeListener = minionCountChangeListeners[0];
 
-                foreach (IMinionCountChangeListener listener in minionCountChangeListeners){
+                foreach (IMinionCountChangeListener listener in minionCountChangeListeners)
+                {
                     listener.MinionCountChanged(1);
                 }
 

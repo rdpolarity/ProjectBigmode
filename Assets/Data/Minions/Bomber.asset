@@ -23,7 +23,8 @@ MonoBehaviour:
     SerializationNodes: []
   cost: 5
   name: Bomber
-  description: A lowcost kamakaze unit
+  description: (Costs 5) Chargers at nearby enemy units and explodes. Great for clearning
+    large groups. ;,( but at what cost.
   sprite: {fileID: 1568899810, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
   prefab: {fileID: 444722436143659534, guid: 9624a154d69eebe45b59450d9583c1ff, type: 3}
   color: {r: 0.44691172, g: 0.7830189, b: 0.7773858, a: 0}

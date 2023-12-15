@@ -8,11 +8,16 @@ using UnityEngine;
 public class RoundManager : Singleton<RoundManager>
 {
     public static event Action OnRoundEnd;
-    public float Round = 1;
+    public int Round = 1;
 
     [SerializeField] private float roundDurationInSeconds = (60f * 2f);
     [SerializeField, ReadOnly] private float roundTimer = 0f;
     [SerializeField] private GameObject upgradeUI;
+
+    public delegate void OnRoundChanged(int round);
+    public static event OnRoundChanged OnRoundChangedEvent;
+    public delegate void OnRoundTimerChanged(float roundTimer);
+    public static event OnRoundTimerChanged OnRoundTimerChangedEvent;
 
     private bool isRoundActive = false;
 
@@ -42,6 +47,7 @@ public class RoundManager : Singleton<RoundManager>
     public void OnUpgradeSelected()
     {
         Round++;
+        OnRoundChangedEvent?.Invoke(Round);
         upgradeUI.SetActive(false);
         StartRound();
     }
@@ -51,10 +57,16 @@ public class RoundManager : Singleton<RoundManager>
         if (isRoundActive)
         {
             roundTimer += Time.deltaTime;
+            OnRoundTimerChangedEvent.Invoke(roundTimer);
             if (roundTimer >= roundDurationInSeconds)
             {
                 EndRound();
             }
         }
+    }
+
+    public float GetRoundDuration()
+    {
+        return roundDurationInSeconds;
     }
 }

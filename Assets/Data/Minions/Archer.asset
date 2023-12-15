@@ -23,7 +23,8 @@ MonoBehaviour:
     SerializationNodes: []
   cost: 2
   name: Archer
-  description: A ranged unit
+  description: (Costs 2) Shoots a dark at nearby enemies from a distance. Good at
+    thinning crowds
   sprite: {fileID: -1142783486, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
   prefab: {fileID: 8679465530614620930, guid: 07284878c96885c4286ebec334d8436b, type: 3}
   color: {r: 0.44691172, g: 0.7830189, b: 0.7773858, a: 0}

@@ -273,7 +273,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
   - {fileID: 11400000, guid: 3ac83d6720dd19244ab80934c7f4b278, type: 2}
   - {fileID: 11400000, guid: c42358558b7882247b61d5a29b886c37, type: 2}
-  - {fileID: 11400000, guid: d23428747e00b224a9d4063563358ba2, type: 2}
   selectMinion: 0
   sizePerMass: 0.01
   healthPerMass: 1

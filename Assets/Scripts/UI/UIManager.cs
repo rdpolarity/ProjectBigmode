@@ -57,11 +57,16 @@ public class UIManager : MonoBehaviour, IMassChangeListener, IMinionCountChangeL
         }
         if (playerMass <= 0){ // pause and display Game Over screen if the player is dead
             MassCountText.SetText(HUD_MASS_APPEND_TEXT + "Oh no");
+            Time.timeScale = 0f;
             GameOverScreen.SetActive(true);
             // not going to pause for now as I think it's kind of fun to not.
             // if we would like to though, here is the code:
             // Time.timeScale = 0f;
         }
+    }
+
+    void OnDisable() {
+        Time.timeScale = 1.0f;
     }
 
     public void MinionCountChanged(int delta){
