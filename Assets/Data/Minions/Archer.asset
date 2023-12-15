@@ -25,5 +25,5 @@ MonoBehaviour:
   name: Archer
   description: A ranged unit
   sprite: {fileID: -1142783486, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
-  prefab: {fileID: 444722436143659534, guid: 72da8f322c2206b4fac18ef5fa72b2bd, type: 3}
+  prefab: {fileID: 8679465530614620930, guid: 07284878c96885c4286ebec334d8436b, type: 3}
   color: {r: 0.44691172, g: 0.7830189, b: 0.7773858, a: 0}

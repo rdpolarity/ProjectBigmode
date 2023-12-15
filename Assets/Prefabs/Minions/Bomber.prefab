@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: mass
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7390701671240999420, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+      propertyPath: mBehaviorSource.behaviorName
+      value: Bomber
+      objectReference: {fileID: 0}
     - target: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
       propertyPath: m_Name
       value: Bomber

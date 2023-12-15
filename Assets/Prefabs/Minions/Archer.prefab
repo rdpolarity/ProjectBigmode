@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8101183048887106163
+--- !u!1001 &1023848008122491775
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,14 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4602856324684331112, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
-      propertyPath: type
-      value: 
-      objectReference: {fileID: 11400000, guid: 3ac83d6720dd19244ab80934c7f4b278, type: 2}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2270525965588420272, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 744799420, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
-    - target: {fileID: 6657525446037258695, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 744799420, guid: 729f5f19ec92e470bb18f457b3b260dc, type: 3}
@@ -60,10 +56,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6905299063857455801, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
-      propertyPath: mass
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
       propertyPath: m_Name
       value: Archer
@@ -71,5 +63,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1393649784611108651}
   m_SourcePrefab: {fileID: 100100000, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+--- !u!1 &1421786470757387869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2129713434014690594, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+  m_PrefabInstance: {fileID: 1023848008122491775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8679465530614620930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+  m_PrefabInstance: {fileID: 1023848008122491775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1393649784611108651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8679465530614620930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 11400000, guid: 7c85cb9395f07b04f85e78a4418a346a, type: 2}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"AgroRange","IsShared":true,"SinglemValue":1},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"target","IsShared":true,"IsDynamic":true},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"player","IsShared":true,"IsDynamic":true},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Animator","IsShared":true,"GameObjectmValue":0}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 1421786470757387869}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.7
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1

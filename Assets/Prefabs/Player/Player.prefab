@@ -278,7 +278,8 @@ MonoBehaviour:
   spawnYDisplacement: 1
   spriteRenderer: {fileID: 1096314056600653241}
   tongueRenderer: {fileID: 4468055074968652944}
-  dogePrefab: {fileID: 8522736550195871869, guid: d08d0a63f2b96fb448e7b3841ef1665e, type: 3}
+  dogePrefab: {fileID: 5552817595875122275, guid: d08d0a63f2b96fb448e7b3841ef1665e, type: 3}
+  AdditionalMassPerFly: 0
   baseMaxTongueLength: 1
   mouthSprite: {fileID: 1043858174671306584}
 --- !u!208 &8787224455442445464

@@ -25,5 +25,5 @@ MonoBehaviour:
   name: Soldier
   description: A lowcost close range unit
   sprite: {fileID: -1530540626, guid: c990d6cf76d274a82a7299fc26f37120, type: 3}
-  prefab: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+  prefab: {fileID: 8679465530614620930, guid: 0ce36d0b3017d6342bac0944a06a1ec1, type: 3}
   color: {r: 0.44691172, g: 0.7830189, b: 0.7773858, a: 0}
