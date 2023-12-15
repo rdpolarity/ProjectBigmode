@@ -67,5 +67,59 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8522736550195871869, guid: 300aa020f25350f45b17372d23137414, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2715260303930943488}
   m_SourcePrefab: {fileID: 100100000, guid: 300aa020f25350f45b17372d23137414, type: 3}
+--- !u!1 &847561868088983649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522736550195871869, guid: 300aa020f25350f45b17372d23137414, type: 3}
+  m_PrefabInstance: {fileID: 9044902315445026844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2715260303930943488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847561868088983649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 11400000, guid: 80458fa1d7f86c6418744465a209ad14, type: 2}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"target","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"player","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Animator","IsShared":true,"GameObjectmValue":0}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 4263084722392028480}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.7
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!1 &4263084722392028480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5092575348406080860, guid: 300aa020f25350f45b17372d23137414, type: 3}
+  m_PrefabInstance: {fileID: 9044902315445026844}
+  m_PrefabAsset: {fileID: 0}
