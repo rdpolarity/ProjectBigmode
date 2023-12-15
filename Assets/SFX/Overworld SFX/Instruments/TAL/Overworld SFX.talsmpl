@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tal curprogram="0" version="6.0">
+  <programs>
+    <program path="C:\8UP\Overworld SFX\Instruments\TAL\Overworld SFX.talsmpl"
+             programname="Overworld SFX" category="category 1" modulation="0.0"
+             volume="0.5" portamentomode="0.0" portamentointensity="0.0" numvoices="0.0"
+             polymode="1.0" filtercutoff="1.0" filterresonance="0.0" filtermode="0.0"
+             filterkeyboardvalue="0.7325000166893005" filterenvelope="0.0"
+             filterlayera="0.0" filterlayerb="0.0" filterlayerc="0.0" filterlayerd="0.0"
+             lfophase1="0.0" lfophase2="0.0" lfophase3="0.0" globalvelocity="0.0"
+             portamentotime="0.0" paramReserved24="0.0" paramReserved34="0.0"
+             paramReserved44="0.0" samplejitter="0.0" lforate1="0.08333300054073334"
+             lfowaveform1="0.0" lfotrigger1="0.0" lfosync1="0.0" lforate2="0.05000000074505806"
+             lfowaveform2="0.0" lfotrigger2="0.0" lfosync2="0.0" lforate3="0.05000000074505806"
+             lfowaveform3="0.0" lfotrigger3="0.0" lfosync3="0.0" adsrampattack="0.0"
+             adsramphold="0.0" adsrampdecay="0.0" adsrampsustain="1.0" adsramprelease="0.1000000014901161"
+             adsrvcfattack="0.0" adsrvcfhold="0.0" adsrvcfdecay="0.0" adsrvcfsustain="1.0"
+             adsrvcfrelease="0.1000000014901161" adsrmodattack="0.0" adsrmodhold="0.0"
+             adsrmoddecay="0.0" adsrmodsustain="0.0" adsrmodrelease="0.0"
+             samplebits="1.0" samplesamplerate="1.0" paramReserved45="0.0"
+             samplehiss="0.0" samplesaturation="0.0" sampledacvolume="1.0"
+             sampleresamplermode="0.1666666716337204" sampleenableda="1.0"
+             samplestretchfollowa="0.0" layertransposea="0.5" samplevolumea="0.5"
+             samplepana="0.5" samplestretcha="0.5" adsrampcrush="0.0" adsrvcfcrush="0.0"
+             adsrmodcrush="0.0" oneshot="1.0" lowPassa="1.0" highPassa="0.0"
+             sampletunea="0.5" samplefinetunea="0.5" samplestarta="0.0" sampleenda="0.0"
+             samplestretchsizea="0.5" sampleloopstarta="0.0" sampleloopenda="1.0"
+             sampleloopfadea="0.0" sampledelaya="0.0" sampleenabledb="0.0"
+             samplestretchfollowb="0.0" layertransposeb="0.5" samplevolumeb="0.5"
+             samplepanb="0.5" samplestretchb="0.5" lfounipolar1="0.0" lfounipolar2="0.0"
+             lfounipolar3="0.0" reserved0b="0.0" lowPassb="1.0" highPassb="0.0"
+             sampletuneb="0.5" samplefinetuneb="0.5" samplestartb="0.0" sampleendb="0.0"
+             samplestretchsizeb="0.5" sampleloopstartb="0.0" sampleloopendb="1.0"
+             sampleloopfadeb="0.0" sampledelayb="0.0" sampleenabledc="0.0"
+             samplestretchfollowc="0.0" layertransposec="0.5" samplevolumec="0.5"
+             samplepanc="0.5" samplestretchc="0.5" resonancea="0.0" resonanceb="0.0"
+             resonancec="0.0" resonanced="0.0" lowPassc="1.0" highPassc="0.0"
+             sampletunec="0.5" samplefinetunec="0.5" samplestartc="0.0" sampleendc="0.0"
+             samplestretchsizec="0.5" sampleloopstartc="0.0" sampleloopendc="1.0"
+             sampleloopfadec="0.0" sampledelayc="0.0" sampleenabledd="0.0"
+             samplestretchfollowd="0.0" layertransposed="0.5" samplevolumed="0.5"
+             samplepand="0.5" samplestretchd="0.5" filtermodea="0.0" filtermodeb="0.0"
+             filtermodec="0.0" filtermoded="0.0" lowPassd="1.0" highPassd="0.0"
+             sampletuned="0.5" samplefinetuned="0.5" samplestartd="0.0" sampleendd="0.5"
+             samplestretchsized="0.0" sampleloopstartd="1.0" sampleloopendd="0.0"
+             sampleloopfaded="0.0" sampledelayd="0.0" effecteq1enabled="0.0"
+             effecteq1freq="0.5" effecteq1amount="0.5" effecteq1q="0.5" effectreverbon="0.0"
+             effectreverbamount="0.2475000023841858" effectreverbdelay="0.1700000017881393"
+             effectreverbsize="0.3899999856948853" effectreverblow="1.0" effectreverbhigh="0.4799999892711639"
+             effectdelayon="0.0" effectdelaysync="0.0" effectdelayamount="0.2700000107288361"
+             effectdelaytime="0.6100000143051147" effectdelaytimespread="0.7300000190734863"
+             effectdelayspread="0.0" effectdelaydepth="0.0" effectdelayrate="0.0"
+             effectdelayfeedback="0.3350000083446503" effectdelaylow="0.4300000071525574"
+             effectdelayhigh="0.0" mastertune="0.5" sampleasymemuii="1.0"
+             parammodmatrix0="0.0" parammodmatrix1="0.0" parammodmatrix2="0.5"
+             parammodmatrix3="0.5" sampleadcq="1.0" sampledacq="1.0" includewaveinpreset="0.0"
+             pitchwheel="0.5" modulationwheel="0.0" mpeEnabled="0.0" velocitystartlayera="0.0"
+             velocitystartlayerb="0.0" velocitystartlayerc="0.0" velocitystartlayerd="0.0"
+             velocityendlayera="1.0" velocityendlayerb="1.0" velocityendlayerc="1.0"
+             velocityendlayerd="1.0" samplestartui="0.0" sampleendui="0.0"
+             sampleloopstartui="0.0" sampleloopendui="0.0" fxlock="0.0" microtuningFileName="">
+      <samplelayer0>
+        <multisamples>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 1.wav"
+                       rootkey="12" lowkey="12" highkey="12" loopstartsample="0" loopendsample="16033"
+                       startsample="0" endsample="16033" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 2.wav"
+                       rootkey="13" lowkey="13" highkey="13" loopstartsample="0" loopendsample="16363"
+                       startsample="0" endsample="16363" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 3.wav"
+                       rootkey="14" lowkey="14" highkey="14" loopstartsample="0" loopendsample="16872"
+                       startsample="0" endsample="16872" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 4.wav"
+                       rootkey="15" lowkey="15" highkey="15" loopstartsample="0" loopendsample="16752"
+                       startsample="0" endsample="16752" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 5.wav"
+                       rootkey="16" lowkey="16" highkey="16" loopstartsample="0" loopendsample="19820"
+                       startsample="0" endsample="19820" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 6.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 6.wav"
+                       rootkey="17" lowkey="17" highkey="17" loopstartsample="0" loopendsample="23561"
+                       startsample="0" endsample="23561" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Explode 7.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Explode 7.wav"
+                       rootkey="18" lowkey="18" highkey="18" loopstartsample="0" loopendsample="21175"
+                       startsample="0" endsample="21175" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Set 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Set 1.wav"
+                       rootkey="19" lowkey="19" highkey="19" loopstartsample="0" loopendsample="3649"
+                       startsample="0" endsample="3649" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Set 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Set 2.wav"
+                       rootkey="20" lowkey="20" highkey="20" loopstartsample="0" loopendsample="3649"
+                       startsample="0" endsample="3649" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Set 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Set 3.wav"
+                       rootkey="21" lowkey="21" highkey="21" loopstartsample="0" loopendsample="3701"
+                       startsample="0" endsample="3701" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Set 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Set 4.wav"
+                       rootkey="22" lowkey="22" highkey="22" loopstartsample="0" loopendsample="11724"
+                       startsample="0" endsample="11724" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Bomb Set 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Bomb Set 5.wav"
+                       rootkey="23" lowkey="23" highkey="23" loopstartsample="0" loopendsample="3673"
+                       startsample="0" endsample="3673" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang &amp; Arrow 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang &amp; Arrow 1.wav"
+                       rootkey="24" lowkey="24" highkey="24" loopstartsample="0" loopendsample="2851"
+                       startsample="0" endsample="2851" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang &amp; Arrow 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang &amp; Arrow 2.wav"
+                       rootkey="25" lowkey="25" highkey="25" loopstartsample="0" loopendsample="2642"
+                       startsample="0" endsample="2642" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang &amp; Arrow 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang &amp; Arrow 3.wav"
+                       rootkey="26" lowkey="26" highkey="26" loopstartsample="0" loopendsample="2652"
+                       startsample="0" endsample="2652" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang &amp; Arrow 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang &amp; Arrow 4.wav"
+                       rootkey="27" lowkey="27" highkey="27" loopstartsample="0" loopendsample="2909"
+                       startsample="0" endsample="2909" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang Loop 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang Loop 1.wav"
+                       rootkey="28" lowkey="28" highkey="28" loopstartsample="0" loopendsample="58417"
+                       startsample="0" endsample="58417" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang Loop 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang Loop 2.wav"
+                       rootkey="29" lowkey="29" highkey="29" loopstartsample="0" loopendsample="58609"
+                       startsample="0" endsample="58609" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Boomerang Loop 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Boomerang Loop 3.wav"
+                       rootkey="30" lowkey="30" highkey="30" loopstartsample="0" loopendsample="58772"
+                       startsample="0" endsample="58772" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Candle Fire 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Candle Fire 1.wav"
+                       rootkey="31" lowkey="31" highkey="31" loopstartsample="0" loopendsample="22761"
+                       startsample="0" endsample="22761" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Candle Fire 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Candle Fire 2.wav"
+                       rootkey="32" lowkey="32" highkey="32" loopstartsample="0" loopendsample="22562"
+                       startsample="0" endsample="22562" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Candle Fire 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Candle Fire 3.wav"
+                       rootkey="33" lowkey="33" highkey="33" loopstartsample="0" loopendsample="22739"
+                       startsample="0" endsample="22739" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Candle Fire 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Candle Fire 4.wav"
+                       rootkey="34" lowkey="34" highkey="34" loopstartsample="0" loopendsample="34842"
+                       startsample="0" endsample="34842" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Down Stairs 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Down Stairs 1.wav"
+                       rootkey="35" lowkey="35" highkey="35" loopstartsample="0" loopendsample="37995"
+                       startsample="0" endsample="37995" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Down Stairs 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Down Stairs 2.wav"
+                       rootkey="36" lowkey="36" highkey="36" loopstartsample="0" loopendsample="38204"
+                       startsample="0" endsample="38204" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Down Stairs 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Down Stairs 3.wav"
+                       rootkey="37" lowkey="37" highkey="37" loopstartsample="0" loopendsample="49236"
+                       startsample="0" endsample="49236" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Down Stairs 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Down Stairs 4.wav"
+                       rootkey="38" lowkey="38" highkey="38" loopstartsample="0" loopendsample="80839"
+                       startsample="0" endsample="80839" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Down Stairs 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Down Stairs 5.wav"
+                       rootkey="39" lowkey="39" highkey="39" loopstartsample="0" loopendsample="38220"
+                       startsample="0" endsample="38220" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Dying 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Dying 1.wav"
+                       rootkey="40" lowkey="40" highkey="40" loopstartsample="0" loopendsample="110142"
+                       startsample="0" endsample="110142" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Dying 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Dying 2.wav"
+                       rootkey="41" lowkey="41" highkey="41" loopstartsample="0" loopendsample="110240"
+                       startsample="0" endsample="110240" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Hit 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Hit 1.wav"
+                       rootkey="42" lowkey="42" highkey="42" loopstartsample="0" loopendsample="9527"
+                       startsample="0" endsample="9527" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Hit 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Hit 2.wav"
+                       rootkey="43" lowkey="43" highkey="43" loopstartsample="0" loopendsample="9527"
+                       startsample="0" endsample="9527" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Hit 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Hit 3.wav"
+                       rootkey="44" lowkey="44" highkey="44" loopstartsample="0" loopendsample="9425"
+                       startsample="0" endsample="9425" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Hit 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Hit 4.wav"
+                       rootkey="45" lowkey="45" highkey="45" loopstartsample="0" loopendsample="31575"
+                       startsample="0" endsample="31575" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Hit 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Hit 5.wav"
+                       rootkey="46" lowkey="46" highkey="46" loopstartsample="0" loopendsample="19085"
+                       startsample="0" endsample="19085" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill 1.wav"
+                       rootkey="47" lowkey="47" highkey="47" loopstartsample="0" loopendsample="7343"
+                       startsample="0" endsample="7343" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill 2.wav"
+                       rootkey="48" lowkey="48" highkey="48" loopstartsample="0" loopendsample="7258"
+                       startsample="0" endsample="7258" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill 3.wav"
+                       rootkey="49" lowkey="49" highkey="49" loopstartsample="0" loopendsample="7329"
+                       startsample="0" endsample="7329" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill 4.wav"
+                       rootkey="50" lowkey="50" highkey="50" loopstartsample="0" loopendsample="19084"
+                       startsample="0" endsample="19084" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill 5.wav"
+                       rootkey="51" lowkey="51" highkey="51" loopstartsample="0" loopendsample="15461"
+                       startsample="0" endsample="15461" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill Full 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill Full 1.wav"
+                       rootkey="52" lowkey="52" highkey="52" loopstartsample="0" loopendsample="9549"
+                       startsample="0" endsample="9549" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill Full 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill Full 2.wav"
+                       rootkey="53" lowkey="53" highkey="53" loopstartsample="0" loopendsample="9548"
+                       startsample="0" endsample="9548" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill Full 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill Full 3.wav"
+                       rootkey="54" lowkey="54" highkey="54" loopstartsample="0" loopendsample="10922"
+                       startsample="0" endsample="10922" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Enemy Kill Full 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Enemy Kill Full 4.wav"
+                       rootkey="55" lowkey="55" highkey="55" loopstartsample="0" loopendsample="19084"
+                       startsample="0" endsample="19084" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Key 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Key 1.wav"
+                       rootkey="56" lowkey="56" highkey="56" loopstartsample="0" loopendsample="44105"
+                       startsample="0" endsample="44105" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Key 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Key 2.wav"
+                       rootkey="57" lowkey="57" highkey="57" loopstartsample="0" loopendsample="44099"
+                       startsample="0" endsample="44099" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Key 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Key 3.wav"
+                       rootkey="58" lowkey="58" highkey="58" loopstartsample="0" loopendsample="44096"
+                       startsample="0" endsample="44096" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Key 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Key 4.wav"
+                       rootkey="59" lowkey="59" highkey="59" loopstartsample="0" loopendsample="44099"
+                       startsample="0" endsample="44099" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Key 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Key 5.wav"
+                       rootkey="60" lowkey="60" highkey="60" loopstartsample="0" loopendsample="44106"
+                       startsample="0" endsample="44106" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Secret 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Secret 1.wav"
+                       rootkey="61" lowkey="61" highkey="61" loopstartsample="0" loopendsample="76428"
+                       startsample="0" endsample="76428" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Secret 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Secret 2.wav"
+                       rootkey="62" lowkey="62" highkey="62" loopstartsample="0" loopendsample="69065"
+                       startsample="0" endsample="69065" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Find Secret 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Find Secret 3.wav"
+                       rootkey="63" lowkey="63" highkey="63" loopstartsample="0" loopendsample="76429"
+                       startsample="0" endsample="76429" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Flute 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Flute 1.wav"
+                       rootkey="64" lowkey="64" highkey="64" loopstartsample="0" loopendsample="129368"
+                       startsample="0" endsample="129368" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Flute 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Flute 2.wav"
+                       rootkey="65" lowkey="65" highkey="65" loopstartsample="0" loopendsample="116141"
+                       startsample="0" endsample="116141" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Flute 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Flute 3.wav"
+                       rootkey="66" lowkey="66" highkey="66" loopstartsample="0" loopendsample="129372"
+                       startsample="0" endsample="129372" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Flute 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Flute 4.wav"
+                       rootkey="67" lowkey="67" highkey="67" loopstartsample="0" loopendsample="114669"
+                       startsample="0" endsample="114669" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get 1 Gem.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get 1 Gem.wav"
+                       rootkey="68" lowkey="68" highkey="68" loopstartsample="0" loopendsample="22057"
+                       startsample="0" endsample="22057" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get 5 Gems.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get 5 Gems.wav"
+                       rootkey="69" lowkey="69" highkey="69" loopstartsample="0" loopendsample="22057"
+                       startsample="0" endsample="22057" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Gem 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Gem 1.wav"
+                       rootkey="70" lowkey="70" highkey="70" loopstartsample="0" loopendsample="22057"
+                       startsample="0" endsample="22057" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Gem 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Gem 2.wav"
+                       rootkey="71" lowkey="71" highkey="71" loopstartsample="0" loopendsample="22053"
+                       startsample="0" endsample="22053" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Gem 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Gem 3.wav"
+                       rootkey="72" lowkey="72" highkey="72" loopstartsample="0" loopendsample="22053"
+                       startsample="0" endsample="22053" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Gem 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Gem 4.wav"
+                       rootkey="73" lowkey="73" highkey="73" loopstartsample="0" loopendsample="22058"
+                       startsample="0" endsample="22058" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 1.wav"
+                       rootkey="74" lowkey="74" highkey="74" loopstartsample="0" loopendsample="4406"
+                       startsample="0" endsample="4406" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 2.wav"
+                       rootkey="75" lowkey="75" highkey="75" loopstartsample="0" loopendsample="4399"
+                       startsample="0" endsample="4399" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 3.wav"
+                       rootkey="76" lowkey="76" highkey="76" loopstartsample="0" loopendsample="4398"
+                       startsample="0" endsample="4398" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 4.wav"
+                       rootkey="77" lowkey="77" highkey="77" loopstartsample="0" loopendsample="6615"
+                       startsample="0" endsample="6615" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 5.wav"
+                       rootkey="78" lowkey="78" highkey="78" loopstartsample="0" loopendsample="4396"
+                       startsample="0" endsample="4396" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Heart 6.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Heart 6.wav"
+                       rootkey="79" lowkey="79" highkey="79" loopstartsample="0" loopendsample="6611"
+                       startsample="0" endsample="6611" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Item 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Item 1.wav"
+                       rootkey="80" lowkey="80" highkey="80" loopstartsample="0" loopendsample="32344"
+                       startsample="0" endsample="32344" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Item 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Item 2.wav"
+                       rootkey="81" lowkey="81" highkey="81" loopstartsample="0" loopendsample="27934"
+                       startsample="0" endsample="27934" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Get Item 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Get Item 3.wav"
+                       rootkey="82" lowkey="82" highkey="82" loopstartsample="0" loopendsample="47781"
+                       startsample="0" endsample="47781" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Low Health Loop.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Low Health Loop.wav"
+                       rootkey="83" lowkey="83" highkey="83" loopstartsample="0" loopendsample="111610"
+                       startsample="0" endsample="111610" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Low Health Single.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Low Health Single.wav"
+                       rootkey="84" lowkey="84" highkey="84" loopstartsample="0" loopendsample="4414"
+                       startsample="0" endsample="4414" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Magic Rod 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Magic Rod 1.wav"
+                       rootkey="85" lowkey="85" highkey="85" loopstartsample="0" loopendsample="17632"
+                       startsample="0" endsample="17632" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Magic Rod 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Magic Rod 2.wav"
+                       rootkey="86" lowkey="86" highkey="86" loopstartsample="0" loopendsample="17615"
+                       startsample="0" endsample="17615" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Magic Rod 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Magic Rod 3.wav"
+                       rootkey="87" lowkey="87" highkey="87" loopstartsample="0" loopendsample="17628"
+                       startsample="0" endsample="17628" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Magic Rod 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Magic Rod 4.wav"
+                       rootkey="88" lowkey="88" highkey="88" loopstartsample="0" loopendsample="17633"
+                       startsample="0" endsample="17633" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Magic Rod 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Magic Rod 5.wav"
+                       rootkey="89" lowkey="89" highkey="89" loopstartsample="0" loopendsample="29287"
+                       startsample="0" endsample="29287" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Money Gain or Loss Loop.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Money Gain or Loss Loop.wav"
+                       rootkey="90" lowkey="90" highkey="90" loopstartsample="5454"
+                       loopendsample="43685" startsample="0" endsample="48505" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shield Deflect 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shield Deflect 1.wav"
+                       rootkey="91" lowkey="91" highkey="91" loopstartsample="0" loopendsample="6614"
+                       startsample="0" endsample="6614" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shield Deflect 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shield Deflect 2.wav"
+                       rootkey="92" lowkey="92" highkey="92" loopstartsample="0" loopendsample="6618"
+                       startsample="0" endsample="6618" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shield Deflect 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shield Deflect 3.wav"
+                       rootkey="93" lowkey="93" highkey="93" loopstartsample="0" loopendsample="6619"
+                       startsample="0" endsample="6619" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shield Deflect 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shield Deflect 4.wav"
+                       rootkey="94" lowkey="94" highkey="94" loopstartsample="0" loopendsample="10290"
+                       startsample="0" endsample="10290" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shore Wave 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shore Wave 1.wav"
+                       rootkey="95" lowkey="95" highkey="95" loopstartsample="0" loopendsample="118348"
+                       startsample="0" endsample="118348" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shore Wave 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shore Wave 2.wav"
+                       rootkey="96" lowkey="96" highkey="96" loopstartsample="0" loopendsample="118348"
+                       startsample="0" endsample="118348" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shore Wave 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shore Wave 3.wav"
+                       rootkey="97" lowkey="97" highkey="97" loopstartsample="0" loopendsample="130106"
+                       startsample="0" endsample="130106" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Shore Wave 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Shore Wave 4.wav"
+                       rootkey="98" lowkey="98" highkey="98" loopstartsample="0" loopendsample="121278"
+                       startsample="0" endsample="121278" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Sword Slash 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Sword Slash 1.wav"
+                       rootkey="99" lowkey="99" highkey="99" loopstartsample="0" loopendsample="6586"
+                       startsample="0" endsample="6586" fadeinsamples="0.0" loopenabled="0"
+                       volume="1.0" detune="0.5" transpose="0.5" isromsample="0" slice="0"
+                       reverse="0" phaseinverse="0" stereoinverse="0" track="1" autozerocrossingloop="0"
+                       pingpongloop="0" mutegroup="0" attack="0.0" release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Sword Slash 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Sword Slash 2.wav"
+                       rootkey="100" lowkey="100" highkey="100" loopstartsample="0"
+                       loopendsample="6619" startsample="0" endsample="6619" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Sword Slash 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Sword Slash 3.wav"
+                       rootkey="101" lowkey="101" highkey="101" loopstartsample="0"
+                       loopendsample="6570" startsample="0" endsample="6570" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Sword Slash 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Sword Slash 4.wav"
+                       rootkey="102" lowkey="102" highkey="102" loopstartsample="0"
+                       loopendsample="27168" startsample="0" endsample="27168" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Sword Slash 5.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Sword Slash 5.wav"
+                       rootkey="103" lowkey="103" highkey="103" loopstartsample="0"
+                       loopendsample="6549" startsample="0" endsample="6549" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Loop 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Loop 1.wav"
+                       rootkey="104" lowkey="104" highkey="104" loopstartsample="0"
+                       loopendsample="70568" startsample="0" endsample="70568" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Loop 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Loop 2.wav"
+                       rootkey="105" lowkey="105" highkey="105" loopstartsample="0"
+                       loopendsample="70559" startsample="0" endsample="70559" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Loop 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Loop 3.wav"
+                       rootkey="106" lowkey="106" highkey="106" loopstartsample="0"
+                       loopendsample="70562" startsample="0" endsample="70562" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Loop 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Loop 4.wav"
+                       rootkey="107" lowkey="107" highkey="107" loopstartsample="0"
+                       loopendsample="70570" startsample="0" endsample="70570" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Single 1.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Single 1.wav"
+                       rootkey="108" lowkey="108" highkey="108" loopstartsample="0"
+                       loopendsample="2941" startsample="0" endsample="2941" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Single 2.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Single 2.wav"
+                       rootkey="109" lowkey="109" highkey="109" loopstartsample="0"
+                       loopendsample="2940" startsample="0" endsample="2940" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Single 3.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Single 3.wav"
+                       rootkey="110" lowkey="110" highkey="110" loopstartsample="0"
+                       loopendsample="2939" startsample="0" endsample="2939" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+          <multisample url="..\..\Samples\01 SFX\OW Text Single 4.wav" urlRelativeToPresetDirectory="..\..\..\..\..\..\8UP\Overworld SFX\Samples\01 SFX\OW Text Single 4.wav"
+                       rootkey="111" lowkey="111" highkey="111" loopstartsample="0"
+                       loopendsample="2939" startsample="0" endsample="2939" fadeinsamples="0.0"
+                       loopenabled="0" volume="1.0" detune="0.5" transpose="0.5" isromsample="0"
+                       slice="0" reverse="0" phaseinverse="0" stereoinverse="0" track="1"
+                       autozerocrossingloop="0" pingpongloop="0" mutegroup="0" attack="0.0"
+                       release="0.0"/>
+        </multisamples>
+      </samplelayer0>
+      <samplelayer1>
+        <multisamples/>
+      </samplelayer1>
+      <samplelayer2>
+        <multisamples/>
+      </samplelayer2>
+      <samplelayer3>
+        <multisamples/>
+      </samplelayer3>
+      <voicetunings>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+        <voicetuning cutoff="0.5" detune="0.5" attack="0.5" decay="0.5" release="0.5"/>
+      </voicetunings>
+      <modmatrix>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+        <entry parameterid="-1" modmatrixsourceid="0" modmatrixamount="0.5"/>
+      </modmatrix>
+      <tuningtable>
+        <entry tuning="0.0"/>
+        <entry tuning="1.0"/>
+        <entry tuning="2.0"/>
+        <entry tuning="3.0"/>
+        <entry tuning="4.0"/>
+        <entry tuning="5.0"/>
+        <entry tuning="6.0"/>
+        <entry tuning="7.0"/>
+        <entry tuning="8.0"/>
+        <entry tuning="9.0"/>
+        <entry tuning="10.0"/>
+        <entry tuning="11.0"/>
+        <entry tuning="12.0"/>
+        <entry tuning="13.0"/>
+        <entry tuning="14.0"/>
+        <entry tuning="15.0"/>
+        <entry tuning="16.0"/>
+        <entry tuning="17.0"/>
+        <entry tuning="18.0"/>
+        <entry tuning="19.0"/>
+        <entry tuning="20.0"/>
+        <entry tuning="21.0"/>
+        <entry tuning="22.0"/>
+        <entry tuning="23.0"/>
+        <entry tuning="24.0"/>
+        <entry tuning="25.0"/>
+        <entry tuning="26.0"/>
+        <entry tuning="27.0"/>
+        <entry tuning="28.0"/>
+        <entry tuning="29.0"/>
+        <entry tuning="30.0"/>
+        <entry tuning="31.0"/>
+        <entry tuning="32.0"/>
+        <entry tuning="33.0"/>
+        <entry tuning="34.0"/>
+        <entry tuning="35.0"/>
+        <entry tuning="36.0"/>
+        <entry tuning="37.0"/>
+        <entry tuning="38.0"/>
+        <entry tuning="39.0"/>
+        <entry tuning="40.0"/>
+        <entry tuning="41.0"/>
+        <entry tuning="42.0"/>
+        <entry tuning="43.0"/>
+        <entry tuning="44.0"/>
+        <entry tuning="45.0"/>
+        <entry tuning="46.0"/>
+        <entry tuning="47.0"/>
+        <entry tuning="48.0"/>
+        <entry tuning="49.0"/>
+        <entry tuning="50.0"/>
+        <entry tuning="51.0"/>
+        <entry tuning="52.0"/>
+        <entry tuning="53.0"/>
+        <entry tuning="54.0"/>
+        <entry tuning="55.0"/>
+        <entry tuning="56.0"/>
+        <entry tuning="57.0"/>
+        <entry tuning="58.0"/>
+        <entry tuning="59.0"/>
+        <entry tuning="60.0"/>
+        <entry tuning="61.0"/>
+        <entry tuning="62.0"/>
+        <entry tuning="63.0"/>
+        <entry tuning="64.0"/>
+        <entry tuning="65.0"/>
+        <entry tuning="66.0"/>
+        <entry tuning="67.0"/>
+        <entry tuning="68.0"/>
+        <entry tuning="69.0"/>
+        <entry tuning="70.0"/>
+        <entry tuning="71.0"/>
+        <entry tuning="72.0"/>
+        <entry tuning="73.0"/>
+        <entry tuning="74.0"/>
+        <entry tuning="75.0"/>
+        <entry tuning="76.0"/>
+        <entry tuning="77.0"/>
+        <entry tuning="78.0"/>
+        <entry tuning="79.0"/>
+        <entry tuning="80.0"/>
+        <entry tuning="81.0"/>
+        <entry tuning="82.0"/>
+        <entry tuning="83.0"/>
+        <entry tuning="84.0"/>
+        <entry tuning="85.0"/>
+        <entry tuning="86.0"/>
+        <entry tuning="87.0"/>
+        <entry tuning="88.0"/>
+        <entry tuning="89.0"/>
+        <entry tuning="90.0"/>
+        <entry tuning="91.0"/>
+        <entry tuning="92.0"/>
+        <entry tuning="93.0"/>
+        <entry tuning="94.0"/>
+        <entry tuning="95.0"/>
+        <entry tuning="96.0"/>
+        <entry tuning="97.0"/>
+        <entry tuning="98.0"/>
+        <entry tuning="99.0"/>
+        <entry tuning="100.0"/>
+        <entry tuning="101.0"/>
+        <entry tuning="102.0"/>
+        <entry tuning="103.0"/>
+        <entry tuning="104.0"/>
+        <entry tuning="105.0"/>
+        <entry tuning="106.0"/>
+        <entry tuning="107.0"/>
+        <entry tuning="108.0"/>
+        <entry tuning="109.0"/>
+        <entry tuning="110.0"/>
+        <entry tuning="111.0"/>
+        <entry tuning="112.0"/>
+        <entry tuning="113.0"/>
+        <entry tuning="114.0"/>
+        <entry tuning="115.0"/>
+        <entry tuning="116.0"/>
+        <entry tuning="117.0"/>
+        <entry tuning="118.0"/>
+        <entry tuning="119.0"/>
+        <entry tuning="120.0"/>
+        <entry tuning="121.0"/>
+        <entry tuning="122.0"/>
+        <entry tuning="123.0"/>
+        <entry tuning="124.0"/>
+        <entry tuning="125.0"/>
+        <entry tuning="126.0"/>
+        <entry tuning="127.0"/>
+      </tuningtable>
+    </program>
+  </programs>
+  <midimap>
+    <map param="0" controllernumber="0"/>
+    <map param="0" controllernumber="1"/>
+    <map param="0" controllernumber="2"/>
+    <map param="0" controllernumber="3"/>
+    <map param="0" controllernumber="4"/>
+    <map param="0" controllernumber="5"/>
+    <map param="0" controllernumber="6"/>
+    <map param="0" controllernumber="7"/>
+    <map param="0" controllernumber="8"/>
+    <map param="0" controllernumber="9"/>
+    <map param="0" controllernumber="10"/>
+    <map param="0" controllernumber="11"/>
+    <map param="0" controllernumber="12"/>
+    <map param="0" controllernumber="13"/>
+    <map param="0" controllernumber="14"/>
+    <map param="0" controllernumber="15"/>
+    <map param="0" controllernumber="16"/>
+    <map param="0" controllernumber="17"/>
+    <map param="0" controllernumber="18"/>
+    <map param="0" controllernumber="19"/>
+    <map param="0" controllernumber="20"/>
+    <map param="0" controllernumber="21"/>
+    <map param="0" controllernumber="22"/>
+    <map param="0" controllernumber="23"/>
+    <map param="0" controllernumber="24"/>
+    <map param="0" controllernumber="25"/>
+    <map param="0" controllernumber="26"/>
+    <map param="0" controllernumber="27"/>
+    <map param="0" controllernumber="28"/>
+    <map param="0" controllernumber="29"/>
+    <map param="0" controllernumber="30"/>
+    <map param="0" controllernumber="31"/>
+    <map param="0" controllernumber="32"/>
+    <map param="0" controllernumber="33"/>
+    <map param="0" controllernumber="34"/>
+    <map param="0" controllernumber="35"/>
+    <map param="0" controllernumber="36"/>
+    <map param="0" controllernumber="37"/>
+    <map param="0" controllernumber="38"/>
+    <map param="0" controllernumber="39"/>
+    <map param="0" controllernumber="40"/>
+    <map param="0" controllernumber="41"/>
+    <map param="0" controllernumber="42"/>
+    <map param="0" controllernumber="43"/>
+    <map param="0" controllernumber="44"/>
+    <map param="0" controllernumber="45"/>
+    <map param="0" controllernumber="46"/>
+    <map param="0" controllernumber="47"/>
+    <map param="0" controllernumber="48"/>
+    <map param="0" controllernumber="49"/>
+    <map param="0" controllernumber="50"/>
+    <map param="0" controllernumber="51"/>
+    <map param="0" controllernumber="52"/>
+    <map param="0" controllernumber="53"/>
+    <map param="0" controllernumber="54"/>
+    <map param="0" controllernumber="55"/>
+    <map param="0" controllernumber="56"/>
+    <map param="0" controllernumber="57"/>
+    <map param="0" controllernumber="58"/>
+    <map param="0" controllernumber="59"/>
+    <map param="0" controllernumber="60"/>
+    <map param="0" controllernumber="61"/>
+    <map param="0" controllernumber="62"/>
+    <map param="0" controllernumber="63"/>
+    <map param="0" controllernumber="64"/>
+    <map param="0" controllernumber="65"/>
+    <map param="0" controllernumber="66"/>
+    <map param="0" controllernumber="67"/>
+    <map param="0" controllernumber="68"/>
+    <map param="0" controllernumber="69"/>
+    <map param="0" controllernumber="70"/>
+    <map param="0" controllernumber="71"/>
+    <map param="0" controllernumber="72"/>
+    <map param="0" controllernumber="73"/>
+    <map param="0" controllernumber="74"/>
+    <map param="0" controllernumber="75"/>
+    <map param="0" controllernumber="76"/>
+    <map param="0" controllernumber="77"/>
+    <map param="0" controllernumber="78"/>
+    <map param="0" controllernumber="79"/>
+    <map param="0" controllernumber="80"/>
+    <map param="0" controllernumber="81"/>
+    <map param="0" controllernumber="82"/>
+    <map param="0" controllernumber="83"/>
+    <map param="0" controllernumber="84"/>
+    <map param="0" controllernumber="85"/>
+    <map param="0" controllernumber="86"/>
+    <map param="0" controllernumber="87"/>
+    <map param="0" controllernumber="88"/>
+    <map param="0" controllernumber="89"/>
+    <map param="0" controllernumber="90"/>
+    <map param="0" controllernumber="91"/>
+    <map param="0" controllernumber="92"/>
+    <map param="0" controllernumber="93"/>
+    <map param="0" controllernumber="94"/>
+    <map param="0" controllernumber="95"/>
+    <map param="0" controllernumber="96"/>
+    <map param="0" controllernumber="97"/>
+    <map param="0" controllernumber="98"/>
+    <map param="0" controllernumber="99"/>
+    <map param="0" controllernumber="100"/>
+    <map param="0" controllernumber="101"/>
+    <map param="0" controllernumber="102"/>
+    <map param="0" controllernumber="103"/>
+    <map param="0" controllernumber="104"/>
+    <map param="0" controllernumber="105"/>
+    <map param="0" controllernumber="106"/>
+    <map param="0" controllernumber="107"/>
+    <map param="0" controllernumber="108"/>
+    <map param="0" controllernumber="109"/>
+    <map param="0" controllernumber="110"/>
+    <map param="0" controllernumber="111"/>
+    <map param="0" controllernumber="112"/>
+    <map param="0" controllernumber="113"/>
+    <map param="0" controllernumber="114"/>
+    <map param="0" controllernumber="115"/>
+    <map param="0" controllernumber="116"/>
+    <map param="0" controllernumber="117"/>
+    <map param="0" controllernumber="118"/>
+    <map param="0" controllernumber="119"/>
+    <map param="0" controllernumber="120"/>
+    <map param="0" controllernumber="121"/>
+    <map param="0" controllernumber="122"/>
+    <map param="0" controllernumber="123"/>
+    <map param="0" controllernumber="124"/>
+    <map param="0" controllernumber="125"/>
+    <map param="0" controllernumber="126"/>
+    <map param="0" controllernumber="127"/>
+    <map param="0" controllernumber="128"/>
+    <map param="0" controllernumber="129"/>
+    <map param="0" controllernumber="130"/>
+    <map param="0" controllernumber="131"/>
+    <map param="0" controllernumber="132"/>
+    <map param="0" controllernumber="133"/>
+    <map param="0" controllernumber="134"/>
+    <map param="0" controllernumber="135"/>
+    <map param="0" controllernumber="136"/>
+    <map param="0" controllernumber="137"/>
+    <map param="0" controllernumber="138"/>
+    <map param="0" controllernumber="139"/>
+    <map param="0" controllernumber="140"/>
+    <map param="0" controllernumber="141"/>
+    <map param="0" controllernumber="142"/>
+    <map param="0" controllernumber="143"/>
+    <map param="0" controllernumber="144"/>
+    <map param="0" controllernumber="145"/>
+    <map param="0" controllernumber="146"/>
+    <map param="0" controllernumber="147"/>
+    <map param="0" controllernumber="148"/>
+    <map param="0" controllernumber="149"/>
+    <map param="0" controllernumber="150"/>
+    <map param="0" controllernumber="151"/>
+    <map param="0" controllernumber="152"/>
+    <map param="0" controllernumber="153"/>
+    <map param="0" controllernumber="154"/>
+    <map param="0" controllernumber="155"/>
+    <map param="0" controllernumber="156"/>
+    <map param="0" controllernumber="157"/>
+    <map param="0" controllernumber="158"/>
+    <map param="0" controllernumber="159"/>
+    <map param="0" controllernumber="160"/>
+    <map param="0" controllernumber="161"/>
+    <map param="0" controllernumber="162"/>
+    <map param="0" controllernumber="163"/>
+    <map param="0" controllernumber="164"/>
+    <map param="0" controllernumber="165"/>
+    <map param="0" controllernumber="166"/>
+    <map param="0" controllernumber="167"/>
+    <map param="0" controllernumber="168"/>
+    <map param="0" controllernumber="169"/>
+    <map param="0" controllernumber="170"/>
+    <map param="0" controllernumber="171"/>
+    <map param="0" controllernumber="172"/>
+    <map param="0" controllernumber="173"/>
+    <map param="0" controllernumber="174"/>
+    <map param="0" controllernumber="175"/>
+    <map param="0" controllernumber="176"/>
+    <map param="0" controllernumber="177"/>
+    <map param="0" controllernumber="178"/>
+    <map param="0" controllernumber="179"/>
+    <map param="0" controllernumber="180"/>
+    <map param="0" controllernumber="181"/>
+    <map param="0" controllernumber="182"/>
+    <map param="0" controllernumber="183"/>
+    <map param="0" controllernumber="184"/>
+    <map param="0" controllernumber="185"/>
+    <map param="0" controllernumber="186"/>
+    <map param="0" controllernumber="187"/>
+    <map param="0" controllernumber="188"/>
+    <map param="0" controllernumber="189"/>
+    <map param="0" controllernumber="190"/>
+    <map param="0" controllernumber="191"/>
+    <map param="0" controllernumber="192"/>
+    <map param="0" controllernumber="193"/>
+    <map param="0" controllernumber="194"/>
+    <map param="0" controllernumber="195"/>
+    <map param="0" controllernumber="196"/>
+    <map param="0" controllernumber="197"/>
+    <map param="0" controllernumber="198"/>
+    <map param="0" controllernumber="199"/>
+    <map param="0" controllernumber="200"/>
+    <map param="0" controllernumber="201"/>
+    <map param="0" controllernumber="202"/>
+    <map param="0" controllernumber="203"/>
+    <map param="0" controllernumber="204"/>
+    <map param="0" controllernumber="205"/>
+    <map param="0" controllernumber="206"/>
+    <map param="0" controllernumber="207"/>
+    <map param="0" controllernumber="208"/>
+    <map param="0" controllernumber="209"/>
+    <map param="0" controllernumber="210"/>
+    <map param="0" controllernumber="211"/>
+    <map param="0" controllernumber="212"/>
+    <map param="0" controllernumber="213"/>
+    <map param="0" controllernumber="214"/>
+    <map param="0" controllernumber="215"/>
+    <map param="0" controllernumber="216"/>
+    <map param="0" controllernumber="217"/>
+    <map param="0" controllernumber="218"/>
+    <map param="0" controllernumber="219"/>
+    <map param="0" controllernumber="220"/>
+    <map param="0" controllernumber="221"/>
+    <map param="0" controllernumber="222"/>
+    <map param="0" controllernumber="223"/>
+    <map param="0" controllernumber="224"/>
+    <map param="0" controllernumber="225"/>
+    <map param="0" controllernumber="226"/>
+    <map param="0" controllernumber="227"/>
+    <map param="0" controllernumber="228"/>
+    <map param="0" controllernumber="229"/>
+    <map param="0" controllernumber="230"/>
+    <map param="0" controllernumber="231"/>
+    <map param="0" controllernumber="232"/>
+    <map param="0" controllernumber="233"/>
+    <map param="0" controllernumber="234"/>
+    <map param="0" controllernumber="235"/>
+    <map param="0" controllernumber="236"/>
+    <map param="0" controllernumber="237"/>
+    <map param="0" controllernumber="238"/>
+    <map param="0" controllernumber="239"/>
+    <map param="0" controllernumber="240"/>
+    <map param="0" controllernumber="241"/>
+    <map param="0" controllernumber="242"/>
+    <map param="0" controllernumber="243"/>
+    <map param="0" controllernumber="244"/>
+    <map param="0" controllernumber="245"/>
+    <map param="0" controllernumber="246"/>
+    <map param="0" controllernumber="247"/>
+    <map param="0" controllernumber="248"/>
+    <map param="0" controllernumber="249"/>
+    <map param="0" controllernumber="250"/>
+    <map param="0" controllernumber="251"/>
+    <map param="0" controllernumber="252"/>
+    <map param="0" controllernumber="253"/>
+    <map param="0" controllernumber="254"/>
+    <map param="0" controllernumber="255"/>
+  </midimap>
+</tal>

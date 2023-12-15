@@ -103,9 +103,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 50.9
+  field of view: 50.3
   orthographic: 0
-  orthographic size: 1.5
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -241,11 +241,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d344ee42fc3a47743a19c79b7d3bb0e9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 431f6c9826e7e3545b8adbcf8d3a9aa3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 50.9
+    FieldOfView: 50.3
     OrthographicSize: 1.5
     NearClipPlane: 0.3
     FarClipPlane: 1000

@@ -1,0 +1,43 @@
+LIBRARY INSTRUCTIONS
+
+Extract the .zip file of the library onto your hard drive.
+
+IMPORTANT: Do not move or rename any of the folders or samples if you are planning to use any of the included instrument patches. This will cause missing sample errors when loading the instruments. If you are not planning to use any instrument patches then you can move and rename the samples as you wish.
+
+The following are instructions for each of the provided library formats. The different library formats are in separate folders in the "Instruments" folder.
+
+KONTAKT:
+
+	- Load the patches by 1) using the Kontakt browser, 2) using the Load option in the Files dropdown, or by 3) dragging and dropping into the main window.
+
+ABLETON LIVE:
+
+	- Load the patches by 1) using the Ableton Live browser (such as adding the library folder to the "Places" section), or by 2) dragging and dropping into tracks.
+
+MASCHINE:
+
+	- Go to File -> Preferences -> Library -> User tab and click on the "Add" button.
+	- Select the main library folder (not the "Maschine" folder), click "Ok" and then close the Preferences window.
+	- Maschine will then add the library to the Maschine browser. All instruments and samples are tagged and can now be seen in the User tab.
+	- IMPORTANT: Adding any other folder besides the main library folder will result in missing samples when loading the instrument patches.
+
+EXS24/SAMPLER:
+
+	- Load the patches by using the EXS24/Sampler file menu within the program.
+
+FL STUDIO:
+
+	- Open DirectWave full version or DirectWave Player plugin.
+	- Copy the "Samples" folder into DirectWave's default library folder before opening any instruments (this is necessary for the instrument patches to find the samples).
+	- Once this is done, the instruments can be loaded by 1) opening them in the DirectWave dropdown or by 2) dragging and dropping into DirectWave.
+	- IMPORTANT: Do not MOVE the "Samples" folder into the default directory, just COPY it, unless you are sure that you don't need the samples for any other formats besides FL Studio.
+
+MPC SOFTWARE:
+
+	- Drag and drop the .xpn file anywhere in the MPC software main window, then click on "import" to install the library.
+	- The library is now available in the Expansion Browser.
+
+TAL-SAMPLER:
+
+	- Click on the Load button or select Load in the patch drop dropdown in the header.
+	- Select the "TAL" folder (in the "Instruments" folder) to select and open the patches.
