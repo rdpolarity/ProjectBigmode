@@ -47,5 +47,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  minRound: 5
-  maxRound: 10
+  minRound: 10
+  maxRound: 0
