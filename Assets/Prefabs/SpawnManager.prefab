@@ -58,3 +58,6 @@ MonoBehaviour:
   - {fileID: 0}
   spawnSpec:
   - {fileID: 11400000, guid: 86e68c9c3a864ea48b37ae95692598df, type: 2}
+  - {fileID: 11400000, guid: 21cc95a237483644da59192c75a102bf, type: 2}
+  - {fileID: 11400000, guid: cfb1f30b94929814d8ab1d5ac33a52c6, type: 2}
+  - {fileID: 11400000, guid: 9a5c83e38e2babe489d186e340759c8d, type: 2}
