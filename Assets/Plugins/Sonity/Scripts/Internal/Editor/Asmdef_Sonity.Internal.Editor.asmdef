@@ -1,0 +1,18 @@
+{
+    "name": "Sonity.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eddc24eca6301ba4193fbddf2fc974a5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

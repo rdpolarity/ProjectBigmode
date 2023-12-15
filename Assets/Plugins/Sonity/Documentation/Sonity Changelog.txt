@@ -1,0 +1,70 @@
+// Created by Victor Engström
+// Copyright 2022 Sonigon AB
+// http://www.sonity.org/
+
+Sonity - Changelog
+
+1.0.4
+Please remove the whole Sonity folder before upgrading because scripts were moved.
+Fixed bug where audio positions were based on the previous frame.
+Fixed bug where disabled SoundEvents played in builds.
+Fixed scripts for free trial version.
+
+1.0.3
+New feature: Support for disabling domain reloading in the “enter play mode options”.
+New feature: Override Listener Distance with the AudioListenerDistance component.
+Parented all Sonity scene objects created in runtime under the SoundManager.
+Improved documentation on how to bind shortcuts.
+Fixed SoundTriggerCustomEditor example code.
+Fixed preview TriggerOnTail tail length 0 bug.
+
+1.0.2.1
+Hotfix: Fixed error in SoundContainer settings editor.
+
+1.0.2
+Please remove the whole Sonity folder before upgrading because folders were moved.
+New feature: Pass Parameter setting in the SoundEvent for passing SoundParameters to sub SoundEvents.
+New feature: Added GetSpectrumData() to get the spectrum data from AudioSources.
+Added support for using multiple disabled AudioListeners.
+Added support for SoundTrigger Custom Override and added examples in the documentation.
+Fixed support in examples and the timeline for the new Input System Package.
+Added tips and info about "Unity Native Audio Support" in documentation.
+Fixed bug where SoundEvents with global polyphony couldn't be stopped.
+Fixed nullcheck in SoundPicker for SoundManager.Instance.
+The SoundManager and sub objects are now moved to Vector3.zero at start.
+Added example scene showcasing SoundPicker.
+SoundPhysics added info about rigidbody requirements.
+SoundPhysics removed collider requirement warning.
+Updated asmdef info in documentation.
+Preparing code for trial DLL version.
+Fixed documentation SoundParameter incorrect example code.
+Fixed Find Assets OrderBy bug.
+Fixed DontDestroyOnLoad tooltip.
+Fixed Modifier tooltips.
+Fixed SoundParameterIntensity summary.
+Fixed Play2D summary.
+
+1.0.1
+Please remove the whole Sonity folder before upgrading because folders were moved.
+New feature: Automatic asset creator finds common denominator name.
+New feature: SoundContainer presets added set automatic looping and automatic crossfades.
+Added new examples used in the new gun tutorials.
+Updated documentation.
+Fixed bug with serialized cache bools.
+Fixed bug with SoundTag position.
+Fixed bug with preview SoundEvent distance scale.
+Fixed so debug logs only print in developent builds and the editor.
+Fixed nullcheck for camera in "Debug SoundEvents Live in Game View".
+Changed so timeline zooms when holding down control and scrolling with mousewheel.
+Changed so SoundEvent SoundTag always use modifiers.
+Trigger on tail default length changed to 0.
+Trigger on tail added warning if length is less than shortest AudioClip.
+SoundEvent and SoundManager GetMaxLength removed forceUpdate.
+All helpboxes now respect GUI Warnings setting.
+Optimized SoundManager update.
+Minor spelling corrections of tooltips and documentation.
+Cleared SoundEventInstanceDictionaryValue.cs
+Changed template scripts to useDontDestroyOnLoad to public.
+
+1.0.0
+Release.

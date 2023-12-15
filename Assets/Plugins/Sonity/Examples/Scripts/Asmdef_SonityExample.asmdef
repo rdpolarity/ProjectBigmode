@@ -1,0 +1,19 @@
+{
+    "name": "SonityExample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eddc24eca6301ba4193fbddf2fc974a5",
+        "GUID:7587e79dba767974180aaa071919b937",
+        "GUID:c7192516ea02c014b9cd20495b764838",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

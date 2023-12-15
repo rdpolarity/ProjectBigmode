@@ -1,0 +1,17 @@
+{
+    "name": "TemplateSonity",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7587e79dba767974180aaa071919b937",
+        "GUID:eddc24eca6301ba4193fbddf2fc974a5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

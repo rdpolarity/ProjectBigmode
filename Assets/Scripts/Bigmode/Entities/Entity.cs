@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Sirenix.OdinInspector;
+using Sonity;
 using UnityEngine;
 
 namespace Bigmode
@@ -13,6 +14,8 @@ namespace Bigmode
         private SpriteFlasher _damageFlasher;
 
         [SerializeField] private float health = 10;
+        [SerializeField] private SoundEvent onDamageSound;
+        [SerializeField] private SoundEvent onHealSound;
 
         virtual public float GetHealth()
         { return health; }
@@ -35,6 +38,7 @@ namespace Bigmode
         {
             SetHealth(GetHealth() - amount);
             _damageFlasher.Flash(Color.white);
+            onDamageSound?.Play(transform);
         }
 
         [Button]
@@ -42,6 +46,7 @@ namespace Bigmode
         {
             SetHealth(GetHealth() + amount);
             _damageFlasher.Flash(Color.green);
+            onHealSound?.Play(transform);
         }
 
         virtual public void Die()

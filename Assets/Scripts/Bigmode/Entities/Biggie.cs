@@ -3,6 +3,7 @@ using System.Linq;
 using Cinemachine;
 using Sirenix.Serialization;
 using Sirenix.Utilities;
+using Sonity;
 using Unity.Entities.UniversalDelegates;
 using UnityEngine;
 

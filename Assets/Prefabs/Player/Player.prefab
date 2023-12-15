@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 4841474127007823214}
   - component: {fileID: 9112509417536238890}
   - component: {fileID: 2470865983557351017}
+  - component: {fileID: 5781742548680348832}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -265,7 +266,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  mass: 10
+  onDamageSound: {fileID: 11400000, guid: 1e77f0e6b90e4ba4aa732369f05612fc, type: 2}
+  onHealSound: {fileID: 0}
+  mass: 100
   minions:
   - {fileID: 11400000, guid: f739f10f2a80c274b8f3213341ffde59, type: 2}
   - {fileID: 11400000, guid: 3ac83d6720dd19244ab80934c7f4b278, type: 2}
@@ -822,6 +825,116 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &5781742548680348832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466092182061348791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  internals:
+    soundEventsExpand: 1
+    soundTriggerPart:
+    - expandSoundEvent: 1
+      soundEvent: {fileID: 11400000, guid: f48c8461f9bd20947a20c52d7956fc52, type: 2}
+      soundEventModifier:
+        volumeDecibel: 0
+        volumeRatio: 1
+        pitchSemitone: 0
+        pitchRatio: 1
+        delay: 0
+        increase2D: 0
+        intensity: 1
+        reverbZoneMixDecibel: 0
+        reverbZoneMixRatio: 1
+        startPosition: 0
+        reverse: 0
+        stereoPan: 0
+        polyphony: 1
+        distanceScale: 1
+        distortionIncrease: 0
+        fadeInLength: 0
+        fadeInShape: 2
+        fadeOutLength: 0
+        fadeOutShape: -2
+        followPosition: 1
+        bypassReverbZones: 0
+        bypassVoiceEffects: 0
+        bypassListenerEffects: 0
+        volumeUse: 0
+        pitchUse: 0
+        delayUse: 0
+        increase2DUse: 0
+        intensityUse: 0
+        reverbZoneMixUse: 0
+        startPositionUse: 0
+        reverseUse: 0
+        stereoPanUse: 0
+        polyphonyUse: 0
+        distanceScaleUse: 0
+        distortionIncreaseUse: 0
+        fadeInLengthUse: 0
+        fadeInShapeUse: 0
+        fadeOutLengthUse: 0
+        fadeOutShapeUse: 0
+        followPositionUse: 0
+        bypassReverbZonesUse: 0
+        bypassVoiceEffectsUse: 0
+        bypassListenerEffectsUse: 0
+      expandModifier: 1
+      soundTriggerTodo:
+        onEnableUse: 0
+        onDisableUse: 1
+        onStartUse: 0
+        onDestroyUse: 0
+        onTriggerEnterUse: 0
+        onTriggerExitUse: 0
+        onTriggerEnter2DUse: 0
+        onTriggerExit2DUse: 0
+        onCollisionEnterUse: 0
+        onCollisionExitUse: 0
+        onCollisionEnter2DUse: 0
+        onCollisionExit2DUse: 0
+        onMouseEnterUse: 0
+        onMouseExitUse: 0
+        onMouseDownUse: 0
+        onMouseUpUse: 0
+        onEnableAction: 0
+        onDisableAction: 1
+        onStartAction: 0
+        onDestroyAction: 1
+        onTriggerEnterAction: 0
+        onTriggerExitAction: 1
+        onTriggerEnter2DAction: 0
+        onTriggerExit2DAction: 1
+        onCollisionEnterAction: 0
+        onCollisionExitAction: 1
+        onCollisionEnter2DAction: 0
+        onCollisionExit2DAction: 1
+        onMouseEnterAction: 0
+        onMouseExitAction: 1
+        onMouseDownAction: 0
+        onMouseUpAction: 1
+      expandTrigger: 1
+      triggerTagUse: 0
+      triggerTags:
+      - Untagged
+      collisionVelocityToIntensity: 0
+      collisionTagUse: 0
+      collisionTags:
+      - Untagged
+    soundParameterDistanceScale:
+      internals:
+        type: 10
+        updateMode: 1
+        valueFloat: 1
+        valueInt: 0
+        valueBool: 0
 --- !u!1 &8555611143635360981
 GameObject:
   m_ObjectHideFlags: 0
