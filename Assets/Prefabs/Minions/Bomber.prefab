@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: type
       value: 
       objectReference: {fileID: 11400000, guid: c42358558b7882247b61d5a29b886c37, type: 2}
+    - target: {fileID: -4602856324684331112, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 495286982976784060, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
       propertyPath: m_Speed
       value: 5
@@ -79,5 +83,53 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8784849731822812821}
   m_SourcePrefab: {fileID: 100100000, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+--- !u!1 &444722436143659534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522736550195871869, guid: 490e5dba0e7d31644b9b60205b8cfed5, type: 3}
+  m_PrefabInstance: {fileID: 8101183048887106163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8784849731822812821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444722436143659534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 11400000, guid: 87c0a6b418abef742a78044131889a8f, type: 2}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: 
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1

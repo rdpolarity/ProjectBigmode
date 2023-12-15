@@ -47,7 +47,7 @@ MonoBehaviour:
   spawnRadius: 1
   spawnableObjects:
   - {fileID: 847561868088983649, guid: 0d085532f16e7274b842b2144dcb8581, type: 3}
-  spawnInterval: 8
+  spawnInterval: 2
   spawnIntervalPerRound: 0.1
   triggerRadius: 4
   spawnTriggerTag: Player
