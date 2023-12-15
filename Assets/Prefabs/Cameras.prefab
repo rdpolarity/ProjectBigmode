@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 403277228565306029}
   - component: {fileID: 3189185693755256160}
   - component: {fileID: 1082766869412075268}
+  - component: {fileID: 8208638566543447748}
   - component: {fileID: 1786779904925075882}
   m_Layer: 0
   m_Name: Main Camera
@@ -102,7 +103,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 56.3
+  field of view: 58.7
   orthographic: 0
   orthographic size: 1.8
   m_Depth: -1
@@ -222,6 +223,14 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!81 &8208638566543447748
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668840939307509817}
+  m_Enabled: 1
 --- !u!114 &1786779904925075882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,9 +294,9 @@ MonoBehaviour:
         bypassListenerEffectsUse: 0
       expandModifier: 1
       soundTriggerTodo:
-        onEnableUse: 1
-        onDisableUse: 0
-        onStartUse: 0
+        onEnableUse: 0
+        onDisableUse: 1
+        onStartUse: 1
         onDestroyUse: 0
         onTriggerEnterUse: 0
         onTriggerExitUse: 0
@@ -454,7 +463,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 56.3
+    FieldOfView: 58.7
     OrthographicSize: 1.5
     NearClipPlane: 0.3
     FarClipPlane: 1000

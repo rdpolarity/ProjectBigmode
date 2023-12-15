@@ -46,7 +46,7 @@ MonoBehaviour:
         stereoPan: 0
         polyphony: 1
         distanceScale: 1
-        distortionIncrease: 0
+        distortionIncrease: 0.893
         fadeInLength: 0
         fadeInShape: 2
         fadeOutLength: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
         bypassReverbZones: 0
         bypassVoiceEffects: 0
         bypassListenerEffects: 0
-        volumeUse: 1
+        volumeUse: 0
         pitchUse: 0
         delayUse: 0
         increase2DUse: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
         startPositionUse: 0
         reverseUse: 0
         stereoPanUse: 0
-        polyphonyUse: 1
+        polyphonyUse: 0
         distanceScaleUse: 0
         distortionIncreaseUse: 0
         fadeInLengthUse: 0
