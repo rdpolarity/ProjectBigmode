@@ -46,6 +46,9 @@ namespace Bigmode
         public delegate void OnSelectedMinionChanged(MinionType minion);
         public static event OnSelectedMinionChanged OnSelectedMinionChangedEvent;
 
+        public delegate void OnMassChanged(int mass);
+        public static event OnMassChanged OnMassChangedEvent;
+
 
         private CircleRenderer circleRenderer;
 #nullable enable
@@ -105,11 +108,7 @@ namespace Bigmode
 
             SetHealth(mass);
 
-            // notify listners
-            foreach (IMassChangeListener listener in massChangeListeners)
-            {
-                listener.MassChanged(mass);
-            }
+            OnMassChangedEvent.Invoke(mass);
         }
 
         public override void Damage(float amount)

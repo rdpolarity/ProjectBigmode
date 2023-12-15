@@ -30,18 +30,19 @@ public class UIManager : MonoBehaviour, IMassChangeListener, IMinionCountChangeL
 
     private int minionCount = 0;
 
-    // Start is called before the first frame update
+    void OnEnable() {
+        Biggie.OnMassChangedEvent += MassChanged;
+    }
+
+    void OnDisable() {
+        Time.timeScale = 1f;
+        Biggie.OnMassChangedEvent -= MassChanged;
+    }
+
     void Start()
     {
         // not pretty but I couldn't work out how to do this via the GUI c'::
-        PlayerBiggie.massChangeListeners.Add(this);
         PlayerBiggie.minionCountChangeListeners.Add(this);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     // this will only be set up to listen to the Player's mass change
@@ -63,10 +64,6 @@ public class UIManager : MonoBehaviour, IMassChangeListener, IMinionCountChangeL
             // if we would like to though, here is the code:
             // Time.timeScale = 0f;
         }
-    }
-
-    void OnDisable() {
-        Time.timeScale = 1.0f;
     }
 
     public void MinionCountChanged(int delta){
