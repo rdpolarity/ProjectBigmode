@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5208547947893708724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773205235395783619}
+  - component: {fileID: 7485086586993096892}
+  - component: {fileID: 7589938354736344836}
+  - component: {fileID: 6491664881174950594}
+  m_Layer: 0
+  m_Name: EnemyForMinionExplosion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773205235395783619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208547947893708724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2881818367213891963}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7485086586993096892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208547947893708724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1057b78440189fa439166c3ccd202946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  radius: 0.6
+  damageTag: Minion
+--- !u!114 &7589938354736344836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208547947893708724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: -1
+    m_ImpulseShape: 3
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 1
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &6491664881174950594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208547947893708724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  internals:
+    soundEventsExpand: 1
+    soundTriggerPart:
+    - expandSoundEvent: 1
+      soundEvent: {fileID: 11400000, guid: 72a8453d4a497014781bec635f784557, type: 2}
+      soundEventModifier:
+        volumeDecibel: 0
+        volumeRatio: 1
+        pitchSemitone: 0
+        pitchRatio: 1
+        delay: 0
+        increase2D: 0
+        intensity: 1
+        reverbZoneMixDecibel: 0
+        reverbZoneMixRatio: 1
+        startPosition: 0
+        reverse: 0
+        stereoPan: 0
+        polyphony: 1
+        distanceScale: 1
+        distortionIncrease: 0
+        fadeInLength: 0
+        fadeInShape: 2
+        fadeOutLength: 0
+        fadeOutShape: -2
+        followPosition: 1
+        bypassReverbZones: 0
+        bypassVoiceEffects: 0
+        bypassListenerEffects: 0
+        volumeUse: 0
+        pitchUse: 0
+        delayUse: 0
+        increase2DUse: 0
+        intensityUse: 0
+        reverbZoneMixUse: 0
+        startPositionUse: 0
+        reverseUse: 0
+        stereoPanUse: 0
+        polyphonyUse: 0
+        distanceScaleUse: 0
+        distortionIncreaseUse: 0
+        fadeInLengthUse: 0
+        fadeInShapeUse: 0
+        fadeOutLengthUse: 0
+        fadeOutShapeUse: 0
+        followPositionUse: 0
+        bypassReverbZonesUse: 0
+        bypassVoiceEffectsUse: 0
+        bypassListenerEffectsUse: 0
+      expandModifier: 1
+      soundTriggerTodo:
+        onEnableUse: 1
+        onDisableUse: 1
+        onStartUse: 0
+        onDestroyUse: 0
+        onTriggerEnterUse: 0
+        onTriggerExitUse: 0
+        onTriggerEnter2DUse: 0
+        onTriggerExit2DUse: 0
+        onCollisionEnterUse: 0
+        onCollisionExitUse: 0
+        onCollisionEnter2DUse: 0
+        onCollisionExit2DUse: 0
+        onMouseEnterUse: 0
+        onMouseExitUse: 0
+        onMouseDownUse: 0
+        onMouseUpUse: 0
+        onEnableAction: 0
+        onDisableAction: 1
+        onStartAction: 0
+        onDestroyAction: 1
+        onTriggerEnterAction: 0
+        onTriggerExitAction: 1
+        onTriggerEnter2DAction: 0
+        onTriggerExit2DAction: 1
+        onCollisionEnterAction: 0
+        onCollisionExitAction: 1
+        onCollisionEnter2DAction: 0
+        onCollisionExit2DAction: 1
+        onMouseEnterAction: 0
+        onMouseExitAction: 1
+        onMouseDownAction: 0
+        onMouseUpAction: 1
+      expandTrigger: 1
+      triggerTagUse: 0
+      triggerTags:
+      - Untagged
+      collisionVelocityToIntensity: 0
+      collisionTagUse: 0
+      collisionTags:
+      - Untagged
+    soundParameterDistanceScale:
+      internals:
+        type: 10
+        updateMode: 1
+        valueFloat: 1
+        valueInt: 0
+        valueBool: 0
+--- !u!1001 &2965905288226441027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 773205235395783619}
+    m_Modifications:
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293318760548344130, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+      propertyPath: m_Name
+      value: ExplosionParticles
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+--- !u!4 &2881818367213891963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1069400041875732024, guid: 4019c2fa30e615443aa4e0fea8dde7ed, type: 3}
+  m_PrefabInstance: {fileID: 2965905288226441027}
+  m_PrefabAsset: {fileID: 0}
