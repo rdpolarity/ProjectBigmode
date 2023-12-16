@@ -8,30 +8,20 @@ public class SpriteFlasher : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private Material _material;
 
-    private void Awake()
-    {
+    private void Awake() {
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _material = _spriteRenderer.material;
     }
 
-    public void Reset()
-    {
-        SetColor(Color.white);
-        SetOverlayAmount(0);
+    public void Flash(Color color) {
+        StartCoroutine(TriggerFlash(color));
     }
 
-    public void Flash(Color color)
-    {
-        if (isActiveAndEnabled) StartCoroutine(TriggerFlash(color));
-    }
-
-    private void SetColor(Color color)
-    {
+    private void SetColor(Color color) {
         _material.SetColor("_OverlayColor", color);
     }
 
-    private void SetOverlayAmount(float amount)
-    {
+    private void SetOverlayAmount(float amount) {
         _material.SetFloat("_OverlayAmount", amount);
     }
 
