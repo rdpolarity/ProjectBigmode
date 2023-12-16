@@ -28,9 +28,21 @@ namespace Bigmode
 
         void Awake()
         {
+            InitializeEntity();
+        }
+
+        public void InitializeEntity()
+        {
             _damageFlasher = GetComponent<SpriteFlasher>();
             if (_damageFlasher == null)
                 _damageFlasher = gameObject.AddComponent<SpriteFlasher>();
+        }
+
+        // Method to reset the entity when it is despawned
+        public void ResetEntity()
+        {
+            SetHealth(MaxHealth);
+            _damageFlasher.Reset();
         }
 
         [Button]
@@ -49,9 +61,10 @@ namespace Bigmode
             onHealSound?.Play(transform);
         }
 
+
         virtual public void Die()
         {
-            Destroy(gameObject);
+            SpawnManager.Instance.DespawnEntity(gameObject);
         }
     }
 }

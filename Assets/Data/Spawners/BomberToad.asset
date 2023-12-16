@@ -37,7 +37,7 @@ MonoBehaviour:
       Data: 0
     - Name: triggerSpawnEvery
       Entry: 4
-      Data: 30
+      Data: 0
     - Name: 
       Entry: 8
       Data: 

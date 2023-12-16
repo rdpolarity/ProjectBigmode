@@ -87,7 +87,7 @@ namespace Bigmode
 
         public void SpawnDoge()
         {
-            Instantiate(dogePrefab, transform.position, transform.rotation);
+            SpawnManager.Instance.SpawnEntity(dogePrefab, transform.position);
         }
 
         public void IncreaseTongueLength(float length)
@@ -185,18 +185,12 @@ namespace Bigmode
             {
                 // instantiate minion prefab at position
                 var spawnPos = transform.position;
-                spawnPos.y += spawnYDisplacement; // Displace spawn position below mouth
+                // spawnPos.y += spawnYDisplacement; // Displace spawn position below mouth
 
-                GameObject lilGuy = Instantiate(minionType.prefab, transform.position, transform.rotation);
+                GameObject lilGuy = SpawnManager.Instance.SpawnEntity(minionType.prefab, spawnPos);
 
                 // pass minion count listner to the created minion
                 Minion lilMinion = lilGuy.GetComponent<Minion>();
-                lilMinion.minionCountChangeListener = minionCountChangeListeners[0];
-
-                foreach (IMinionCountChangeListener listener in minionCountChangeListeners)
-                {
-                    listener.MinionCountChanged(1);
-                }
 
                 return true;
             }
