@@ -75,7 +75,7 @@ MonoBehaviour:
         bypassReverbZonesUse: 0
         bypassVoiceEffectsUse: 0
         bypassListenerEffectsUse: 0
-      polyphonyMode: 0
+      polyphonyMode: 1
       audioMixerGroup: {fileID: 0}
       soundMix: {fileID: 0}
       soundPolyGroup: {fileID: 0}

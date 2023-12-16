@@ -284,6 +284,8 @@ MonoBehaviour:
   AdditionalMassPerFly: 0
   baseMaxTongueLength: 1
   mouthSprite: {fileID: 1043858174671306584}
+  maxSize: 200
+  rbMassPerFly: 0.01
 --- !u!208 &8787224455442445464
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -888,9 +890,9 @@ MonoBehaviour:
       expandModifier: 1
       soundTriggerTodo:
         onEnableUse: 0
-        onDisableUse: 1
+        onDisableUse: 0
         onStartUse: 0
-        onDestroyUse: 0
+        onDestroyUse: 1
         onTriggerEnterUse: 0
         onTriggerExitUse: 0
         onTriggerEnter2DUse: 0
@@ -906,7 +908,7 @@ MonoBehaviour:
         onEnableAction: 0
         onDisableAction: 1
         onStartAction: 0
-        onDestroyAction: 1
+        onDestroyAction: 0
         onTriggerEnterAction: 0
         onTriggerExitAction: 1
         onTriggerEnter2DAction: 0

@@ -1837,6 +1837,7 @@ GameObject:
   - component: {fileID: 1218615380}
   - component: {fileID: 1218615384}
   - component: {fileID: 1218615383}
+  - component: {fileID: 1218615385}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1996,6 +1997,102 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!82 &1218615385
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218615379}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9b5ef6bb034c1fa409ba678837793d1a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1567873465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2168,7 +2265,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1711309203}
   - component: {fileID: 1711309202}
-  - component: {fileID: 1711309204}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -2231,116 +2327,6 @@ Transform:
   - {fileID: 1894659626}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1711309204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711309201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65c3a80a1a35884b9a0bf632cd09354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  internals:
-    soundEventsExpand: 1
-    soundTriggerPart:
-    - expandSoundEvent: 1
-      soundEvent: {fileID: 11400000, guid: bfb13ad5a9d2db3488597c48360a46d9, type: 2}
-      soundEventModifier:
-        volumeDecibel: 0
-        volumeRatio: 1
-        pitchSemitone: 0
-        pitchRatio: 1
-        delay: 0
-        increase2D: 0
-        intensity: 1
-        reverbZoneMixDecibel: 0
-        reverbZoneMixRatio: 1
-        startPosition: 1
-        reverse: 1
-        stereoPan: 0
-        polyphony: 1
-        distanceScale: 1
-        distortionIncrease: 0.689
-        fadeInLength: 0
-        fadeInShape: 2
-        fadeOutLength: 0
-        fadeOutShape: -2
-        followPosition: 1
-        bypassReverbZones: 0
-        bypassVoiceEffects: 0
-        bypassListenerEffects: 0
-        volumeUse: 0
-        pitchUse: 0
-        delayUse: 0
-        increase2DUse: 0
-        intensityUse: 0
-        reverbZoneMixUse: 0
-        startPositionUse: 0
-        reverseUse: 0
-        stereoPanUse: 0
-        polyphonyUse: 0
-        distanceScaleUse: 0
-        distortionIncreaseUse: 0
-        fadeInLengthUse: 0
-        fadeInShapeUse: 0
-        fadeOutLengthUse: 0
-        fadeOutShapeUse: 0
-        followPositionUse: 0
-        bypassReverbZonesUse: 0
-        bypassVoiceEffectsUse: 0
-        bypassListenerEffectsUse: 0
-      expandModifier: 1
-      soundTriggerTodo:
-        onEnableUse: 0
-        onDisableUse: 1
-        onStartUse: 1
-        onDestroyUse: 0
-        onTriggerEnterUse: 0
-        onTriggerExitUse: 0
-        onTriggerEnter2DUse: 0
-        onTriggerExit2DUse: 0
-        onCollisionEnterUse: 0
-        onCollisionExitUse: 0
-        onCollisionEnter2DUse: 0
-        onCollisionExit2DUse: 0
-        onMouseEnterUse: 0
-        onMouseExitUse: 0
-        onMouseDownUse: 0
-        onMouseUpUse: 0
-        onEnableAction: 0
-        onDisableAction: 1
-        onStartAction: 0
-        onDestroyAction: 1
-        onTriggerEnterAction: 0
-        onTriggerExitAction: 1
-        onTriggerEnter2DAction: 0
-        onTriggerExit2DAction: 1
-        onCollisionEnterAction: 0
-        onCollisionExitAction: 1
-        onCollisionEnter2DAction: 0
-        onCollisionExit2DAction: 1
-        onMouseEnterAction: 0
-        onMouseExitAction: 1
-        onMouseDownAction: 0
-        onMouseUpAction: 1
-      expandTrigger: 1
-      triggerTagUse: 0
-      triggerTags:
-      - Untagged
-      collisionVelocityToIntensity: 0
-      collisionTagUse: 0
-      collisionTags:
-      - Untagged
-    soundParameterDistanceScale:
-      internals:
-        type: 10
-        updateMode: 1
-        valueFloat: 1
-        valueInt: 0
-        valueBool: 0
 --- !u!1 &1894659625
 GameObject:
   m_ObjectHideFlags: 3

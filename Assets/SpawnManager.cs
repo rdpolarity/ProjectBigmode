@@ -100,6 +100,7 @@ public class SpawnManager : Singleton<SpawnManager>
     private GameObject[] GetOrderedSpawnPointsByDistance()
     {
         var playerPosition = PlayerController.Instance.transform.position;
+        if (playerPosition == null) return spawnPoints;
 
         var spawnPointsByDistance = new List<GameObject>(spawnPoints);
         spawnPointsByDistance.Sort((a, b) =>

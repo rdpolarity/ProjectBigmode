@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Cinemachine;
@@ -42,6 +43,10 @@ namespace Bigmode
         private float baseMaxTongueLength = 2f;
         [SerializeField]
         private GameObject mouthSprite;
+        [SerializeField]
+        private int maxSize = 200;
+        [SerializeField]
+        private float rbMassPerFly = 0.01f;
 
         public delegate void OnSelectedMinionChanged(MinionType minion);
         public static event OnSelectedMinionChanged OnSelectedMinionChangedEvent;
@@ -97,16 +102,19 @@ namespace Bigmode
         void MassChanged()
         {
             MaxHealth = 1 + (mass * healthPerMass);
-            var scale = 1 + (mass * sizePerMass);
+            SetHealth(mass);
+
+            var clampedMass = Math.Clamp(mass, 0, maxSize);
+
+            GetComponent<Rigidbody2D>().mass = (float)(0.5 + (clampedMass * rbMassPerFly));
+            var scale = 1 + (clampedMass * sizePerMass);
             transform.localScale = Vector3.one * scale;
 
             // Update cinemachine base follow offset z
             var brain = Camera.main.GetComponent<CinemachineBrain>();
             var camera = brain.ActiveVirtualCamera as CinemachineVirtualCamera;
             if (camera == null) return;
-            camera.m_Lens.FieldOfView = baseFOV + (mass * cameraZoomOutPerMass);
-
-            SetHealth(mass);
+            camera.m_Lens.FieldOfView = baseFOV + (clampedMass * cameraZoomOutPerMass);
 
             OnMassChangedEvent.Invoke(mass);
         }
